@@ -1,5 +1,5 @@
 ---
-permalink: /markdown/
+permalink: /
 title: "Be like water, my friend."
 author_profile: true
 redirect_from: 
