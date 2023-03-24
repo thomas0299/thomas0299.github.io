@@ -82,14 +82,12 @@ analytics:
 author:
   name             : "Thomas Adler"
   avatar           : "profile.JPG"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Economist transitioned to Data Science. Loves graphs, network theory and causal inference. Passionate about edible insects, weightlifting and chinese."
   location         : "Berlin, Germany"
-  employer         :
+  employer         : "YUKKA Lab"
   pubmed           :
   googlescholar    :
-  personal_email   : "tad@yukkalab.com"
-  work_email       : "thomas0299@gmail.com"
-  university_email : "thomas.adler.18@alumni.ucl.ac.uk"
+  email            : "thomas0299@gmail.com"
   researchgate     : 
   uri              :
   bitbucket        :
@@ -177,16 +175,19 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
-  publications:
+  professional_projects:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  personal_projects:
     output: true
     permalink: /:collection/:path/
-  talks:
+  blog:
+    output: true
+    permalink: /:collection/:path/
+  toastmaster:
     output: true
     permalink: /:collection/:path/
 
@@ -220,10 +221,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _research
   - scope:
       path: ""
-      type: publications
+      type: research
     values:
       layout: single
       author_profile: true
