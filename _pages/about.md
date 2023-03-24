@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-During the day, I work as a Data Scientist at [YUKKA Lab] (https://www.yukkalab.com/), developing a knowledge graph for our NLP models. Our mission is to make news measurable and quantifiable.
+During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a knowledge graph for our NLP models. Our mission is to make news measurable and quantifiable.
 
 Previously studied and worked as an economist in the public sector, I am still very interested in econometrics and causal inference techniques.
 
