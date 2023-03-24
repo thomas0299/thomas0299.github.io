@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Thomas Adler"
   avatar           : "profile.JPG"
-  bio              : "Economist transitioned to Data Science. Loves graphs, network theory and causal inference. Passionate about edible insects, weightlifting and chinese."
+  bio              : "Economist transitioned to Data Science. Graphs, network theory and causal inference. Environmental Economics and novel food trends."
   location         : "Berlin, Germany"
   employer         : "YUKKA Lab"
   pubmed           :
@@ -194,33 +194,6 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _research
   - scope:
       path: ""
@@ -228,25 +201,44 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      read_time: true
       comments: true
-  # _portfolio
+      share: true
+      related: true
+  # _professional_projects
   - scope:
       path: ""
-      type: portfolio
+      type: professional_projects
+    values:
+      layout: single
+      author_profile: true
+  # _personal_projects
+  - scope:
+      path: ""
+      type: personal_projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _toastmaster
+  - scope:
+      path: ""
+      type: toastmaster
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:

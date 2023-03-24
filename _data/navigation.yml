@@ -3,14 +3,20 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Professional Projects"
+    url: /professional_projects/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Personal Projects"
+    url: /personal_projects/    
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Blog"
+    url: /blog/
+          
+  - title: "Blog"
+    url: /blog/
+          
+  - title: "Toastmaster"
+    url: /toastmaster/
     
   - title: "CV"
     url: /cv/
