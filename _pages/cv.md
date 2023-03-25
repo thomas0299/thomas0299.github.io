@@ -8,24 +8,16 @@ redirect_from:
 ---
 
 {% include base_path %}
+My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has the most up to date and complete information for my CV. Plus they take care of the formatting.
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+![image info](./images/profile.JPG)
 
 Work experience
 ======
 * Summer 2015: Research Assistant
   * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
@@ -36,24 +28,20 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+Research
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.research %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Professional Projects
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.professional_projects %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+Personal Projects
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.personal_projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
