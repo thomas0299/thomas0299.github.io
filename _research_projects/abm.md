@@ -2,7 +2,6 @@
 title: "Agent Based Modelling - Food Delivery"
 collection: research_projects
 permalink: /research_projects/world_bank
-excerpt: 'What determines the quality of a nation’s infrastructure?'
 date: 2022-06-22
 paperurl: 'https://github.com/thomas0299/abm_sfi'
 ---

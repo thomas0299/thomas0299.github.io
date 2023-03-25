@@ -2,7 +2,7 @@
 title: "Events Research Programme Phases I, II and III data release"
 collection: research_projects
 permalink: /research_projects/world_bank
-excerpt: 'What determines the quality of a nation’s infrastructure?'
+excerpt: 'Data Release - Department for Digital, Culture, Media and Sport'
 date: 2021-08-20
 paperurl: 'https://www.gov.uk/government/publications/events-research-programme-phases-i-ii-and-iii-data-release'
 ---
