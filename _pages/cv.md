@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
-My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has the most up to date and complete information for my CV. Plus they take care of the formatting.
+My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has the most up to date and complete information for my CV. (and take care of the formatting)
 
 Education
 ======
-![image info](./images/profile.JPG)
+![image info](/images/profile.JPG)
 
 Work experience
 ======
