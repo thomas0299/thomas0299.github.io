@@ -1,7 +1,7 @@
 ---
 title: "Insects on our Plates? Potential, Challenges and Opportunities in the Edible Insect Market"
 collection: research_projects
-permalink: /research_projects/world_bank
+permalink: /research_projects/insects
 excerpt: 'Published in UCL Journal of Economics'
 date: 2022-08-25
 paperurl: 'https://student-journals.ucl.ac.uk/UJE/article/id/1383/'
