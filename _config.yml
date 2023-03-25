@@ -175,13 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  research:
-    output: true
-    permalink: /:collection/:path/
-  professional_projects:
-    output: true
-    permalink: /:collection/:path/
-  personal_projects:
+  research_projects:
     output: true
     permalink: /:collection/:path/
   blog:
@@ -202,10 +196,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _research
+  # _research_projects
   - scope:
       path: ""
-      type: research
+      type: research_projects
     values:
       layout: single
       author_profile: true
@@ -213,22 +207,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _professional_projects
-  - scope:
-      path: ""
-      type: professional_projects
-    values:
-      layout: single
-      author_profile: true
-  # _personal_projects
-  - scope:
-      path: ""
-      type: personal_projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _blog
   - scope:
       path: ""

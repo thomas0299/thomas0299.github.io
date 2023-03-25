@@ -1,13 +1,7 @@
 # main links links
 main:
-  - title: "Research"
-    url: /research/
-
-  - title: "Professional Projects"
-    url: /professional_projects/    
-
-  - title: "Personal Projects"
-    url: /personal_projects/    
+  - title: "Research & Projects"
+    url: /research_projects/
         
   - title: "Blog"
     url: /blog/
