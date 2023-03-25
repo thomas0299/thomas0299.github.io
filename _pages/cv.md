@@ -56,6 +56,7 @@ Languages
 * French - Native
 * English - Native
 * Mandarin Chinese - Intermediate (HSK 4)
+* German & Turkish - Duolingo
 
 Certifications
 ======
@@ -67,5 +68,6 @@ Certifications
 
 
 
-![image info](/images/profile.JPG =10x5)
-<img src="/images/profile.JPG" alt="drawing" style="width:200px;"/>
+![image info](/images/profile.JPG =200x200)
+<img src="/images/profile.JPG" style="width:200px;"/>
+<img src="/images/profile.JPG" width="200" height="200" />
