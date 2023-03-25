@@ -68,3 +68,4 @@ Certifications
 
 
 ![image info](/images/profile.JPG =10x5)
+<img src="/images/profile.JPG" alt="drawing" style="width:200px;"/>

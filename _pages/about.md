@@ -14,6 +14,10 @@ Previously studied and worked as an economist in the public sector, I am still v
 
 I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my bachelor's thesis.
 
-Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's and panini football cards. :soccer:
+Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's and panini football cards.
 
 I'm always looking to meet interesting, passionate people. I also like to work on side, passion projects so please reach out! Currently exploring topics in rewilding, environmental economics and complexity science.
+
+- [Personal email](mailto:thomas0299@gmail.com)
+- [Professional email](mailto:tad@yukkalab.com)
+- [Academic email](mailto:thomas.adler.18@alumni.ucl.ac.uk)
