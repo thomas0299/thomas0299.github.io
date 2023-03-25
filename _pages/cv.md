@@ -12,7 +12,7 @@ My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has the most up to da
 
 Work experience
 ======
-* 2022-: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
+<img src="/images/yukkalab.png" width="50" height="50" /> * 2022-: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
 * 2021-22: Co-founder - [E-Rey](https://e-rey.bubbleapps.io/version-test/index_remake__)
 * 2022: Analyst - UK [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office)
 * 2020-21 : Economist - UK [Department for Digital, Culture, Media and Sport (DCMS)](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport)
@@ -22,7 +22,7 @@ Education
 ======
 * 2022: Data Science Bootcamp - [Brainstation](https://brainstation.io/)
 * 2021: [Economic Networks Summer School]((https://www.maths.ox.ac.uk/events/summer-schools/economic-networks)) - University of Oxford
-* 2018-22: BSc Economics - [University College London (UCL)](https://www.ucl.ac.uk/economics/)
+* 2018-22: BSc Economics - [University College London (UCL)](https://www.ucl.ac.uk/economics/) <img src="/images/ucl.png" width="50" height="50" />
 * 2018: Swiss Military Service (Grenadier) - [Swiss Army Special Forces](https://www.vtg.admin.ch/fr/organisation/cdmt-op/cfs.html)
 * -2017: French Baccalaureat - [French International School of Hong Kong](https://www.fis.edu.hk/?lang=fr)
 
@@ -68,6 +68,3 @@ Certifications
 
 
 
-![image info](/images/profile.JPG =200x200)
-<img src="/images/profile.JPG" style="width:200px;"/>
-<img src="/images/profile.JPG" width="200" height="200" />
