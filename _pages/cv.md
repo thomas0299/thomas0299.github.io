@@ -12,7 +12,7 @@ My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has more complete inf
 My most recent CV document is [here](https://drive.google.com/file/d/10MEcuWcu4l4gq1SlYllHleDyiLf2jG_l/view?usp=sharing).
 
 
-<img src="/images/yukkalab.png" width="200" height="200" />
+<img src="/images/yukkalab.png" width="150" height="150" />
 
 
 Work experience
@@ -79,7 +79,7 @@ Languages
 * German & Turkish - Duolingo
 
 
-<img src="/images/ce.png" width="200" height="200" />
+<img src="/images/ce.png" width="220" height="220" />
 
 
 Certifications
