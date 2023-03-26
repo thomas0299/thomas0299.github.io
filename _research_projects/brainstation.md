@@ -2,9 +2,7 @@
 title: "Reducing conflict by improving water access in Uganda"
 collection: research_projects
 permalink: /research_projects/brainstation
-excerpt: 'Using Machine Learning to predict whether a water point has broken down in order to repair it quicker
-
-<img src="/images/profile.JPG" width="50" height="50" />'
+excerpt: 'Using Machine Learning to predict whether a water point has broken down in order to repair it quicker'
 date: 2022-08-11
 paperurl: 'https://thomas0299.github.io/futuristic-platipus/'
 ---
@@ -17,7 +15,7 @@ This is an especially important problem in Uganda, where ¾ of the population do
 I want to build a model that will better predict which water points have, or are at risk, of breaking down, so the Ugandan government and local public institutions can better monitor, improve and repair crucial water points.
 
 
-<img src="/images/bn.png" width="200" height="200" />
+<img src="/images/bn.png" width="800" height="800" />
 
 
 * Capstone project for Brainstation Data Science Bootcamp.

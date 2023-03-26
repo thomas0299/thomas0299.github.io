@@ -10,7 +10,7 @@ paperurl: 'https://docs.google.com/presentation/d/10KDUhJ6v_nnUUkJT67j4ZyK6BSfRu
 Presented to DCMS colleagues (analysts and policymakers) the topic of Agent Based Models and the possibility of using it for analysis to improve policymaking.
 
 
-<img src="/images/dcms_abm.png" width="200" height="200" />
+<img src="/images/dcms_abm.png" width="800" height="800" />
 
 
 * [Presentation](https://drive.google.com/file/d/1m0xs6j4SatnWofD6vNnU3Mg4j_mlj5Wf/view?usp=sharing)

@@ -13,7 +13,7 @@ paperurl: 'https://drive.google.com/file/d/1UYw5qzUv9yUl8pgeSEiSXclizXA7xdvw/vie
 3. How do you introduce institutional and social factors into a theoretically economically sound mathematical simulation model?
 
 
-<img src="/images/fields.png" width="200" height="200" />
+<img src="/images/fields.png" width="800" height="800" />
 
 
 * Extended Problem Solving Workshop at the Fields Institute, University of Toronto'
