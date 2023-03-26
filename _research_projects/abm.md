@@ -13,7 +13,6 @@ The model is attempting to model the food delivery business. More information is
 
 [Code](https://github.com/thomas0299/abm_sfi) -->
 
-
 ---
 title: "Agent Based Modelling - Food Delivery"
 collection: research_projects

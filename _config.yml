@@ -203,7 +203,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
@@ -214,8 +214,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      read_time: false
       comments: true
+      share: true
+      related: true
   # _toastmaster
   - scope:
       path: ""
@@ -223,8 +225,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: false
+      comments: true
       share: true
-      comment: true
+      related: true
 
 # Sass/SCSS
 sass:
