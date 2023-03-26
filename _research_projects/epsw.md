@@ -16,7 +16,7 @@ paperurl: 'https://drive.google.com/file/d/1UYw5qzUv9yUl8pgeSEiSXclizXA7xdvw/vie
 <img src="/images/fields.png" width="800" height="800" />
 
 
-* Extended Problem Solving Workshop at the Fields Institute, University of Toronto'
+* Extended Problem Solving Workshop at the Fields Institute, University of Toronto.
 * Presented at the OECD/NAEC Symposium on Systemic Recovery.
 * Contributed as a government economist, focusing on policymaking tools.
 
