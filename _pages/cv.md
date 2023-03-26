@@ -79,7 +79,7 @@ Languages
 * German & Turkish - Duolingo
 
 
-<img src="/images/ce.png" width="220" height="220" />
+<img src="/images/ce.png" width="300" height="300" />
 
 
 Certifications
