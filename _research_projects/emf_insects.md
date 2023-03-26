@@ -7,7 +7,9 @@ date: 2022-05-30
 paperurl: 'https://drive.google.com/drive/folders/1Ml4g6Bm7vt9Bj0lRxogbirLEUCeGMQxI'
 ---
 
-- Lightning Talk at the Electromagnetic Festival
+Lightning Talk at the Electromagnetic Festival
 
-[Presentation](https://drive.google.com/drive/folders/1Ml4g6Bm7vt9Bj0lRxogbirLEUCeGMQxI)
-[Lightning Talk](https://drive.google.com/file/d/1ICdSvD2DhY5n3E-Iz6i9SvHzQO5Gb1GV/view?usp=sharing)
+
+* [Presentation](https://drive.google.com/drive/folders/1Ml4g6Bm7vt9Bj0lRxogbirLEUCeGMQxI)
+
+* [Lightning Talk](https://drive.google.com/file/d/1ICdSvD2DhY5n3E-Iz6i9SvHzQO5Gb1GV/view?usp=sharing)

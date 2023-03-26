@@ -13,4 +13,5 @@ What determines the quality of a nation’s infrastructure? We show that elector
 
 * Contributed as an RA during the Summer of 2020.
 
-[Download paper here](http://www.danrogger.com/files/papers/RoggerSomani_2021_Elections%20and%20Infrastructure.pdf)
+
+* [Download paper here](http://www.danrogger.com/files/papers/RoggerSomani_2021_Elections%20and%20Infrastructure.pdf)

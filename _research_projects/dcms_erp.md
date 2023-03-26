@@ -13,4 +13,5 @@ In February, the Prime Minister asked us to lead a review of how events with lar
 
 * Contributed to the analysis as an Economist.
 
-[Report](https://www.gov.uk/government/publications/events-research-programme-phase-i-findings/events-research-programme-phase-i-findings)
+
+* [Report](https://www.gov.uk/government/publications/events-research-programme-phase-i-findings/events-research-programme-phase-i-findings)

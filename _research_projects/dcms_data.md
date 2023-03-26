@@ -12,4 +12,5 @@ Data release on events from Phases I, II and III of the government’s Events Re
 
 * Contributed to the analysis as an Economist.
 
-[Data Release](https://www.gov.uk/government/publications/events-research-programme-phases-i-ii-and-iii-data-release)
+
+* [Data Release](https://www.gov.uk/government/publications/events-research-programme-phases-i-ii-and-iii-data-release)
