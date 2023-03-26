@@ -13,8 +13,14 @@ paperurl: 'https://drive.google.com/file/d/1UYw5qzUv9yUl8pgeSEiSXclizXA7xdvw/vie
 3. How do you introduce institutional and social factors into a theoretically economically sound mathematical simulation model?
 
 
+<img src="/images/fields.png" width="200" height="200" />
+
+
 * Extended Problem Solving Workshop at the Fields Institute, University of Toronto'
 * Presented at the OECD/NAEC Symposium on Systemic Recovery.
 * Contributed as a government economist, focusing on policymaking tools.
 
 * [Presentation](https://drive.google.com/file/d/1UYw5qzUv9yUl8pgeSEiSXclizXA7xdvw/view?usp=sharing)
+
+
+<img src="/images/epsw.png" width="200" height="200" />

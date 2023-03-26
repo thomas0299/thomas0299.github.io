@@ -10,6 +10,9 @@ paperurl: 'https://drive.google.com/drive/folders/1Ml4g6Bm7vt9Bj0lRxogbirLEUCeGM
 Lightning Talk at the Electromagnetic Festival
 
 
-* [Presentation](https://drive.google.com/drive/folders/1Ml4g6Bm7vt9Bj0lRxogbirLEUCeGMQxI)
+<img src="/images/emf_insects.png" width="200" height="200" />
+
+
+* [Presentation](https://drive.google.com/file/d/1fO8CW8P9_FM63g4gNLBHzHXXO6eKxPOb/view?usp=sharing)
 
 * [Lightning Talk](https://drive.google.com/file/d/1ICdSvD2DhY5n3E-Iz6i9SvHzQO5Gb1GV/view?usp=sharing)

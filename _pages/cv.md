@@ -11,6 +11,10 @@ redirect_from:
 My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has more complete information and includes nice logos.
 My most recent CV document is [here](https://drive.google.com/file/d/10MEcuWcu4l4gq1SlYllHleDyiLf2jG_l/view?usp=sharing).
 
+
+<img src="/images/yukkalab.png" width="200" height="200" />
+
+
 Work experience
 ======
 * 2022-: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
@@ -19,13 +23,21 @@ Work experience
 * 2020-21 : Economist - UK [Department for Digital, Culture, Media and Sport (DCMS)](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport)
 * 2019: IT Intern - [LGT Private Bank](https://www.lgt.com/global-en)
 
+
+<img src="/images/ucl.png" width="200" height="200" />
+
+
 Education
 ======
 * 2022: Data Science Bootcamp - [Brainstation](https://brainstation.io/)
-* 2021: [Economic Networks Summer School]((https://www.maths.ox.ac.uk/events/summer-schools/economic-networks)) - University of Oxford
+* 2021: [Economic Networks Summer School](https://www.maths.ox.ac.uk/events/summer-schools/economic-networks) - University of Oxford
 * 2018-22: BSc Economics - [University College London (UCL)](https://www.ucl.ac.uk/economics/)
 * 2018: Swiss Military Service (Grenadier) - [Swiss Army Special Forces](https://www.vtg.admin.ch/fr/organisation/cdmt-op/cfs.html)
 * -2017: French Baccalaureat - [French International School of Hong Kong](https://www.fis.edu.hk/?lang=fr)
+
+
+<img src="/images/wb.png" width="200" height="200" />
+
 
 Research
 ======
@@ -33,12 +45,19 @@ Research
 * 2020: Research Assistant - [Development Impact Evaluation Group, World Bank](https://www.worldbank.org/en/research/dime)
 * 2020: Research Assistant - [Center for Microdata Methods and Practice](https://www.cemmap.ac.uk/about-us/)
 
+
+<img src="/images/barbell.png" width="200" height="200" />
+
+
 Volunteering
 ======
 * 2022-: Member - [Center Berlin Toastmaster](https://centerberlin-toastmasters.de/)
 * 2020-22: President and Coach - [UCL Barbell Club](https://studentsunionucl.org/clubs-societies/barbell-club)
 * 2018-19: Higher Impact Cafe Project Lead - [Enactus UCL](https://enactus.org/)
 * 2016: Conservation Volunteer - [Ocean Park HK](https://www.opcf.org.hk/en/)
+
+
+<img src="/images/neo4j.png" width="200" height="200" />
 
 
 Skills
@@ -58,6 +77,10 @@ Languages
 * English - Native
 * Mandarin Chinese - Intermediate (HSK 4)
 * German & Turkish - Duolingo
+
+
+<img src="/images/ce.png" width="200" height="200" />
+
 
 Certifications
 ======

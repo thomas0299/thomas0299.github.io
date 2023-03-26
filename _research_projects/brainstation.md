@@ -17,6 +17,9 @@ This is an especially important problem in Uganda, where ¾ of the population do
 I want to build a model that will better predict which water points have, or are at risk, of breaking down, so the Ugandan government and local public institutions can better monitor, improve and repair crucial water points.
 
 
+<img src="/images/bn.png" width="200" height="200" />
+
+
 * Capstone project for Brainstation Data Science Bootcamp.
 
 
