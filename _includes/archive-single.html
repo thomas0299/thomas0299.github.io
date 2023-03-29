@@ -39,7 +39,7 @@
     {% endif %}
 
         {% if post.date %}
-          <p>{{ post.date | default: "01-1900" | date: "%M-%Y" }} </p>
+          <p> {{ post.date }} </p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
