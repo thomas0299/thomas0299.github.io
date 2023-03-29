@@ -3,9 +3,8 @@ title: 'Insects on our plates? 🐛'
 date: 2022-05-06
 permalink: /blog/2022-05-06
 ---
-# Insects on our plates? 🐛
 
-## Potential, challenges and opportunities in the edible insect market**
+**Potential, challenges and opportunities in the edible insect market**
 
 
 # Our food system needs a complete overhaul
@@ -16,7 +15,7 @@ permalink: /blog/2022-05-06
 - 🏰 Entomophagy has been recorded across history and societies, from Aristotle to John the Baptist, via China and the Americas.
 
 
-<img src="/images/blog/dissertation/visualisation_24.png" width="800" height="1200" />
+<img src="/images/blog/dissertation/visualisation_24.png" width="600" height="900" />
 
 
 ### The environmental benefits of insects creates a business opportunity for entrepreneurs
@@ -26,7 +25,7 @@ permalink: /blog/2022-05-06
 - 💪 They are the most efficient at converting feed and protein into edible food.
 
 
-<img src="/images/blog/dissertation/visualisation_28.png" width="800" height="1200" />
+<img src="/images/blog/dissertation/visualisation_28.png" width="500" height="1050" />
 
 
 ### Consumer perception is the biggest challenge for edible insects
@@ -49,7 +48,7 @@ permalink: /blog/2022-05-06
 - 🔑 Edible insects should not compete with meat and should create a novel food category.  Consumers do not want to substitute meat for insects but do want to make their diets more sustainable and healthier.
 
 
-<img src="/images/blog/dissertation/mantis.jpeg" width="800" height="1200" />
+<img src="/images/blog/dissertation/mantis.jpeg" width="400" height="800" />
 
 
 ### Historically, novel foods acceptance was initiated by a boost in supply, — can the government help?
