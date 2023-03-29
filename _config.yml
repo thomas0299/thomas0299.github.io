@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Thomas Adler"
-  avatar           : "profile.JPG"
+  avatar           : "/profile/profile.JPG"
   bio              : "Economist transitioned to Data Science. Graphs, network theory and causal inference. Environmental Economics and novel food trends."
   location         : "Berlin, Germany"
   employer         : "YUKKA Lab"

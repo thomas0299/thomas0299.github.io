@@ -12,7 +12,7 @@ My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has more complete inf
 My most recent CV document is [here](https://drive.google.com/file/d/10MEcuWcu4l4gq1SlYllHleDyiLf2jG_l/view?usp=sharing).
 
 
-<img src="/images/yukkalab.png" width="150" height="150" />
+<img src="/images/cv/yukkalab.png" width="150" height="150" />
 
 
 Work experience
@@ -24,7 +24,7 @@ Work experience
 * 2019: IT Intern - [LGT Private Bank](https://www.lgt.com/global-en)
 
 
-<img src="/images/ucl.png" width="200" height="200" />
+<img src="/images/cv/ucl.png" width="200" height="200" />
 
 
 Education
@@ -36,7 +36,7 @@ Education
 * -2017: French Baccalaureat - [French International School of Hong Kong](https://www.fis.edu.hk/?lang=fr)
 
 
-<img src="/images/wb.png" width="200" height="200" />
+<img src="/images/cv/wb.png" width="200" height="200" />
 
 
 Research
@@ -46,7 +46,7 @@ Research
 * 2020: Research Assistant - [Center for Microdata Methods and Practice](https://www.cemmap.ac.uk/about-us/)
 
 
-<img src="/images/barbell.png" width="200" height="200" />
+<img src="/images/cv/barbell.png" width="200" height="200" />
 
 
 Volunteering
@@ -57,7 +57,7 @@ Volunteering
 * 2016: Conservation Volunteer - [Ocean Park HK](https://www.opcf.org.hk/en/)
 
 
-<img src="/images/neo4j.png" width="200" height="200" />
+<img src="/images/cv/neo4j.png" width="200" height="200" />
 
 
 Skills
@@ -79,7 +79,7 @@ Languages
 * German & Turkish - Duolingo
 
 
-<img src="/images/ce.png" width="300" height="300" />
+<img src="/images/cv/ce.png" width="300" height="300" />
 
 
 Certifications
