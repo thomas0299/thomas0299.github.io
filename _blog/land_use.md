@@ -4,7 +4,10 @@ date: 2022-01-17
 permalink: /blog/2022-01-17
 ---
 
-**If everyone had the diet of an American, we’d need 138% of the Earth’s land to feed everyone. We must change how our agricultural land is used. Edible insects require less space, can be stacked vertically and land does not need to be used to grow their feed. This can free up space for wild flora and fauna to repopulate our agricultural land.**
+If everyone had the diet of an American, we’d need 138% of the Earth’s land to feed everyone. We must change how our agricultural land is used.
+
+
+Edible insects require less space, can be stacked vertically and land does not need to be used to grow their feed. This can free up space for wild flora and fauna to repopulate our agricultural land.
 
 
 [Agriculture started 12’000 years ago](https://www.britannica.com/topic/agriculture/The-medieval-period-600-to-1600-ce), at the end of the last Pleistocene glacial period (Ice Age) when glaciers melted, temperatures warmed and sea levels rose. Plant domestication [developed independently in different regions](https://www.nationalgeographic.org/article/development-agriculture/#:~:text=Taking%20root%20around%2012%2C000%20years,favor%20of%20permanent%20settlements%20and) around these times, from cereal and figs in the Near East to rice in China and squash in the Americas. Animals were first domesticated in the Fertile Crescent and enabled the region to establish sedentary communities: this is the start of the Neolithic Revolution.
@@ -13,7 +16,8 @@ Agriculture quickly spread around the world, enabling populations to grow. Seden
 
 <img src="/images/blog/land_use/agriculture.png" width="800" height="1200" />
 
-Cropland and pasture taking over the world
+<p style="text-align: center;">Cropland and pasture taking over the world</p>
+
 
 Fast forward to the 19th century, where population growth was a concern for the economist [Thomas Malthus](http://www.faculty.rsu.edu/users/f/felwell/www/Theorists/Essays/Malthus1.htm#:~:text=Malthus's%20principle%20of%20population%20is,are%20brought%20into%20the%20world). He posited that population increased geometrically (1,2,4,8,16…), while food production increased arithmetically (1,2,3,4,8…). If this population growth was left unchecked, we would not be able to feed everyone, and the world’s population would eventually slow down. The main limiting factor to our food production was the supply of land, it was finite!
 
@@ -21,7 +25,9 @@ What Malthus did not predict were the extraordinary technological improvements o
 
 <img src="/images/blog/land_use/yield.png" width="800" height="1200" />
 
-Land used for cereal production stayed constant while cereal yield skyrocketed
+<p style="text-align: center;">Land used for cereal production stayed constant while cereal yield skyrocketed</p>
+
+
 
 This increased yield has done miracles for the human population, but it has not been so [kind for the environment](https://ourworldindata.org/environmental-impacts-of-food?country):
 
@@ -36,15 +42,18 @@ In addition, as the world’s consumption and living standards keep increasing, 
 
 <img src="/images/blog/land_use/world.png" width="800" height="1200" />
 
-If the world had the diet of most developed countries, we wouldn’t have enough land to feed everyone
+<p style="text-align: center;">If the world had the diet of most developed countries, we wouldn’t have enough land to feed everyone</p>
+
 
 However, being the optimist that I am, I am convinced humans can find ways to maintain our food productivity while reversing our negative environmental damage. I am excited by new technological progress such as using artificial intelligence to better manage crops, [precision farming techniques](https://www.fastcompany.com/90693643/3-reasons-agriculture-is-poised-for-a-surge-of-sustainable-innovation), lab-grown meat, and vertical farming and [aquaculture](https://sosv.com/portfolio/vertical-oceans) systems.
 
 Another source of hope is the alternative food sources we are developing today, such as plant-based products, algae, and especially edible insects (didn’t see that coming did you). Insects need [substantially less land to be farmed](https://www.fao.org/3/i3253e/i3253e.pdf). Insect populations thrive in small, humid spaces, where they reproduce fast. Crickets and mealworms need 6000 times less land than [beef](https://www.science.org/doi/10.1126/science.aaq0216) and 230 times less land than [poultry](https://www.science.org/doi/10.1126/science.aaq0216), per 100g of protein. Insects can be put in boxes and stacked vertically, giving it (nearly) endless potential to save space.
 
-<img src="/images/blog/land_use/land_use.png" width="800" height="1200" />
+<img src="/images/blog/land_use/land_use.png" width="600" height="900" />
 
-Land use per 100g of protein by food
+<p style="text-align: center;">Land use per 100g of protein by food</p>
+
+
 
 Moreover, [insects can feed on bio-waste](https://www.annualreviews.org/doi/abs/10.1146/annurev-ento-120811-153704), improving our waste management system and reducing emissions. Also, we don’t need to use more land to grow crops to feed these animals, currently a [third of current croplands](https://www.fao.org/3/ar591e/ar591e.pdf) are used to feed livestock.
 

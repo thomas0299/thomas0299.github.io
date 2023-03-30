@@ -4,23 +4,25 @@ date: 2022-01-08
 permalink: /blog/2022-01-08
 ---
 
-**Entomophagy, or the practice of eating insects, has been hailed as the panacea of our food system, with its innumerable health and environmental benefits.**
+Entomophagy, or the practice of eating insects, has been hailed as the panacea of our food system, with its innumerable health and environmental benefits.
 
 We often hear that humans have been eating insects for as long as they have been on earth, and so, the (mostly) Western aversion to insects is unjustified. But what evidence do we actually have of humans eating insects across history?
 
 Our first clue to what our ancestors ate can be found by looking at our closest relatives. Today, [chimps eat ants and termites](https://askentomologists.com/2015/02/11/journey-through-time/) by sticking a branch into termite mounds. Gorillas destroy these mounds with their fists and then scoop up the termites to eat them. A group of scientists experimented with bone tools mimicking those of [Australopithecus](https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis), one of our ancient relatives (4 million years ago), and compared their wear and tear in different activities. What they found: Australopithecus most likely also used tools to dig up termites. While we don’t have much proof to whether Homo erectus (1.9 million years ago) ate insects, their much larger brain size suggests they needed lots of protein and makes it probable that they foraged for insects. [Fossilised faeces](https://www.encyclopedia.com/arts/educational-magazines/capinera-john-l) from caves in North America contained insects (beetles, ants, larvae and lice) and arachnids (ticks and mites) while [cave paintings in Spain](https://www.encyclopedia.com/arts/educational-magazines/capinera-john-l) (30–9,000 BC) showed insects being collected for food.
 
-<img src="/images/blog/entomophagy/termites.png" width="800" height="1200" />
+<img src="/images/blog/entomophagy/termites.png" width="600" height="600" />
 
-Chimpanzees looking for termites
+<p style="text-align: center;">Chimpanzees looking for termites</p>
+
 
 Texts and written accounts show that modern day humans have eaten insects in different forms around the world for thousands of years.
 
 In the Americas, insect harvesting, notably cicadas, was common in [American Indian](https://www.atlasobscura.com/articles/history-of-eating-bugs-america) societies before the European settlers arrived. Some communities even [based their calendar](https://www.atlasobscura.com/articles/history-of-eating-bugs-america) on larvae life cycles. Insect species were also used for medicine and as hallucinogens. Insect fruitcakes were traded with white colonists in the Great Basin, and Missouri-based communities would sometimes eat locusts in times of locust swarms. In 1557, [Sahugan](https://www.fao.org/3/i3253e/i3253e.pdf) recounted how Aztec royalty were given ahuauhtli (aquatic insect eggs nicknamed the Mexican caviar) during holy ceremonies. These eggs were also sold in local markets.
 
-<img src="/images/blog/entomophagy/sahugan.png" width="800" height="1200" />
+<img src="/images/blog/entomophagy/sahugan.png" width="400" height="400" />
 
-Sahugan-Historia de las cosas de la Nueva España
+<p style="text-align: center;">Sahugan-Historia de las cosas de la Nueva España</p>
+
 
 The first account of edible insects in Europe is found in Ancient Greece. Aristotle (384–322 BC) wrote in [Historia Animalium](https://www.biodiversitylibrary.org/item/248043#page/191/mode/1up) about the cicada as a delicacy and as tasting best when full of eggs. Diodorus of Sicily (200 BC) called people from Ethiopia “eaters of locusts and grasshoppers”. In Ancient Rome, Pliny the Elder mentioned “cossus”, a dish consisting of larva, in his [Historia Naturalis](https://www.loc.gov/item/48031835/). More recently, there are [sporadic accounts](https://www.atlasobscura.com/articles/history-of-eating-bugs-america) of German soldiers feeding on silkworms in Italy (17th century) and modern-day Ukrainians using an ant-based liquor as medicine in the 19th century.
 
@@ -36,9 +38,10 @@ In 1550, [Leo Africanus of Morocco](https://www.fao.org/3/i3253e/i3253e.pdf), wr
 
 In addition, passages from the New Testament [Mark 1–6](https://www.biblegateway.com/passage/?search=Mark%201-6&version=NIV) (~65 CE) and [Matthew 3–4](https://www.biblegateway.com/passage/?search=Matthew+3&version=NIV) (~80 CE) mention John the Baptist’s liking for locusts and wild honey. Nowadays, these passages are what drives the demand for products sold by [Biblical Protein](https://biblicalprotein.com/), aiming to recreate the diet of John the Baptist.
 
-<img src="/images/blog/entomophagy/biblical.png" width="800" height="1200" />
+<img src="/images/blog/entomophagy/biblical.png" width="600" height="600" />
 
-[Biblical Protein recreating the diet of John the Baptist](https://www.youtube.com/watch?v=SnJ7PluGPLc&t=1s)
+<a href="https://www.youtube.com/watch?v=SnJ7PluGPLc&t=1s"><p style="text-align:center">Biblical Protein recreating the diet of John the Baptist</p></a>
+
 
 Also, in Islamic scriptures are locusts often mentioned and approved for consumption.
 
@@ -54,9 +57,10 @@ Also, in Islamic scriptures are locusts often mentioned and approved for consump
 
 Moving east, [evidence from China](https://www.encyclopedia.com/arts/educational-magazines/capinera-john-l) (2’500 BC) suggests the consumption of silkworm pupae for food and during the Ming Dynasty (1368–1644), traditional Chinese medicine (Li ShiZhen) [used insects](https://allyouneedisbiology.wordpress.com/tag/entomophagy-history/) to cure various diseases.
 
-<img src="/images/blog/entomophagy/lishizhen.png" width="800" height="1200" />
+<img src="/images/blog/entomophagy/lishizhen.png" width="500" height="500" />
 
-Li Shizhen-Compendium of Materia Medica
+<p style="text-align: center;">Li Shizhen-Compendium of Materia Medica</p>
+
 
 Finally, until today, traditionally-living [Australian Aborigines](https://www.insects.orkin.com/ced/issue-1/australian-aborigines/) eat ants, moths, termites and grubs and use cockroaches (anaesthetic), tree ants (headaches and colds), termites (antidiarrheal agent) and grubs (wounds and burns) for medicinal purposes.
 
@@ -64,14 +68,16 @@ All this evidence begs the question: why have certain societies stopped eating i
 
 Now, startups such as [Hargol](https://hargol.com/) and [YumBug](https://www.yumbug.com/) are looking to bring grasshoppers and crickets to the masses.
 
-<img src="/images/blog/entomophagy/yumbug.png" width="800" height="1200" />
+<img src="/images/blog/entomophagy/yumbug.png" width="500" height="500" />
 
-Yumbug are bringing crickets to the UK
+<p style="text-align: center;">Yumbug are bringing crickets to the UK</p>
+
 
 While growing up in Israel in the 1950s, [Dror Tamir](https://www.bbc.com/news/business-58636969) saw his Yemenite and Moroccan Jewish neighbours eating grasshoppers during locusts swarm, as referenced by [Leo Africanus of Morocco](https://www.fao.org/3/i3253e/i3253e.pdf). This is what gave him the idea to found [Hargol](https://hargol.com/) (Hebrew for grasshoppers), a commercial grasshopper farm, in 2014.
 
-<img src="/images/blog/entomophagy/hargol.png" width="800" height="1200" />
+<img src="/images/blog/entomophagy/hargol.png" width="500" height="500" />
 
-Hargol FoodTech-Commercial Grasshopper Farm
+<p style="text-align: center;">Hargol FoodTech-Commercial Grasshopper Farm</p>
+
 
 In this blog, I will be exploring the world of entomophagy: it’s history, the opportunities it opens and its ethical and practical challenges. Follow me or get in touch if you’d like to hear more and even learn how to start your own insect farm at home!

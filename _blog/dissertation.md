@@ -4,7 +4,7 @@ date: 2022-05-06
 permalink: /blog/2022-05-06
 ---
 
-**Potential, challenges and opportunities in the edible insect market**
+Potential, challenges and opportunities in the edible insect market
 
 
 **Our food system needs a complete overhaul**
