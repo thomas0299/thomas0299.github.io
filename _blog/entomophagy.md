@@ -10,9 +10,9 @@ We often hear that humans have been eating insects for as long as they have been
 
 Our first clue to what our ancestors ate can be found by looking at our closest relatives. Today, [chimps eat ants and termites](https://askentomologists.com/2015/02/11/journey-through-time/) by sticking a branch into termite mounds. Gorillas destroy these mounds with their fists and then scoop up the termites to eat them. A group of scientists experimented with bone tools mimicking those of [Australopithecus](https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis), one of our ancient relatives (4 million years ago), and compared their wear and tear in different activities. What they found: Australopithecus most likely also used tools to dig up termites. While we don’t have much proof to whether Homo erectus (1.9 million years ago) ate insects, their much larger brain size suggests they needed lots of protein and makes it probable that they foraged for insects. [Fossilised faeces](https://www.encyclopedia.com/arts/educational-magazines/capinera-john-l) from caves in North America contained insects (beetles, ants, larvae and lice) and arachnids (ticks and mites) while [cave paintings in Spain](https://www.encyclopedia.com/arts/educational-magazines/capinera-john-l) (30–9,000 BC) showed insects being collected for food.
 
-<img src="/images/blog/entomophagy/termites.png" width="600" height="600" class="center" />
+<img src="/images/blog/entomophagy/termites.png" width="500" height="500" class="center" />
 
-<p style="text-align: center; font-size: 12px;"><i>Chimpanzees looking for termites,</i></p>
+<p style="text-align: center; font-size: 14px;"><i>Chimpanzees looking for termites</i></p>
 
 
 Texts and written accounts show that modern day humans have eaten insects in different forms around the world for thousands of years.
@@ -21,7 +21,7 @@ In the Americas, insect harvesting, notably cicadas, was common in [American Ind
 
 <img src="/images/blog/entomophagy/sahugan.png" width="400" height="400" class="center" />
 
-<p style="text-align: center;">Sahugan-Historia de las cosas de la Nueva España</p>
+<p style="text-align: center; font-size: 14px;"><i>Sahugan-Historia de las cosas de la Nueva España</i></p>
 
 
 The first account of edible insects in Europe is found in Ancient Greece. Aristotle (384–322 BC) wrote in [Historia Animalium](https://www.biodiversitylibrary.org/item/248043#page/191/mode/1up) about the cicada as a delicacy and as tasting best when full of eggs. Diodorus of Sicily (200 BC) called people from Ethiopia “eaters of locusts and grasshoppers”. In Ancient Rome, Pliny the Elder mentioned “cossus”, a dish consisting of larva, in his [Historia Naturalis](https://www.loc.gov/item/48031835/). More recently, there are [sporadic accounts](https://www.atlasobscura.com/articles/history-of-eating-bugs-america) of German soldiers feeding on silkworms in Italy (17th century) and modern-day Ukrainians using an ant-based liquor as medicine in the 19th century.
@@ -40,7 +40,7 @@ In addition, passages from the New Testament [Mark 1–6](https://www.biblegatew
 
 <img src="/images/blog/entomophagy/biblical.png" width="600" height="600", class="center" />
 
-<p style="text-align: center;">Biblical Protein recreating the diet of John the Baptist</p>
+<p style="text-align: center; font-size: 14px;"><i>Biblical Protein recreating the diet of John the Baptist</i></p>
 
 
 Also, in Islamic scriptures are locusts often mentioned and approved for consumption.
@@ -59,7 +59,7 @@ Moving east, [evidence from China](https://www.encyclopedia.com/arts/educational
 
 <img src="/images/blog/entomophagy/lishizhen.png" width="500" height="500" class="center"/>
 
-<p style="text-align: center;">Li Shizhen-Compendium of Materia Medica</p>
+<p style="text-align: center; font-size: 14px;"><i>Li Shizhen-Compendium of Materia Medica</i></p>
 
 
 Finally, until today, traditionally-living [Australian Aborigines](https://www.insects.orkin.com/ced/issue-1/australian-aborigines/) eat ants, moths, termites and grubs and use cockroaches (anaesthetic), tree ants (headaches and colds), termites (antidiarrheal agent) and grubs (wounds and burns) for medicinal purposes.
@@ -68,16 +68,16 @@ All this evidence begs the question: why have certain societies stopped eating i
 
 Now, startups such as [Hargol](https://hargol.com/) and [YumBug](https://www.yumbug.com/) are looking to bring grasshoppers and crickets to the masses.
 
-<img src="/images/blog/entomophagy/yumbug.png" width="500" height="500" class="center" />
+<img src="/images/blog/entomophagy/yumbug.png" class="center" width="500" height="500" />
 
-<p style="text-align: center;">Yumbug are bringing crickets to the UK</p>
+<p style="text-align: center; font-size: 14px;"><i>Yumbug are bringing crickets to the UK</i></p>
 
 
 While growing up in Israel in the 1950s, [Dror Tamir](https://www.bbc.com/news/business-58636969) saw his Yemenite and Moroccan Jewish neighbours eating grasshoppers during locusts swarm, as referenced by [Leo Africanus of Morocco](https://www.fao.org/3/i3253e/i3253e.pdf). This is what gave him the idea to found [Hargol](https://hargol.com/) (Hebrew for grasshoppers), a commercial grasshopper farm, in 2014.
 
 <img src="/images/blog/entomophagy/hargol.png" width="500" height="500" class="center" />
 
-<p style="text-align: center;">Hargol FoodTech-Commercial Grasshopper Farm</p>
+<p style="text-align: center; font-size: 14px;"><i>Hargol FoodTech-Commercial Grasshopper Farm</i></p>
 
 
 In this blog, I will be exploring the world of entomophagy: it’s history, the opportunities it opens and its ethical and practical challenges. Follow me or get in touch if you’d like to hear more and even learn how to start your own insect farm at home!

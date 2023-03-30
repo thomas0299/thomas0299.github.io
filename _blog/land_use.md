@@ -16,7 +16,7 @@ Agriculture quickly spread around the world, enabling populations to grow. Seden
 
 <img src="/images/blog/land_use/agriculture.png" width="800" height="1200" class="center" />
 
-<p style="text-align: center;">Cropland and pasture taking over the world</p>
+<p style="text-align: center; font-size: 14px;"><i>Cropland and pasture taking over the world</i></p>
 
 
 Fast forward to the 19th century, where population growth was a concern for the economist [Thomas Malthus](http://www.faculty.rsu.edu/users/f/felwell/www/Theorists/Essays/Malthus1.htm#:~:text=Malthus's%20principle%20of%20population%20is,are%20brought%20into%20the%20world). He posited that population increased geometrically (1,2,4,8,16…), while food production increased arithmetically (1,2,3,4,8…). If this population growth was left unchecked, we would not be able to feed everyone, and the world’s population would eventually slow down. The main limiting factor to our food production was the supply of land, it was finite!
@@ -25,8 +25,7 @@ What Malthus did not predict were the extraordinary technological improvements o
 
 <img src="/images/blog/land_use/yield.png" width="800" height="1200" class="center" />
 
-<p style="text-align: center;">Land used for cereal production stayed constant while cereal yield skyrocketed</p>
-
+<p style="text-align: center; font-size: 14px;"><i>Land used for cereal production stayed constant while cereal yield skyrocketed</i></p>
 
 
 This increased yield has done miracles for the human population, but it has not been so [kind for the environment](https://ourworldindata.org/environmental-impacts-of-food?country):
@@ -42,8 +41,7 @@ In addition, as the world’s consumption and living standards keep increasing, 
 
 <img src="/images/blog/land_use/world.png" width="800" height="1200" class="center" />
 
-<p style="text-align: center;">If the world had the diet of most developed countries, we wouldn’t have enough land to feed everyone</p>
-
+<p style="text-align: center; font-size: 14px;"><i>If the world had the diet of most developed countries, we wouldn’t have enough land to feed everyone</i></p>
 
 However, being the optimist that I am, I am convinced humans can find ways to maintain our food productivity while reversing our negative environmental damage. I am excited by new technological progress such as using artificial intelligence to better manage crops, [precision farming techniques](https://www.fastcompany.com/90693643/3-reasons-agriculture-is-poised-for-a-surge-of-sustainable-innovation), lab-grown meat, and vertical farming and [aquaculture](https://sosv.com/portfolio/vertical-oceans) systems.
 
@@ -51,8 +49,7 @@ Another source of hope is the alternative food sources we are developing today, 
 
 <img src="/images/blog/land_use/land_use.png" width="600" height="900" class="center" />
 
-<p style="text-align: center;">Land use per 100g of protein by food</p>
-
+<p style="text-align: center; font-size: 14px;"><i>Land use per 100g of protein by food</i></p>
 
 
 Moreover, [insects can feed on bio-waste](https://www.annualreviews.org/doi/abs/10.1146/annurev-ento-120811-153704), improving our waste management system and reducing emissions. Also, we don’t need to use more land to grow crops to feed these animals, currently a [third of current croplands](https://www.fao.org/3/ar591e/ar591e.pdf) are used to feed livestock.
