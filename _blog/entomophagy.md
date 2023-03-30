@@ -19,7 +19,7 @@ Texts and written accounts show that modern day humans have eaten insects in dif
 
 In the Americas, insect harvesting, notably cicadas, was common in [American Indian](https://www.atlasobscura.com/articles/history-of-eating-bugs-america) societies before the European settlers arrived. Some communities even [based their calendar](https://www.atlasobscura.com/articles/history-of-eating-bugs-america) on larvae life cycles. Insect species were also used for medicine and as hallucinogens. Insect fruitcakes were traded with white colonists in the Great Basin, and Missouri-based communities would sometimes eat locusts in times of locust swarms. In 1557, [Sahugan](https://www.fao.org/3/i3253e/i3253e.pdf) recounted how Aztec royalty were given ahuauhtli (aquatic insect eggs nicknamed the Mexican caviar) during holy ceremonies. These eggs were also sold in local markets.
 
-<img src="/images/blog/entomophagy/sahugan.png" class="center" width="400" height="400" />
+<img src="/images/blog/entomophagy/sahugan.png" width="400" height="400" style="vertical-align:middle" />
 
 <p style="text-align: center; font-size: 14px;"><i>Sahugan-Historia de las cosas de la Nueva España</i></p>
 
