@@ -11,13 +11,13 @@ Instrumental Variables chat
 The relationship a typical study would attempt to measure would be the following:
 
 
-<img src="/images/blog/instrumental/naive.png" width="500" height="500" class="center" />
+<img src="/images/blog/instrumental/naive.png" width="400" height="400" class="center" />
 
 
 One of the four assumptions that needs to be made for this relationship to be valid and used in a simple linear regression is that a third factor, U, should not impact the independent variable (X): they should not be correlated. This is the **zero conditional mean** assumption. However, in real life, this is often violated, there often is a third factor that impacts both the independent (X) and dependent (Y) variables:
 
 
-<img src="/images/blog/instrumental/endogeneity.png" width="500" height="500" class="center" />
+<img src="/images/blog/instrumental/endogeneity.png" width="400" height="400" class="center" />
 
 
 The dotted lines of U imply that these relationships are unmeasurable. The issue here is that we cannot isolate the effects of X on Y because U is impacting both of them. We also call this Omitted Variables Bias because the variables we do not measure have an impact on our (presumed) causal effect.
@@ -25,13 +25,13 @@ The dotted lines of U imply that these relationships are unmeasurable. The issue
 What if we could find another variable, W, that impacted X but was not impacted by U and did not affect Y. This is the intuition behind the **Instrumental Variable** (IV) technique, where W is the instrument. The aim is to avoid the bias introduced by U by going from W to X to Y.
 
 
-<img src="/images/blog/instrumental/instrumental.png" width="500" height="500" class="center" />
+<img src="/images/blog/instrumental/instrumental.png" width="400" height="400" class="center" />
 
 
 There is one key assumption here: the **exclusion restriction**. W should not impact Y in any way. The situation we are trying to avoid is the following:
 
 
-<img src="/images/blog/instrumental/exclusion.png" width="500" height="500" class="center" />
+<img src="/images/blog/instrumental/exclusion.png" width="400" height="400" class="center" />
 
 
 This exclusion restriction is untestable, making the choice of IVs sometimes debatable (at best) or implausible and outright wrong (at worst).
@@ -40,10 +40,10 @@ An interesting example of IV in practice is by [Miguel, Satyanath, and Sergenti 
 
 This use of rainfall and weather is very common as an IV in economic literature. However, some have put into the question the validity of weather as an IV, especially as it may often violate the all-important exclusion restriction.
 
-A fascinating paper published by [Mellon (2022)](https://ssrn.com/abstract=3715610%20or%20http://dx.doi.org/10.2139/ssrn.3715610) investigates this issue. He looked at nearly 300 studies where weather was used as an IV and found that two thirds potentially violated the exclusion restriction. The following graph summarises the idea of the paper:
+A fascinating paper published by [Mellon (2022)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3715610) investigates this issue. He looked at nearly 300 studies where weather was used as an IV and found that two thirds potentially violated the exclusion restriction. The following graph summarises the idea of the paper:
 
 
-<img src="/images/blog/instrumental/rainfall.png" width="500" height="500" class="center" />
+<img src="/images/blog/instrumental/rainfall.png" width="1000" height="1000" class="center" />
 
 
 This seems like a much more plausible way of representing our world, doesn’t it?
