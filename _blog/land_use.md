@@ -14,7 +14,7 @@ Edible insects require less space, can be stacked vertically and land does not n
 
 Agriculture quickly spread around the world, enabling populations to grow. Sedentary lifestyles provided a reliable and diverse food supply. Foodstuff was also stored for the winter months, traded across regions, and agricultural expertise spread.
 
-<img src="/images/blog/land_use/agriculture.png" width="800" height="1200" />
+<img src="/images/blog/land_use/agriculture.png" width="800" height="1200" class="center" />
 
 <p style="text-align: center;">Cropland and pasture taking over the world</p>
 
@@ -23,7 +23,7 @@ Fast forward to the 19th century, where population growth was a concern for the 
 
 What Malthus did not predict were the extraordinary technological improvements our species has made since. Intensive farming methods, mechanisation, gene engineering, pesticides, fertilisers, and countless other technologies have enabled humans to [increase farming yield](https://ourworldindata.org/land-use) over the past three centuries.
 
-<img src="/images/blog/land_use/yield.png" width="800" height="1200" />
+<img src="/images/blog/land_use/yield.png" width="800" height="1200" class="center" />
 
 <p style="text-align: center;">Land used for cereal production stayed constant while cereal yield skyrocketed</p>
 
@@ -40,7 +40,7 @@ It seems that this method of production is not sustainable and will reach its li
 In addition, as the world’s consumption and living standards keep increasing, we might actually face a [shortage of food](https://ourworldindata.org/agricultural-land-by-global-diets) due to a lack of sufficient land.
 
 
-<img src="/images/blog/land_use/world.png" width="800" height="1200" />
+<img src="/images/blog/land_use/world.png" width="800" height="1200" class="center" />
 
 <p style="text-align: center;">If the world had the diet of most developed countries, we wouldn’t have enough land to feed everyone</p>
 
@@ -49,7 +49,7 @@ However, being the optimist that I am, I am convinced humans can find ways to ma
 
 Another source of hope is the alternative food sources we are developing today, such as plant-based products, algae, and especially edible insects (didn’t see that coming did you). Insects need [substantially less land to be farmed](https://www.fao.org/3/i3253e/i3253e.pdf). Insect populations thrive in small, humid spaces, where they reproduce fast. Crickets and mealworms need 6000 times less land than [beef](https://www.science.org/doi/10.1126/science.aaq0216) and 230 times less land than [poultry](https://www.science.org/doi/10.1126/science.aaq0216), per 100g of protein. Insects can be put in boxes and stacked vertically, giving it (nearly) endless potential to save space.
 
-<img src="/images/blog/land_use/land_use.png" width="600" height="900" />
+<img src="/images/blog/land_use/land_use.png" width="600" height="900" class="center" />
 
 <p style="text-align: center;">Land use per 100g of protein by food</p>
 
