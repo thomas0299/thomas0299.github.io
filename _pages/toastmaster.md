@@ -1,11 +1,10 @@
 ---
 layout: archive
-title: "Toastmaster"
+title: "Public Speaking at Toastmasters"
 permalink: /toastmaster/
 author_profile: true
 ---
 
-# Public Speaking at Toastmasters
 
 Public speaking scared me, a lot. I decided to change that in 2022, by joining Toastmasters (TM). This is an attempt to keep myself accountable and pursue this journey.
 
