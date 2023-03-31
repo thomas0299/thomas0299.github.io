@@ -12,11 +12,19 @@ During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.c
 
 Previously studied and worked as an economist in the public sector, I am still very interested in econometrics and causal inference techniques.
 
+<img src="/images/profile/speech.png" width="1000" height="1000" class="center" />
+
 I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my bachelor's thesis.
+
+<img src="/images/profile/insects.JPG" width="1000" height="1000" class="center" />
 
 Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's and panini football cards.
 
+<img src="/images/profile/CF.jpg" width="1000" height="1000" class="center" />
+
 I'm always looking to meet interesting, passionate people. I also like to work on side, passion projects so please reach out! Currently exploring topics in rewilding, environmental economics and complexity science.
+
+<img src="/images/profile/hike.jpg" width="1000" height="1000" class="center" />
 
 - [Personal email](mailto:thomas0299@gmail.com)
 - [Professional email](mailto:tad@yukkalab.com)
