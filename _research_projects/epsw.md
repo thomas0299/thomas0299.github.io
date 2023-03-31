@@ -1,5 +1,5 @@
 ---
-title: "Modelling Resiliency Against the Unknown: Theory and Practice"
+title: "Modelling Resiliency Against the Unknown: Theory and Practice 💹"
 collection: research_projects
 permalink: /research_projects/epsw
 excerpt: 'Finance Canada problem: the need for a new class of crises models'

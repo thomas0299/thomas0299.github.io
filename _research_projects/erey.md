@@ -1,5 +1,5 @@
 ---
-title: "E-Rey - Challenge Entrepreneurship sdw"
+title: "E-Rey - Challenge Entrepreneurship sdw 💻"
 collection: research_projects
 permalink: /research_projects/erey
 excerpt: 'Teaching sustainability in everyday life'

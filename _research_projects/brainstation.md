@@ -1,5 +1,5 @@
 ---
-title: "Reducing conflict by improving water access in Uganda"
+title: "Reducing conflict by improving water access in Uganda 💧"
 collection: research_projects
 permalink: /research_projects/brainstation
 excerpt: 'Using Machine Learning to predict whether a water point has broken down in order to repair it quicker'

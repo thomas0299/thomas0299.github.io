@@ -1,5 +1,5 @@
 ---
-title: "Events Research Programme: Phase I findings"
+title: "Events Research Programme: Phase I findings 🎭"
 collection: research_projects
 permalink: /research_projects/dcms_erp
 excerpt: 'Policy Paper - Department for Digital, Culture, Media and Sport'

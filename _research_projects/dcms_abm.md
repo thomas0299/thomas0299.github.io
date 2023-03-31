@@ -1,5 +1,5 @@
 ---
-title: "Macroeconomic Agent Based Modelling - DCMS"
+title: "Macroeconomic Agent Based Modelling - DCMS 💸"
 collection: research_projects
 permalink: /research_projects/dcms_abm
 excerpt: 'Why should policymakers use ABMs?'

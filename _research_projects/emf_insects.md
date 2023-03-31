@@ -1,5 +1,5 @@
 ---
-title: "Why insects are cool and how you can grow them in your kitchen!"
+title: "Why insects are cool and how you can grow them in your kitchen! 🦋"
 collection: research_projects
 permalink: /research_projects/emf_insects
 excerpt: 'Learn how you can grow mealworms at home and unlock the ultimate superfood to save the planet and your health!'

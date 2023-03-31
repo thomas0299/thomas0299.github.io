@@ -1,5 +1,5 @@
 ---
-title: 'How edible insects can solve the looming shortage of agricultural land'
+title: 'How edible insects can solve the looming shortage of agricultural land 🐜'
 date: 2022-01-17
 permalink: /blog/2022-01-17
 ---

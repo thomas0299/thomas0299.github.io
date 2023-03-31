@@ -1,5 +1,5 @@
 ---
-title: 'The Potential of Crickets as a Protein Source'
+title: 'The Potential of Crickets as a Protein Source 🦗'
 date: 2022-02-04
 permalink: /blog/2022-02-04
 ---

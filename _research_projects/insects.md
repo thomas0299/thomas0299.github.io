@@ -1,5 +1,5 @@
 ---
-title: "Insects on our Plates? Potential, Challenges and Opportunities in the Edible Insect Market"
+title: "Insects on our Plates? Potential, Challenges and Opportunities in the Edible Insect Market 🐛"
 collection: research_projects
 permalink: /research_projects/insects
 excerpt: "Why insects are not yet mainstream and why they should be"

@@ -1,5 +1,5 @@
 ---
-title: "Events Research Programme Phases I, II and III data release"
+title: "Events Research Programme Phases I, II and III data release 🏟️"
 collection: research_projects
 permalink: /research_projects/dcms_data
 excerpt: 'Data Release - Department for Digital, Culture, Media and Sport'

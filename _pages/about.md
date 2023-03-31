@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Be like water, my friend."
+title: "Be like water, my friend. 🐉"
 excerpt: "About me"
 author_profile: true
 redirect_from: 

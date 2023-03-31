@@ -1,5 +1,5 @@
 ---
-title: 'Entomophagy throughout the ages'
+title: 'Entomophagy throughout the ages 🐞'
 date: 2022-01-08
 permalink: /blog/2022-01-08
 ---

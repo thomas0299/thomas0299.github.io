@@ -1,5 +1,5 @@
 ---
-title: 'When relationships aren’t as exclusive as you think'
+title: 'When relationships aren’t as exclusive as you think 🔗'
 date: 2022-07-23
 permalink: /blog/2022-07-23
 ---
