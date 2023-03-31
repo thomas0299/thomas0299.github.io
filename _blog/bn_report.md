@@ -3,6 +3,10 @@ title: 'Reducing conflict by improving water access in Uganda 🚰'
 date: 2022-08-18
 permalink: /blog/2022-08-18
 ---
+
+I built a model that will better predict which water points are at risk of breaking down, so the Ugandan government can better monitor, improve and repair crucial water points.
+
+
 **1. Why is access to water so important?**
 
 Water is one of human’s most basic needs. It helps us keep healthy, functioning and producing other basic needs such as food and shelter. As a result, access to water heavily impacts the development and prosperity of a country. Health, education, income, production, and inequality are all dependent on access to water. This is an especially important problem in Uganda, where ¾ of the population do not have access to piped water and half of healthcare facilities do not have access to running water.
@@ -55,7 +59,7 @@ I choose the best model based on their recall score for non-functioning points o
 
 In the end, my best model was XGBoost as it had the highest recall score for non-functioning points, as well as good other accuracy metrics, a shorter prediction time than most models, the second-best AUC and a relatively small overfit on the training set.
 
-<img src="/images/blog/bn_report/eda.png" width="500" height="500" class="center" />
+<img src="/images/blog/bn_report/roc.png" width="500" height="500" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>XGBoost model has the second best AUC, at 0.81.</i></p>
 
