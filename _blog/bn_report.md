@@ -59,7 +59,7 @@ I choose the best model based on their recall score for non-functioning points o
 
 In the end, my best model was XGBoost as it had the highest recall score for non-functioning points, as well as good other accuracy metrics, a shorter prediction time than most models, the second-best AUC and a relatively small overfit on the training set.
 
-<img src="/images/blog/bn_blog/roc.png" width="1400" height="1400" class="center" />
+<img src="/images/blog/bn_blog/roc.png" width="2000" height="2000" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>XGBoost model has the second best AUC, at 0.81.</i></p>
 
@@ -71,13 +71,13 @@ In addition, the usage capacity of a water point, whether it was installed after
 
 One major finding is that local conflicts did not have a strong predictive effect on our outcome. This is probably because the initial reason why there is conflict is poverty and under-development, something I have attempted to capture in other variables. This confirms what the current literature has found.
 
-<img src="/images/blog/bn_blog/js_1.png" width="2200" height="2200" class="center" />
+<img src="/images/blog/bn_blog/js_1.png" width="3000" height="3000" class="center" />
 
 From these findings, I would recommend that public bodies focus on those points which are the most important to local communities. Intuitively, this is where the most impact can be made as repair and improvement work will impact the most individuals.
 
 However, a word of caution to keep servicing more rural and less crucial water points. These smaller communities should not be left behind and lack of water access will still heavily impact them. Not giving these communities enough attention will create inequalities and put the overall development and stability of the country at risk.
 
-<img src="/images/blog/bn_blog/js_2.png" width="2000" height="2000" class="center" />
+<img src="/images/blog/bn_blog/js_2.png" width="3400" height="3400" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Contributing factors for one water point as an example</i></p>
 
