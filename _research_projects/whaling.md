@@ -21,4 +21,4 @@ The International Whaling Commission’s (IWC) 1986 ban on commercial whaling wa
 
 * [Download paper here](https://drive.google.com/file/d/1AVfIJdoq0juVbaxwQn9ESndCKhVZPL5B/view?usp=sharing)
 
-<center><img src="/images/cv/ucl.png" width="800" height="800" /></center>
+<center><img src="/images/cv/ucl.png" width="300" height="300" /></center>

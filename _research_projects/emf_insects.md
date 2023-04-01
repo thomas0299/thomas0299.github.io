@@ -17,4 +17,4 @@ Lightning Talk at the Electromagnetic Festival
 
 * [Lightning Talk](https://drive.google.com/file/d/1ICdSvD2DhY5n3E-Iz6i9SvHzQO5Gb1GV/view?usp=sharing)
 
-<center><img src="/images/research_projects/emf_logo.png" width="800" height="800" /></center>
+<center><img src="/images/research_projects/emf_logo.png" width="400" height="400" /></center>
