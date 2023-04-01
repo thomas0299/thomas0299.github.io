@@ -15,7 +15,7 @@ Potential, challenges and opportunities in the edible insect market
 - 🏰 Entomophagy has been recorded across history and societies, from Aristotle to John the Baptist, via China and the Americas.
 
 
-<img src="/images/blog/dissertation/visualisation_24.png" width="600" height="900" />
+<center><img src="/images/blog/dissertation/visualisation_24.png" width="600" height="900" /></center>
 
 
 **The environmental benefits of insects creates a business opportunity for entrepreneurs**
@@ -25,7 +25,7 @@ Potential, challenges and opportunities in the edible insect market
 - 💪 They are the most efficient at converting feed and protein into edible food.
 
 
-<img src="/images/blog/dissertation/visualisation_28.png" width="700" height="1100" />
+<center><img src="/images/blog/dissertation/visualisation_28.png" width="700" height="1100" /></center>
 
 
 **Consumer perception is the biggest challenge for edible insects**
@@ -48,7 +48,7 @@ Potential, challenges and opportunities in the edible insect market
 - 🔑 Edible insects should not compete with meat and should create a novel food category.  Consumers do not want to substitute meat for insects but do want to make their diets more sustainable and healthier.
 
 
-<img src="/images/blog/dissertation/mantis.jpeg" width="300" height="600" />
+<center><img src="/images/blog/dissertation/mantis.jpeg" width="300" height="600" /></center>
 
 
 **Historically, novel foods acceptance was initiated by a boost in supply, — can the government help?**

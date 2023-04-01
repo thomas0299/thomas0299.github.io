@@ -6,4 +6,4 @@ permalink: /blog/2022-02-04
 
 Would you like some side of crickets with those spaghetti? Yes, please!
 
-<img src="/images/blog/visualisation/visual_insects.png" width="800" height="1200" />
+<center><img src="/images/blog/visualisation/visual_insects.png" width="800" height="1200" /></center>

@@ -12,7 +12,7 @@ The [“Tragedy of the Commons”](https://www.jstor.org/stable/1724745), a term
 
 Whaling is a sombre example of this. [Whales have been hunted since prehistoric times](https://wwfeu.awsassets.panda.org/downloads/iwc61_history_of_the_iwc.pdf), but until the 19th century, on a relatively small scale. Enter the explosive harpoon and the steam engine, and whaling took off. Whale blubber was used in oil lamps, soap, and margarine. Whale bones were used for manufacturing daily products such as corsets and umbrellas. Whale meat, while not considered particularly luxurious, was and still is a staple food in Northern and Arctic communities. [Whale meat was also un-rationed](https://www.bbc.co.uk/history/ww2peopleswar/stories/92/a1110592.shtml) during the 2nd World War in Japan and the United Kingdom, as protein supplies dipped.
 
-<img src="/images/blog/whaling/historic_whaling.jpeg" width="800" height="800" class="center" />
+<center><img src="/images/blog/whaling/historic_whaling.jpeg" width="800" height="800" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Fisherman hunting for whales</i></p>
 
@@ -26,7 +26,7 @@ However, Japan found a way to continue whaling, through scientific permits, from
 
 Since the 1986 moratorium, [40’000 whales have been killed.](https://uk.whales.org/our-4-goals/stop-whaling/) Japan has killed nearly 20’000 Minke Whales during that period, with 31% of those catches not being under scientific permits (commercial catches, by-catch or under objection by the IWC).
 
-<img src="/images/blog/whaling/whaling_1.jpeg" width="800" height="800" class="center" />
+<center><img src="/images/blog/whaling/whaling_1.jpeg" width="800" height="800" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Japan re-established commercial whaling in 2019</i></p>
 
@@ -48,7 +48,7 @@ Earth’s diverse ecosystems [regulate the concentration of atmospheric carbon d
 
 By separating each of these mechanisms, we can estimate how much carbon a whale exports from the atmosphere during its lifetime. Let’s look at Minke Whales, they were the species that were predominantly killed by Japan under their 6 scientific programs, between 1985 and 2019 (*Annex A*).
 
-<img src="/images/blog/whaling/export.png" width="800" height="800" class="center" />
+<center><img src="/images/blog/whaling/export.png" width="800" height="800" /></center>
 
 Over a year, a single Minke Whale exports 3.17 tons of carbon (*Annex B*) from the atmosphere, which a majority comes from the increased productivity of the phytoplankton and photosynthesis thanks to the whale’s movements and defecations. This is less than the amount of CO2 a typical car in the US produces, [4.6 tons.](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle#:~:text=typical%20passenger%20vehicle%3F-,A%20typical%20passenger%20vehicle%20emits%20about%204.6%20metric%20tons%20of,8%2C887%20grams%20of%20CO2.)
 
@@ -65,14 +65,14 @@ Now let’s look at how much this represents over the course of a whale’s life
 
 Between 1985, when the first whale was killed, and 2067, when the last first-generation calf would have died (*Annex C*), the total amount of carbon that could have been exported was 2.01 million tons of carbon dioxide. The peak was in 2009, when there were 20,396 whales that were potentially missing from the Minke Whale population due to Japanese whaling.
 
-<img src="/images/blog/whaling/cumulated.png" width="800" height="800" class="center" />
+<center><img src="/images/blog/whaling/cumulated.png" width="800" height="800" /></center>
 
 This number of 2.52 million tons of CO2 is equivalent to the [carbon export of 1.4 million trees](https://www.centralparknyc.org/articles/park-city-healthy) during the same period, [nearly equivalent to the number of trees in Tokyo.](https://www.tandfonline.com/doi/abs/10.1080/03071375.1999.9747253?journalCode=tarb20)
 
 This figure is pale in comparison to what other industries emit in Japan. For example, The total amount of carbon potentially exported by these whales over 83 years represents only [13% of the CO2 emitted by the transportation industry in Japan,](https://www.statista.com/statistics/678691/japan-carbon-dioxide-emissions-by-sector/) in 2019 only!
 
 
-<img src="/images/blog/whaling/whaling_2.jpeg" width="800" height="800" class="center" />
+<center><img src="/images/blog/whaling/whaling_2.jpeg" width="800" height="800" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Dead whale being brought back to port</i></p>
 
@@ -94,18 +94,18 @@ Finally, whales can have an intrinsic commercial value. An Australian study esti
 
 The carbon exporting capacity of whales is truly incredible, and they play an integral part in the marine ecosystem. But we cannot disregard the fact that they are completely overshadowed by the magnitude of human emissions. When a single Minke Whale exports less than what a car emits during a year, and there are [424 times more cars](https://www.carsguide.com.au/car-advice/how-many-cars-are-there-in-the-world-70629#:~:text=There%20is%20an%20estimated%201.4,at%20around%2018%20per%20cent.) than [whales](https://iwc.int/estimate) on earth today, it shows how big of a problem we have. We’ve managed to bring our natural ecosystem dangerously out of balance and saving whales will not be enough.
 
-<img src="/images/blog/whaling/whaling_3.jpeg" width="700" height="700" class="center" />
+<center><img src="/images/blog/whaling/whaling_3.jpeg" width="700" height="700" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Japan keeps on whaling today</i></p>
 
 **Annex A**
 
-<img src="/images/blog/whaling/annex_a.png" width="1200" height="1200" class="center" />
+<center><img src="/images/blog/whaling/annex_a.png" width="1200" height="1200" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Number of catches per year, by scientific program and Minke Whale species</i></p>
 
 **Annex B**
-<img src="/images/blog/whaling/annex_b.png" width="1400" height="1400" class="center" />
+<center><img src="/images/blog/whaling/annex_b.png" width="1400" height="1400" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Carbon export of a Minke Whale, broken down by type of process</i></p>
 
@@ -121,7 +121,7 @@ The carbon exporting capacity of whales is truly incredible, and they play an in
 
 **Annex C**
 
-<img src="/images/blog/whaling/annex_c.png" width="800" height="800" class="center" />
+<center><img src="/images/blog/whaling/annex_c.png" width="800" height="800" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Population dynamics of whales killed and their calves (first-generation)</i></p>
 
