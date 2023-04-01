@@ -22,7 +22,7 @@ Algae biofuel has been researched as an alternative, sustainable source of fuel.
 
 Algae are organisms that live in marine (saltwater) or freshwater environments. [Most strains are photosynthetic](https://archive.bio.org/articles/biofuels-promise-algae), meaning they grow by transforming sunlight, water, carbon dioxide (Co2) and nutrients into biomass, while releasing oxygen. [Micro-algae are single-celled organisms](https://farm-energy.extension.org/algae-for-biofuel-production/) and are smaller than Macro-algae, which are multicellular organisms, such as seaweed (ex: kelp).
 
-<img src="/images/blog/algae/green.jpeg" width="800" height="800" class="center" />
+<img src="/images/blog/algae/green.jpeg" width="400" height="400" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Micro-algae</i></p>
 
@@ -120,7 +120,7 @@ Some believe there is still hope, but much more research is needed to solve the 
 
 These include industrial enzymes (used in [baking, brewing, detergents, pharmaceuticals, textiles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991975/#:~:text=Enzymes%20are%20used%20in%20industrial,pharmaceuticals%2C%20textiles%2C%20leather%20processing.)), nutraceuticals (food which can have a [medical function or nutritional advantage](https://pharmaceutical-journal.com/article/ld/1-what-is-a-nutraceutical), for example omega-3 supplements, spirulina or a vegan protein source), bioplastic and chemicals (through [biorefineries](https://www.weforum.org/agenda/2016/05/why-are-algal-biofuels-in-decline)), animal feed stocks, fertilizers, and even energy.
 
-<img src="/images/blog/algae/fertilizer.jpg" width="1200" height="1200" class="center" />
+<img src="/images/blog/algae/fertilizer.jpeg" width="1200" height="1200" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Potential production process of algae biofuel and by-products </i></p>
 
