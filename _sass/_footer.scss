@@ -49,7 +49,7 @@
   .fab,
   .far,
   .fal {
-    color: mix(#fff, $gray, 25%);
+    color: #fff;
   }
 }
 
@@ -88,5 +88,12 @@
     a {
       white-space: nowrap;
     }
+    .svg-inline--fa {
+      color: inherit;
   }
+}
+
+
+.page__footer {
+  color: #fff !important; // override
 }
