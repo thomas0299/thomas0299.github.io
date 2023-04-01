@@ -8,7 +8,7 @@ Why do we need sustainable fuel?
 
 Fossil fuels represent [85% of the world’s energy consumption](https://ourworldindata.org/energy). Coal, oil, and gas have a disastrous impact on the environment and emit dangerous and planet-warming greenhouse gases. Moreover, their supply is limited, BP estimates there are [114](https://ourworldindata.org/fossil-fuels), [53 and 51 years left](https://ourworldindata.org/fossil-fuels) of coal, natural gas and oil left, respectively.
 
-<img src="/images/blog/algae/energy.png" width="1200" height="1200" class="center" />
+<img src="/images/blog/algae/energy.png" width="1400" height="1400" class="center" />
 
 Modern battery technology [cannot power large, fuel-powered vehicles](https://revolutionized.com/the-rise-and-fall-of-algae-biofuel/), especially over long distances, and thus need liquid or gas fuel to function. Currently, most of the fuel is marine gas oil or petroleum derived fuel.
 
@@ -22,7 +22,7 @@ Algae biofuel has been researched as an alternative, sustainable source of fuel.
 
 Algae are organisms that live in marine (saltwater) or freshwater environments. [Most strains are photosynthetic](https://archive.bio.org/articles/biofuels-promise-algae), meaning they grow by transforming sunlight, water, carbon dioxide (Co2) and nutrients into biomass, while releasing oxygen. [Micro-algae are single-celled organisms](https://farm-energy.extension.org/algae-for-biofuel-production/) and are smaller than Macro-algae, which are multicellular organisms, such as seaweed (ex: kelp).
 
-<img src="/images/blog/algae/green.jpeg" width="1200" height="1200" class="center" />
+<img src="/images/blog/algae/green.jpeg" width="800" height="800" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Micro-algae</i></p>
 
@@ -32,7 +32,7 @@ Algae biomass is made up of proteins, carbohydrates (glucose) and natural oils (
 
 <img src="/images/blog/algae/production.jpg" width="1200" height="1200" class="center" />
 
-<p style="text-align: center; font-size: 14px;"><i>MThe algae biofuel process</i></p>
+<p style="text-align: center; font-size: 14px;"><i>The algae biofuel process</i></p>
 
 The most common culture systems are suspension-based open ponds and enclosed photobioreactors. [The challenge with ponds](https://www.thomasnet.com/insights/biofuel-from-algae-the-pros-and-cons-of-pond-scum/) is keeping it at the right temperature for ideal high-lipid, high-yield algae. Photobioreactors offer an artificial and more controlled environment but are more costly and energy-intensive.
 
@@ -120,7 +120,7 @@ Some believe there is still hope, but much more research is needed to solve the 
 
 These include industrial enzymes (used in [baking, brewing, detergents, pharmaceuticals, textiles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991975/#:~:text=Enzymes%20are%20used%20in%20industrial,pharmaceuticals%2C%20textiles%2C%20leather%20processing.)), nutraceuticals (food which can have a [medical function or nutritional advantage](https://pharmaceutical-journal.com/article/ld/1-what-is-a-nutraceutical), for example omega-3 supplements, spirulina or a vegan protein source), bioplastic and chemicals (through [biorefineries](https://www.weforum.org/agenda/2016/05/why-are-algal-biofuels-in-decline)), animal feed stocks, fertilizers, and even energy.
 
-<img src="/images/blog/algae/production.jpg" width="1200" height="1200" class="center" />
+<img src="/images/blog/algae/fertilizer.jpg" width="1200" height="1200" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Potential production process of algae biofuel and by-products </i></p>
 
