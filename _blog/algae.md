@@ -22,7 +22,7 @@ Algae biofuel has been researched as an alternative, sustainable source of fuel.
 
 Algae are organisms that live in marine (saltwater) or freshwater environments. [Most strains are photosynthetic](https://archive.bio.org/articles/biofuels-promise-algae), meaning they grow by transforming sunlight, water, carbon dioxide (Co2) and nutrients into biomass, while releasing oxygen. [Micro-algae are single-celled organisms](https://farm-energy.extension.org/algae-for-biofuel-production/) and are smaller than Macro-algae, which are multicellular organisms, such as seaweed (ex: kelp).
 
-<img src="/images/blog/algae/green.jpeg" width="400" height="400" class="center" />
+<center><img src="/images/blog/algae/green.jpeg" width="400" height="400" class="center" /></center>
 
 <p style="text-align: center; font-size: 14px;"><i>Micro-algae</i></p>
 
