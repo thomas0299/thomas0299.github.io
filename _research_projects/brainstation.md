@@ -26,3 +26,5 @@ I want to build a model that will better predict which water points have, or are
 * [Research Website](https://thomas0299.github.io/futuristic-platipus/)
 
 * [Executive Report](https://drive.google.com/file/d/15HvFOMv-nIM4UlaVTZIVWaPbrQycCd4Y/view?usp=sharing)
+
+<center><img src="/images/research_projects/brainstation_logo.png" width="800" height="800" /></center>

@@ -23,4 +23,4 @@ paperurl: 'https://drive.google.com/file/d/1UYw5qzUv9yUl8pgeSEiSXclizXA7xdvw/vie
 * [Presentation](https://drive.google.com/file/d/1UYw5qzUv9yUl8pgeSEiSXclizXA7xdvw/view?usp=sharing)
 
 
-<img src="/images/research_projects/epsw.png" width="200" height="200" />
+<img src="/images/research_projects/fields_logo.png" width="200" height="200" />
