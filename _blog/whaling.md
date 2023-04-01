@@ -48,7 +48,7 @@ Earth’s diverse ecosystems [regulate the concentration of atmospheric carbon d
 
 By separating each of these mechanisms, we can estimate how much carbon a whale exports from the atmosphere during its lifetime. Let’s look at Minke Whales, they were the species that were predominantly killed by Japan under their 6 scientific programs, between 1985 and 2019 (*Annex A*).
 
-<img src="/images/blog/whaling/export.jpeg" width="800" height="800" class="center" />
+<img src="/images/blog/whaling/export.png" width="800" height="800" class="center" />
 
 Over a year, a single Minke Whale exports 3.17 tons of carbon (*Annex B*) from the atmosphere, which a majority comes from the increased productivity of the phytoplankton and photosynthesis thanks to the whale’s movements and defecations. This is less than the amount of CO2 a typical car in the US produces, [4.6 tons.](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle#:~:text=typical%20passenger%20vehicle%3F-,A%20typical%20passenger%20vehicle%20emits%20about%204.6%20metric%20tons%20of,8%2C887%20grams%20of%20CO2.)
 
@@ -94,18 +94,18 @@ Finally, whales can have an intrinsic commercial value. An Australian study esti
 
 The carbon exporting capacity of whales is truly incredible, and they play an integral part in the marine ecosystem. But we cannot disregard the fact that they are completely overshadowed by the magnitude of human emissions. When a single Minke Whale exports less than what a car emits during a year, and there are [424 times more cars](https://www.carsguide.com.au/car-advice/how-many-cars-are-there-in-the-world-70629#:~:text=There%20is%20an%20estimated%201.4,at%20around%2018%20per%20cent.) than [whales](https://iwc.int/estimate) on earth today, it shows how big of a problem we have. We’ve managed to bring our natural ecosystem dangerously out of balance and saving whales will not be enough.
 
-<img src="/images/blog/whaling/whaling_3.jpeg" width="800" height="800" class="center" />
+<img src="/images/blog/whaling/whaling_3.jpeg" width="700" height="700" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Japan keeps on whaling today</i></p>
 
 **Annex A**
 
-<img src="/images/blog/whaling/annex_a.png" width="800" height="800" class="center" />
+<img src="/images/blog/whaling/annex_a.png" width="1200" height="1200" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Number of catches per year, by scientific program and Minke Whale species</i></p>
 
 **Annex B**
-<img src="/images/blog/whaling/annex_b.png" width="800" height="800" class="center" />
+<img src="/images/blog/whaling/annex_b.png" width="1400" height="1400" class="center" />
 
 <p style="text-align: center; font-size: 14px;"><i>Carbon export of a Minke Whale, broken down by type of process</i></p>
 
