@@ -53,13 +53,13 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
-$background-color           : #e8d5b7;
+$background-color: #f3f6f6 !default;
 $code-background-color      : mix(#fff, $background-color, 20%);
 $code-background-color-dark : mix(#000, $background-color, 10%);
-$text-color                 : #000;
-$border-color               : mix(#000, $background-color, 20%);
+$text-color: #40514e !default;
+$border-color: mix(#fff, #40514e, 75%) !default;
 
-$primary-color              : #fc3a52;
+$primary-color: #11999e !default;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -89,11 +89,14 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : mix(#000, $primary-color, 10%);
+$link-color: #11999e !default;
 $link-color-hover           : mix(#fff, $link-color, 25%);
 $link-color-visited         : mix(#000, $link-color, 25%);
-$masthead-link-color        : $text-color;
-$masthead-link-color-hover  : mix(#000, $text-color, 20%);
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+
+
+
 /*
    Breakpoints
    ========================================================================== */
