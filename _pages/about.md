@@ -10,7 +10,7 @@ redirect_from:
 
 During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a knowledge graph for our NLP models. Our mission is to make news measurable and quantifiable.
 
-<center><img src="/images/profile/network.jpeg" width="350" height="350" /></center>
+<center><img src="/images/profile/yukka_logo.png" width="700" height="300" /></center>
 
 Previously studied and worked as an economist in the public sector, I am still very interested in econometrics and causal inference techniques.
 
