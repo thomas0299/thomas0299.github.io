@@ -17,7 +17,6 @@ What determines the quality of a nation’s infrastructure? We show that elector
 * Published in the Journal of Public Economics
 * Contributed as an RA during the Summer of 2020.
 
-
 * [Download paper here](https://www.sciencedirect.com/science/article/pii/S0047272723000622?dgcid=author)
 
 
