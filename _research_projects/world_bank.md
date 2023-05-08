@@ -4,7 +4,7 @@ collection: research_projects
 permalink: /research_projects/world_bank
 excerpt: 'What determines the quality of a nation’s infrastructure?'
 date: 2021-03-01
-paperurl: 'The persistent impact of electoral incentives on the quality of infrastructure'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S0047272723000622?dgcid=author'
 ---
 **Abstract**
 
@@ -18,7 +18,7 @@ What determines the quality of a nation’s infrastructure? We show that elector
 * Contributed as an RA during the Summer of 2020.
 
 
-* [Download paper here](http://www.danrogger.com/files/papers/RoggerSomani_2021_Elections%20and%20Infrastructure.pdf)
+* [Download paper here](https://www.sciencedirect.com/science/article/pii/S0047272723000622?dgcid=author)
 
 
 <img src="/images/cv/wb.png" width="200" height="200" />
