@@ -6,7 +6,7 @@ permalink: /blog/2023-06-21
 
 Written by Lennard Berger and myself at [YUKKA Lab](https://www.yukkalab.com/). Full article on medium, [here](https://medium.com/@lbe_87726/who-wrote-it-first-or-why-originality-matters-5bb097e4057).
 <br/><br/>
-<center><img src="/images/blog/readership/readership_blog_3.png" width="400" height="400" /></center>
+<center><img src="/images/blog/readership/readership_blog_3.png" width="250" height="250" /></center>
 
 
 <br/><br/>

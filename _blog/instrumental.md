@@ -5,7 +5,7 @@ permalink: /blog/2022-07-23
 ---
 
 Instrumental Variables chat
-<center><img src="/images/blog/instrumental/rainfall.png" width="600" height="600" /></center>
+<center><img src="/images/blog/instrumental/rainfall.png" width="400" height="400" /></center>
 
 
 

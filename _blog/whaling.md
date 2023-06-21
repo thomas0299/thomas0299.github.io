@@ -5,7 +5,7 @@ permalink: /blog/2022-01-25
 ---
 
 The Impact of Japan’s Scientific Research Whaling Programs on the Marine Ecosystem and the Carbon Cycle.
-<center><img src="/images/blog/whaling/whaling_3.jpeg" width="300" height="300" /></center>
+<center><img src="/images/blog/whaling/whaling_3.jpeg" width="400" height="400" /></center>
 
 
 **The origins of whaling**
