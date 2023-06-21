@@ -10,8 +10,6 @@ Written by Katarzyna Marszałek-Kowalewska, Anna Richert and myself at [YUKKA La
 <center><img src="/images/blog/star_wars/sw_blog_1.png" width="350" height="150" /></center>
 
 
-
-
 <br/><br/>                       
 <center><img src="/images/blog/star_wars/sw_blog_2.png" width="1200" height="600" /></center>
 <br/><br/>

@@ -5,14 +5,15 @@ permalink: /blog/2022-01-08
 ---
 
 Entomophagy, or the practice of eating insects, has been hailed as the panacea of our food system, with its innumerable health and environmental benefits.
+<center><img src="/images/blog/entomophagy/termites.png" width="500" height="500" /></center>
+
+
+<p style="text-align: center; font-size: 14px;"><i>Chimpanzees looking for termites</i></p>
+
 
 We often hear that humans have been eating insects for as long as they have been on earth, and so, the (mostly) Western aversion to insects is unjustified. But what evidence do we actually have of humans eating insects across history?
 
 Our first clue to what our ancestors ate can be found by looking at our closest relatives. Today, [chimps eat ants and termites](https://askentomologists.com/2015/02/11/journey-through-time/) by sticking a branch into termite mounds. Gorillas destroy these mounds with their fists and then scoop up the termites to eat them. A group of scientists experimented with bone tools mimicking those of [Australopithecus](https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis), one of our ancient relatives (4 million years ago), and compared their wear and tear in different activities. What they found: Australopithecus most likely also used tools to dig up termites. While we don’t have much proof to whether Homo erectus (1.9 million years ago) ate insects, their much larger brain size suggests they needed lots of protein and makes it probable that they foraged for insects. [Fossilised faeces](https://www.encyclopedia.com/arts/educational-magazines/capinera-john-l) from caves in North America contained insects (beetles, ants, larvae and lice) and arachnids (ticks and mites) while [cave paintings in Spain](https://www.encyclopedia.com/arts/educational-magazines/capinera-john-l) (30–9,000 BC) showed insects being collected for food.
-
-<center><img src="/images/blog/entomophagy/termites.png" width="500" height="500" /></center>
-
-<p style="text-align: center; font-size: 14px;"><i>Chimpanzees looking for termites</i></p>
 
 
 Texts and written accounts show that modern day humans have eaten insects in different forms around the world for thousands of years.

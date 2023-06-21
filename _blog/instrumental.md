@@ -5,6 +5,9 @@ permalink: /blog/2022-07-23
 ---
 
 Instrumental Variables chat
+<center><img src="/images/blog/instrumental/rainfall.png" width="600" height="600" /></center>
+
+
 
 **Causal Inference** is fascinating to me because it makes a bold attempt to identify causality in the impossibly complex system that is our society and economy. As with cell biologists or neuroscientists, economists and social scientists are dealing with a system we will never fully understand. However, I am inspired by the attempt to identify causal relationships in a noisy world.
 

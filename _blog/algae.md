@@ -5,6 +5,8 @@ permalink: /blog/2022-02-18
 ---
 
 Why do we need sustainable fuel?
+<center><img src="/images/blog/algae/lab.png" width="400" height="400"  /></center>
+
 
 Fossil fuels represent [85% of the world’s energy consumption](https://ourworldindata.org/energy). Coal, oil, and gas have a disastrous impact on the environment and emit dangerous and planet-warming greenhouse gases. Moreover, their supply is limited, BP estimates there are [114](https://ourworldindata.org/fossil-fuels), [53 and 51 years left](https://ourworldindata.org/fossil-fuels) of coal, natural gas and oil left, respectively.
 
