@@ -9,9 +9,9 @@ Written by Lennard Berger and myself at [YUKKA Lab](https://www.yukkalab.com/). 
 <br/><br/>
 <center><img src="/images/blog/readership/readership_blog_1.png" width="400" height="400" /></center>
 <br/><br/>                       
-<center><img src="/images/blog/readership/readership_blog_1.png" width="400" height="400" /></center>
+<center><img src="/images/blog/readership/readership_blog_2.png" width="400" height="400" /></center>
 <br/><br/>
-<center><img src="/images/blog/readership/readership_blog_1.png" width="400" height="400" /></center>
+<center><img src="/images/blog/readership/readership_blog_3.png" width="400" height="400" /></center>
 <br/><br/>  
 <br/><br/>           
 <br/><br/>
