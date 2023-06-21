@@ -5,7 +5,7 @@ permalink: /blog/2022-05-06
 ---
 
 Potential, challenges and opportunities in the edible insect market
-<center><img src="/images/blog/dissertation/mantis.jpeg" width="150" height="300" /></center>
+<center><img src="/images/blog/dissertation/mantis.jpeg" width="300" height="600" /></center>
 
 
 **Our food system needs a complete overhaul**
