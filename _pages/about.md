@@ -16,17 +16,18 @@ Previously studied and worked as an economist in the public sector, I am still v
 
 <center><img src="/images/profile/speech.png" width="500" height="500" /></center>
 
+I'm always looking to meet interesting, passionate people. I also like to work on side, passion projects so please reach out! Currently exploring topics in graph theory, computational economics and complexity science.
+
+<center><img src="/images/profile/hike.png" width="500" height="500" /></center>
+
 I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my bachelor's thesis.
 
 <center><img src="/images/profile/insects.JPG" width="300" height="300" /></center>
 
-Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's and panini football cards.
+Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
 
 <center><img src="/images/profile/CF.jpg" width="300" height="300" /></center>
 
-I'm always looking to meet interesting, passionate people. I also like to work on side, passion projects so please reach out! Currently exploring topics in rewilding, environmental economics and complexity science.
-
-<center><img src="/images/profile/hike.png" width="500" height="500" /></center>
 
 - [Personal email](mailto:thomas0299@gmail.com)
 - [Professional email](mailto:tad@yukkalab.com)
