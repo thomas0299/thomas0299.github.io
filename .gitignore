@@ -1,3 +1,4 @@
 _site/
 
-*/vendor/*
+vendor/*
+.DS_Store
