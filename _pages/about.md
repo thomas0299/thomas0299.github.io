@@ -38,7 +38,7 @@ I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army S
 
 Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
 
-<center><img src="/images/profile/CF.jpg" width="300" height="300" /></center>
+<center><img src="/images/profile/CF.jpg" width="450" height="450" /></center>
 
 
 - Personal email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
