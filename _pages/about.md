@@ -34,7 +34,7 @@ I also have a soft spot for edible insects and novel food trends. Started my own
 
 I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Special Forces).
 
-<center><img src="/images/profile/armee.jpg" width="300" height="300" /></center>
+<center><img src="/images/profile/armee.jpg" width="600" height="600" /></center>
 
 Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
 
