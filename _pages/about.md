@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Be like water, my friend. 🐉"
+title: "It’s cats that are complicated. 🐈"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,15 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a knowledge graph for our NLP models. Our mission is to make news measurable and quantifiable.
 
-<center><img src="/images/profile/yukka_logo.png" width="700" height="300" /></center>
+*People think that mathematics is complicated. Mathematics is the simple bit, it’s the stuff we CAN understand. It’s cats that are complicated.*
+John Conway
 
-Previously studied and worked as an economist in the public sector, I am still very interested in econometrics and causal inference techniques.
+As a data scientist, economist, and programmer, the defining factor in my academic and professional career is the study of networks and complex systems. I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. Currently, I am developing a Knowledge Graph for state-of-the-art NLP models. Having spent time using and applying important network science algorithms and theories, I am now delving deeper into the core concepts that make network and graph theory so powerful. I want to research and advance the theoretical underpinnings and computational paradigms in network science. My research focuses on understanding human-made systems using concepts and tools from information science, computer science, and the natural sciences. Currently, my three research areas are:
+
+- applying brain intelligence concepts to socio-economic networks
+- combining network and cellular automatons in Agent-Based Models
+- the concept of diffusion in networks, with a particular interest in cultural evolution
 
 <center><img src="/images/profile/speech.png" width="500" height="500" /></center>
 
-I'm always looking to meet interesting, passionate people. I also like to work on side, passion projects so please reach out! Currently exploring topics in graph theory, computational economics and complexity science.
+I'm always looking to meet interesting people that share my passion for networks, complexity and computation. Don't hesitate to reach out!
+
+<center><img src="/images/profile/yukka_logo.png" width="700" height="300" /></center>
+
+During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a Knowledge Graph, modelling the internaitonal business and economic ecosystem, for our NLP models. Our KG has been scaled to over 2.5m entities and over 7m relations. Our Knowledge Graph is used for Named-Entity Linking, Named-Entity Recognition and is enriched by a Relation Extraction model.
 
 <center><img src="/images/profile/hike.png" width="500" height="500" /></center>
 
@@ -24,11 +32,15 @@ I also have a soft spot for edible insects and novel food trends. Started my own
 
 <center><img src="/images/profile/insects.JPG" width="300" height="300" /></center>
 
+I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Special Forces).
+
+<center><img src="/images/profile/armee.JPG" width="300" height="300" /></center>
+
 Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
 
 <center><img src="/images/profile/CF.jpg" width="300" height="300" /></center>
 
 
-- [Personal email](mailto:thomas0299@gmail.com)
-- [Professional email](mailto:tad@yukkalab.com)
-- [Academic email](mailto:thomas.adler.18@alumni.ucl.ac.uk)
+- Personal email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
+- Professional email - [tad@yukkalab.com](mailto:tad@yukkalab.com)
+- Academic email - [thomas.adler.18@alumni.ucl.ac.uk](mailto:thomas.adler.18@alumni.ucl.ac.uk)
