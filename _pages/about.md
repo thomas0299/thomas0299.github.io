@@ -18,11 +18,11 @@ As a data scientist, economist, and programmer, the defining factor in my academ
 - combining network and cellular automatons in Agent-Based Models
 - the concept of diffusion in networks, with a particular interest in cultural evolution
 
-<center><img src="/images/profile/speech.png" width="500" height="500" /></center>
+<center><img src="/images/profile/speech.png" width="700" height="700" /></center>
 
 I'm always looking to meet interesting people that share my passion for networks, complexity and computation. Don't hesitate to reach out!
 
-<center><img src="/images/profile/yukka_logo.png" width="700" height="300" /></center>
+<center><img src="/images/profile/yukka_logo.png" width="500" height="500" /></center>
 
 During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a Knowledge Graph, modelling the internaitonal business and economic ecosystem, for our NLP models. Our KG has been scaled to over 2.5m entities and over 7m relations. Our Knowledge Graph is used for Named-Entity Linking, Named-Entity Recognition and is enriched by a Relation Extraction model.
 
@@ -34,7 +34,7 @@ I also have a soft spot for edible insects and novel food trends. Started my own
 
 I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Special Forces).
 
-<center><img src="/images/profile/armee.JPG" width="300" height="300" /></center>
+<center><img src="/images/profile/armee.jpg" width="300" height="300" /></center>
 
 Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
 
