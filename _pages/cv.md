@@ -64,6 +64,7 @@ Skills
 ======
 * Neo4j
 * Python
+* Bash
 * SQL
 * R
 * STATA
