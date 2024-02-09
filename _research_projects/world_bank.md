@@ -1,10 +1,9 @@
 ---
 title: "The Persistent Impact of Electoral Incentives on the Quality of Infrastructure - Rogger & Somani 💦"
-collection: research_projects
 permalink: /research_projects/world_bank
 excerpt: 'What determines the quality of a nation’s infrastructure?'
 date: 2021-03-01
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0047272723000622?dgcid=author'
+citation: 'Rogger, D. & Somani, R., (2023) “The persistent impact of electoral incentives on the quality of infrastructure”, Journal of Public Economics 222, doi.org/10.1016/j.jpubeco.2023.104880'
 ---
 **Abstract**
 

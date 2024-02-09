@@ -1,10 +1,8 @@
 ---
 title: "Events Research Programme: Phase I findings 🎭"
-collection: research_projects
 permalink: /research_projects/dcms_erp
 excerpt: 'Policy Paper - Department for Digital, Culture, Media and Sport'
 date: 2021-07-01
-paperurl: 'https://www.gov.uk/government/publications/events-research-programme-phase-i-findings/events-research-programme-phase-i-findings'
 ---
 **Chief Advisers’ foreword**
 

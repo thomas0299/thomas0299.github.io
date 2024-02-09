@@ -1,10 +1,8 @@
 ---
 title: "Modelling Resiliency Against the Unknown: Theory and Practice 💹"
-collection: research_projects
 permalink: /research_projects/epsw
 excerpt: 'Finance Canada problem: the need for a new class of crises models'
 date: 2021-04-23
-paperurl: 'https://drive.google.com/file/d/1UYw5qzUv9yUl8pgeSEiSXclizXA7xdvw/view?usp=sharing'
 ---
 **Finance Canada problem: the need for a new class of crises models**
 

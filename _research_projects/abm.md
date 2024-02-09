@@ -2,7 +2,6 @@
 title: "Agent Based Modelling - Food Delivery 🍱"
 permalink: /research_projects/abm
 date: 2022-06-22
-paperurl: 'https://github.com/thomas0299/abm_sfi'
 ---
 
 Capstone project of Santa Fe Institue's course on Agent Based Models (Complexity Explorer). Coded in NetLogo.

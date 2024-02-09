@@ -1,11 +1,9 @@
 ---
 title: "Insects on our Plates? Potential, Challenges and Opportunities in the Edible Insect Market 🐛"
-collection: research_projects
 permalink: /research_projects/insects
 excerpt: "Why insects are not yet mainstream and why they should be"
 date: 2022-08-25
-paperurl: 'https://student-journals.ucl.ac.uk/UJE/article/id/1383/'
-citation: 'Adler, T., (2022) “Insects on our Plates? Potential, Challenges and Opportunities in the Edible Insect Market”, UCL Journal of Economics 1(1), 93–110. doi: https://doi.org/10.14324/111.444.2755-0877.1383'
+citation: 'Adler, T., (2022) “Insects on our Plates? Potential, Challenges and Opportunities in the Edible Insect Market”, UCL Journal of Economics 1(1), 93–110. doi.org/10.14324/111.444.2755-0877.1383'
 ---
 **Abstract**
 

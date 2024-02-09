@@ -1,10 +1,8 @@
 ---
 title: "Licence to Krill: The Impact of Japan’s Scientific Research Whaling Programs on the Marine Ecosystem and the Carbon Cycle 🐋"
-collection: research_projects
 permalink: /research_projects/whaling
 excerpt: 'Whaling is still practiced in Japan, and its impact is devastating'
 date: 2020-05-08
-paperurl: 'https://drive.google.com/file/d/1AVfIJdoq0juVbaxwQn9ESndCKhVZPL5B/view?usp=sharing'
 ---
 **Abstract**
 
