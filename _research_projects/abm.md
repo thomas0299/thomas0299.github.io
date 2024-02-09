@@ -1,6 +1,5 @@
 ---
 title: "Agent Based Modelling - Food Delivery 🍱"
-collection: research_projects
 permalink: /research_projects/abm
 date: 2022-06-22
 paperurl: 'https://github.com/thomas0299/abm_sfi'
