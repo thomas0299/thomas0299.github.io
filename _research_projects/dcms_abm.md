@@ -1,9 +1,8 @@
 ---
 title: "Macroeconomic Agent Based Modelling - DCMS 💸"
-
 permalink: /research_projects/dcms_abm
 excerpt: 'Why should policymakers use ABMs?'
-date: 2021-06-22
+date: 2021-06
 ---
 
 Presented to DCMS colleagues (analysts and policymakers) the topic of Agent Based Models and the possibility of using it for analysis to improve policymaking.
