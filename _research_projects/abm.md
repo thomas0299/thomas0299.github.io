@@ -1,6 +1,7 @@
 ---
 title: "Agent Based Modelling - Food Delivery 🍱"
 permalink: /research_projects/abm
+excerpt: 'Agent-Based Model of a food market'
 date: 2022-06-22
 ---
 
