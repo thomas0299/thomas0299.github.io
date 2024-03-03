@@ -1,0 +1,13 @@
+# main links links
+main:
+  - title: "Research & Projects"
+    url: /research_projects/
+        
+  - title: "Blog"
+    url: /blog/
+          
+  - title: "Toastmaster"
+    url: /toastmaster/
+    
+  - title: "CV"
+    url: /cv/
