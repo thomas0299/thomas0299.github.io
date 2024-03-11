@@ -100,7 +100,9 @@ Relationships have types and can contain properties, usually the quality or weig
 Relationships also have a direction, and nodes can point to themselves. However, no relationship can be "dangling": missing a start or end node. Finally, we don't need to use null values to represent the absence of a connection.
 
 <center><img src="/images/blog/graphing_complexity/14.png" width="400" height="300" /></center>
+  
 <center><img src="/images/blog/graphing_complexity/15.png" width="400" height="300" /></center>
+  
 <center><img src="/images/blog/graphing_complexity/16.png" width="800" height="300" /></center>
 
 ## Relationships are verbs:
@@ -147,7 +149,7 @@ Into:
 
 **General relationships** are qualified by their property and not their name. This makes it easier to query across all sub-types, and we use the property to discover these sub-types.
 
-<center><img src="/images/blog/graphing_complexity/20.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/20.png" width="400" height="200" /></center>
 
 On the other hand, **specific relationships** are qualified by their name, which is more specific. It is then easier to query a specific sub-type but hard to discover all sub-types.
 
