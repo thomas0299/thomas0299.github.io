@@ -84,7 +84,7 @@ Note that some supernodes might not always be that big of a problem if that node
 # 2. Relationships
 Relationships enable **information to be transformed into knowledge**. How things are interrelated is the real power of a Graph DB. 
 
-<center><img src="/images/blog/graphing_complexity/11.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/11.jpg" width="600" height="600" /></center>
 <center><img src="/images/blog/graphing_complexity/12.png" width="600" height="600" /></center>
  
 Relationships have types and can contain properties, usually the quality or weight of a relationship, or other metadata linked to time and space.
