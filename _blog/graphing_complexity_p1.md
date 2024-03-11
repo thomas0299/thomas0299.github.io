@@ -7,6 +7,8 @@ permalink: /blog/2024-03-11
 *"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
 *Charlie Munger*
 
+<center><img src="/images/blog/graphing_complexity/0.png" width="600" height="600" /></center>
+
 A Graph  (Graph DB) uses **nodes and relationships to model information and their interrelations**. This is unlike a table, like in Excel, or a dictionary format, like a JSON. A Graph DB is an incredibly powerful tool to represent real-life data. Social relations, food webs, and the banking system are some of countless examples of how graphs and networks live all around us.
 
 A Graph DB has many benefits. All SQL users will be happy to hear that no JOINs are needed across multiple tables. Every data user's worst nightmare is avoided in Graph DBs, which makes data retrieval much easier, smoother, and more performant. This **focus on data retrieval** is in contrast with the emphasis on data storage of common relational databases. The door then opens up for much more complex querying, uncovering hidden information, and non-obvious and indirect relationships.

@@ -7,6 +7,8 @@ permalink: /blog/2024-03-18
 *"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
 *Charlie Munger*
 
+<center><img src="/images/blog/graphing_complexity/0.png" width="600" height="600" /></center>
+
 In the first part we introduced the strengths of a Graph DB and the design decisions arounds nodes and relationships.
 
 This is Part 2 of a two-part series on modelling a Graph Database (Graph DB) in Neo4j, here is [Part 1](https://thomas0299.github.io/blog/2024-03-11).
@@ -77,25 +79,26 @@ A good initial structure will avoid breaking changes in the future. Here are som
 
 <center><img src="/images/blog/graphing_complexity/38.png" width="600" height="600" /></center>
 <center><img src="/images/blog/graphing_complexity/39.png" width="600" height="600" /></center>
- 
+ <center><img src="/images/blog/graphing_complexity/40.png" width="600" height="600" /></center>
+
 ### 3. Breaking change – Pull out a new node from a relationship.
  
-<center><img src="/images/blog/graphing_complexity/40.png" width="600" height="600" /></center>
 <center><img src="/images/blog/graphing_complexity/41.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/42.png" width="600" height="600" /></center>
 
 To summarize,
 
 ### Create nodes for things:
 
-<center><img src="/images/blog/graphing_complexity/42.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/43.png" width="600" height="600" /></center>
 
 ### Relationships for structure:
 
-<center><img src="/images/blog/graphing_complexity/43.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/44.png" width="600" height="600" /></center>
 
 ### Labels for grouping:
 
-<center><img src="/images/blog/graphing_complexity/44.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/45.png" width="600" height="600" /></center>
           
 Designing a Graph DB is more of an art than a science. A lot of the design decisions will be based on the specific business case, the type of data you have, how often the data might change, and the type of queries that will be run. My final advice is always to **test your assumptions about performance, space, and time complexity** to compare various design trade-offs fairly. **Flexibility, efficiency, and simplicity are the most essential qualities of an awesome Graph DB.**
 
