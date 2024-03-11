@@ -111,7 +111,7 @@ To summarize,
 
 The *Person* label:
 
-<center><img src="/images/blog/graphing_complexity/45.png" width="200" height="200" /></center>
+<center><img src="/images/blog/graphing_complexity/45.png" width="150" height="150" /></center>
 
 and the *Company* label:
 
