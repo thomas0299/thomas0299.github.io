@@ -6,7 +6,7 @@ permalink: /blog/2024-03-11
 
 *"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
 
-                                                                                                                        Charlie Munger
+Charlie Munger
 
 A Graph Database uses **nodes and relationships to model information and their interrelations**. This is unlike a table, like in Excel, or a dictionary format, like a JSON. A Graph Database (Graph DB) is an incredibly powerful tool to represent real-life data. Social relations, food webs, and the banking system are some of countless examples of how graphs and networks live all around us.
 
@@ -18,34 +18,32 @@ Here, we will discuss how to design a Graph DB hosted on Neo4j. However, most of
 
 First, Graph DBs usually use the **Resource Description Framework (RDF)**:
 
-                                                        Subject – Predicate -> Object
-                                                        pic 1
+Subject – Predicate -> Object
+pic 1
 
 The goal of a Graph Database is heavily dependent on the use case and business question at hand. If we can generalize, a Graph DB should enable us to:
 
-<ins>1. Organize data in an intuitive and logical structure.</ins>
+#### 1. Organize data in an intuitive and logical structure.
 Intuitive and ease-of-use enables users and developers to spend as little time as possible on understanding the data model.
 
-<ins>2. Flexibly scale and make changes to the data.</ins>
+#### 2. Flexibly scale and make changes to the data.
 Business requirements, business questions, and data change all the time. Let's avoid creating a brand-new Graph DB every time that happens.
 
-<ins>3. Query data efficiently.</ins>
+#### 3. Query data efficiently.
 Now comes the concept of traversal. A **Graph Traversal** is the process of visiting nodes and relationships when looking for data. The smaller the traversal, the more efficient and fast a query will be. A Graph DB should aim to decrease the traversal size of queries by reducing the number of nodes and relations it will have to evaluate.
 
 Graph queries start at a well-defined starting point and then crawl out from there. The queries will only evaluate the parts of the Graph that are connected to the starting points. Ideally, queries are written to make the starting point as specific as possible. This is only possible if the Graph DB is designed in a way that allows queries to do that, thanks to the right combination of labels, nodes, relationships, and properties.
 
 Usually, traversing a graph by filtering for node labels and relationship types will be faster than evaluating the properties of nodes/relationships, as the starting point will be more limited, and labels/types are more easily evaluated, as we will see below.
 
-<ins>Why should you keep on reading this?</ins>
+### Why should you keep on reading this?
 
 Correctly modeling a Graph DB from the start is incredibly important because it will **enable us to make non-breaking changes and extend the DB** in a seamless and backward-compatible fashion. We will look at the four building blocks of a Graph DB and what to take into consideration when making design decisions.
 
 ## 1. Nodes
 Nodes represent **entities**, something that is tangible: a person, a company, a country, but also a gender, an address. They are complex value types and can contain properties, for example, the name of a company or a label, *Company*.
-
-pic 2
  
-<ins>Separate a property into a separate node when:</ins>
+### Separate a property into a separate node when:
 
 - You need to look up other nodes that share the same property value so that you can filter by relation as opposed to property value.
 - You want to capture other metadata about that category, meaning it is no longer a category but a complex object with properties.
@@ -57,7 +55,7 @@ Here we can see how to separate a node property into a separate relationship.
 
 pic 5
  
-<ins>Supernodes</ins>
+### Supernodes
 
 pic 6
  
@@ -88,7 +86,7 @@ Relationships also have a direction, and nodes can point to themselves. However,
 
 pic 14-15-16
  
-<ins>Relationships are verbs:</ins>
+### Relationships are verbs:
 
 - **HAS A**: this expresses a part/whole relationship, AKA "composition."
 
@@ -120,7 +118,7 @@ As before, avoid loading too many properties into a relationship; it's better to
   
 pic 17-18
 
-<ins>Relationships normalize data!</ins>
+### Relationships normalize data!
 
 pic 19
  
@@ -140,7 +138,7 @@ pic 22
  
 *Dating a relationship* is powerful and enables you to update and add information while keeping a trace of past information. For example, adding multiple HAS_ADDRESS relations to a company and specifying the dates that this relationship is valid. We can then easily see the history of this company's address, including its current one.
 
-<ins>Avoid modeling entities as relationships or relationship properties.</ins>
+### Avoid modeling entities as relationships or relationship properties.
 
 This makes it hard to associate more entities, hard to find relevant information and possibly duplicates data. A common tip is to see if an entity is "hidden" in the verb (action) of a relationship. Instead, **model actions in terms of products**, making it much easier to extend the model.
  

@@ -4,6 +4,10 @@ date: 2024-03-18
 permalink: /blog/2024-03-18
 ---
 
+*"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
+
+Charlie Munger
+
 In the first part we introduced the strengths of a Graph DB and the design decisions arounds nodes and relationships.
 
 This is Part 2 of a two-part series on modelling a Graph Database in Neo4j, here is [Part 1](https://thomas0299.github.io/blog/2024-03-11).
@@ -32,18 +36,17 @@ Below are some signs that there are a lack of relationships and nodes and too ma
 - "Rich" properties (complex value types)
 - Nodes representing multiple concepts
 
-<ins>Tips to make your Graph DB more performant:</ins>
+### Tips to make your Graph DB more performant:
 
-<ins>1. Constraints</ins>
+#### 1. Constraints
 For example, all "name" fields must be unique. This makes your data and any further changes more resilient to design or manual errors. It is a safeguard against data inconsistencies, which might come from erroneous data sources down the line.
 
 pic 1
  
-<ins>2. Unique identifiers</ins>
+#### 2. Unique identifiers
 Avoid using Neo4j's built-in IDs; they don't represent anything tangible. Instead, create your own unique identifier to filter for nodes easily. Then, create an index for your own unique identifier.
 
-
-<ins>3. Indexes</ins>
+#### 3. Indexes
 Indexes enable lightning-fast lookups. An index is a copy of some of the data in the database to make queries more efficient. For example, creating an index can reduce the lookup time for a specific property to an O(1) operation by using an extra hash table. Be careful; this comes at the cost of additional storage space and slows down write operations. Choosing what to index or not is important and should be considered carefully. Only index information you query a lot. Usually, these are unique identifiers.
 
 Types of indexes in Neo4j are:
@@ -56,7 +59,7 @@ Types of indexes in Neo4j are:
 
 pic 2
  
-<ins>4. Date your changes</ins>
+#### 4. Date your changes
 Your workflow for data imports and modifications should enable users to clearly see which data has been created/modified, when, and by whom. This can be done by adding properties to nodes and relationships, for example, created_date, updated_date, and project_name.
 
 Reverting changes and correcting mistakes is now easier because we can map these changes to a time period and project. Since these properties are divorced from the semantics of the node/relationship type, they can be used everywhere.
@@ -65,27 +68,27 @@ pic 3+4
   
 A good initial structure will avoid breaking changes in the future. Here are some examples:
 
-<ins>1. Non-breaking change – Adding new relationships.</ins>
+### 1. Non-breaking change – Adding new relationships.
  
  pic 5+6
  
-<ins>2. Breaking change – Pull out a new node from an existing node.</ins>
+### 2. Breaking change – Pull out a new node from an existing node.
 
 pic 7+8+9
  
-<ins>3. Breaking change – Pull out a new node from a relationship.</ins>
+### 3. Breaking change – Pull out a new node from a relationship.
  
 pic 10+11
 
 To summarize,
 
-**create nodes for things:**
+### Create nodes for things:
 pic 12
 
-**relationships for structure:**
+### Relationships for structure:
 pic 13
 
-**and labels for grouping:**
+### Labels for grouping:**
 pic 14                                              
           
 Designing a Graph DB is more of an art than a science. A lot of the design decisions will be based on the specific business case, the type of data you have, how often the data might change, and the type of queries that will be run. My final advice is always to **test your assumptions about performance, space, and time complexity** to compare various design trade-offs fairly. **Flexibility, efficiency, and simplicity are the most essential qualities of an awesome Graph DB.**
