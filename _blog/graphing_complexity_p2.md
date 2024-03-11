@@ -59,7 +59,7 @@ Types of indexes in Neo4j are:
 - Point Index --> point (coordinates) properties
 - Full-text Index --> full-text search, combining the Range and Text Index
 
-<center><img src="/images/blog/graphing_complexity/33.png" width="1000" height="3000" class="center">
+<center><img src="/images/blog/graphing_complexity/33.png" width="1000" height="3000" /></center>
 
 ### 4. Date your changes
 Your workflow for data imports and modifications should enable users to clearly see which data has been created/modified, when, and by whom. This can be done by adding properties to nodes and relationships, for example, created_date, updated_date, and project_name.

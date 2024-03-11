@@ -8,7 +8,7 @@ permalink: /blog/2024-03-11
 
 <p style="text-align: right;"><i>Charlie Munger</i></p>
 
-<img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
 
 A Graph  (Graph DB) uses **nodes and relationships to model information and their interrelations**. This is unlike a table, like in Excel, or a dictionary format, like a JSON. A Graph DB is an incredibly powerful tool to represent real-life data. Social relations, food webs, and the banking system are some of countless examples of how graphs and networks live all around us.
 
@@ -76,9 +76,9 @@ A solution to supernodes is to make relations and nodes more specific. For examp
 Below is an example of how we can split up a flight, which was initially a relationship into separate nodes. Here we avoid the JFK and BER *Airport* nodes to have an obscene amount of relations going out from them, one for every flight. Instead, we have one for every day.
 
 <center><img src="/images/blog/graphing_complexity/7.png" width="400" height="300" /></center>
-<center><img src="/images/blog/graphing_complexity/8.png" width="300" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/8.png" width="200" height="100" /></center>
 <center><img src="/images/blog/graphing_complexity/9.png" width="800" height="800" /></center>
-<center><img src="/images/blog/graphing_complexity/10.png" width="300" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/10.png" width="200" height="200" /></center>
 
 Note that some supernodes might not always be that big of a problem if that node is not used in complex queries.
 
@@ -160,7 +160,7 @@ This makes it hard to associate more entities, hard to find relevant information
 
 Here the *Review* is “hidden” in the REVIEWED verb/relationship, we should separate it out as a node.
 
-<center><img src="/images/blog/graphing_complexity/25.png" width="1000" height="1000" /></center>
+<center><img src="/images/blog/graphing_complexity/25.png" width="1200" height="1200" /></center>
 
 Usually, relationships should have few properties. If they don't, or you see that you are filtering for the property of a relationship very often and during large traversals, you should consider reifying: factoring out a relationship into a node.
 
@@ -173,7 +173,7 @@ Usually, relationships should have few properties. If they don't, or you see tha
 Here, a more complex reification:
 
 <center><img src="/images/blog/graphing_complexity/29.png" width="400" height="300" /></center>
-<center><img src="/images/blog/graphing_complexity/30.png" width="300" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/30.png" width="200" height="200" /></center>
 <center><img src="/images/blog/graphing_complexity/31.png" width="800" height="400" /></center>
 
 In the second part we will have a look at labels, properties, constraints and indexes as well as how to make non-breaking changes to your Graph DB.
