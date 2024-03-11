@@ -67,27 +67,27 @@ pic 34-35
   
 A good initial structure will avoid breaking changes in the future. Here are some examples:
 
-## 1. Non-breaking change – Adding new relationships.
+### 1. Non-breaking change – Adding new relationships.
  
  pic 36-37
  
-## 2. Breaking change – Pull out a new node from an existing node.
+### 2. Breaking change – Pull out a new node from an existing node.
 
 pic 38-39
  
-## 3. Breaking change – Pull out a new node from a relationship.
+### 3. Breaking change – Pull out a new node from a relationship.
  
 pic 40-41
 
 To summarize,
 
-## Create nodes for things:
+### Create nodes for things:
 pic 42
 
-## Relationships for structure:
+### Relationships for structure:
 pic 43
 
-## Labels for grouping:**
+### Labels for grouping:**
 pic 44                                             
           
 Designing a Graph DB is more of an art than a science. A lot of the design decisions will be based on the specific business case, the type of data you have, how often the data might change, and the type of queries that will be run. My final advice is always to **test your assumptions about performance, space, and time complexity** to compare various design trade-offs fairly. **Flexibility, efficiency, and simplicity are the most essential qualities of an awesome Graph DB.**

@@ -42,7 +42,7 @@ Correctly modeling a Graph DB from the start is incredibly important because it 
 # 1. Nodes
 Nodes represent **entities**, something that is tangible: a person, a company, a country, but also a gender, an address. They are complex value types and can contain properties, for example, the name of a company or a label, *Company*.
  
-## Separate a property into a separate node when:
+### Separate a property into a separate node when:
 
 - You need to look up other nodes that share the same property value so that you can filter by relation as opposed to property value.
 - You want to capture other metadata about that category, meaning it is no longer a category but a complex object with properties.
@@ -137,7 +137,7 @@ pic 22
  
 *Dating a relationship* is powerful and enables you to update and add information while keeping a trace of past information. For example, adding multiple HAS_ADDRESS relations to a company and specifying the dates that this relationship is valid. We can then easily see the history of this company's address, including its current one.
 
-## Avoid modeling entities as relationships or relationship properties.
+### Avoid modeling entities as relationships or relationship properties.
 
 This makes it hard to associate more entities, hard to find relevant information and possibly duplicates data. A common tip is to see if an entity is "hidden" in the verb (action) of a relationship. Instead, **model actions in terms of products**, making it much easier to extend the model.
  
