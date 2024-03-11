@@ -42,7 +42,7 @@ Below are some signs that there are a lack of relationships and nodes and too ma
 ### 1. Constraints
 For example, all "name" fields must be unique. This makes your data and any further changes more resilient to design or manual errors. It is a safeguard against data inconsistencies, which might come from erroneous data sources down the line.
 
-<center><img src="/images/blog/graphing_complexity/32.png" width="1000" height="1000" /></center>
+<center><img src="/images/blog/graphing_complexity/32.png" width="1000" height="1400" /></center>
  
 ### 2. Unique identifiers
 Avoid using Neo4j's built-in IDs; they don't represent anything tangible. Instead, create your own unique identifier to filter for nodes easily. Then, create an index for your own unique identifier.
@@ -58,15 +58,15 @@ Types of indexes in Neo4j are:
 - Point Index --> point (coordinates) properties
 - Full-text Index --> full-text search, combining the Range and Text Index
 
-<center><img src="/images/blog/graphing_complexity/33.png" width="1000" height="1000" /></center>
+<center><img src="/images/blog/graphing_complexity/33.png" width="1000" height="1400" /></center>
  
 ### 4. Date your changes
 Your workflow for data imports and modifications should enable users to clearly see which data has been created/modified, when, and by whom. This can be done by adding properties to nodes and relationships, for example, created_date, updated_date, and project_name.
 
 Reverting changes and correcting mistakes is now easier because we can map these changes to a time period and project. Since these properties are divorced from the semantics of the node/relationship type, they can be used everywhere.
 
-<center><img src="/images/blog/graphing_complexity/34.png" width="600" height="300" /></center>
-<center><img src="/images/blog/graphing_complexity/35.png" width="400" height="400" /></center>
+<center><img src="/images/blog/graphing_complexity/34.png" width="100" height="100" /></center>
+<center><img src="/images/blog/graphing_complexity/35.png" width="300" height="300" /></center>
   
 A good initial structure will avoid breaking changes in the future. Here are some examples:
 
@@ -78,13 +78,13 @@ A good initial structure will avoid breaking changes in the future. Here are som
 ### 2. Breaking change – Pull out a new node from an existing node.
 
 <center><img src="/images/blog/graphing_complexity/38.png" width="600" height="300" /></center>
-<center><img src="/images/blog/graphing_complexity/39.png" width="400" height="400" /></center>
- <center><img src="/images/blog/graphing_complexity/40.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/39.png" width="300" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/40.png" width="800" height="400" /></center>
 
 ### 3. Breaking change – Pull out a new node from a relationship.
  
 <center><img src="/images/blog/graphing_complexity/41.png" width="600" height="300" /></center>
-<center><img src="/images/blog/graphing_complexity/42.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/42.png" width="800" height="400" /></center>
 
 To summarize,
 
