@@ -7,7 +7,7 @@ permalink: /blog/2024-03-18
 *"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
 *Charlie Munger*
 
-<center><img src="/images/blog/graphing_complexity/0.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
 
 In the first part we introduced the strengths of a Graph DB and the design decisions arounds nodes and relationships.
 
@@ -42,7 +42,7 @@ Below are some signs that there are a lack of relationships and nodes and too ma
 ### 1. Constraints
 For example, all "name" fields must be unique. This makes your data and any further changes more resilient to design or manual errors. It is a safeguard against data inconsistencies, which might come from erroneous data sources down the line.
 
-<center><img src="/images/blog/graphing_complexity/32.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/32.png" width="1000" height="1000" /></center>
  
 ### 2. Unique identifiers
 Avoid using Neo4j's built-in IDs; they don't represent anything tangible. Instead, create your own unique identifier to filter for nodes easily. Then, create an index for your own unique identifier.
@@ -58,47 +58,47 @@ Types of indexes in Neo4j are:
 - Point Index --> point (coordinates) properties
 - Full-text Index --> full-text search, combining the Range and Text Index
 
-<center><img src="/images/blog/graphing_complexity/33.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/33.png" width="1000" height="1000" /></center>
  
 ### 4. Date your changes
 Your workflow for data imports and modifications should enable users to clearly see which data has been created/modified, when, and by whom. This can be done by adding properties to nodes and relationships, for example, created_date, updated_date, and project_name.
 
 Reverting changes and correcting mistakes is now easier because we can map these changes to a time period and project. Since these properties are divorced from the semantics of the node/relationship type, they can be used everywhere.
 
-<center><img src="/images/blog/graphing_complexity/34.png" width="600" height="600" /></center>
-<center><img src="/images/blog/graphing_complexity/35.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/34.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/35.png" width="400" height="400" /></center>
   
 A good initial structure will avoid breaking changes in the future. Here are some examples:
 
 ### 1. Non-breaking change – Adding new relationships.
  
-<center><img src="/images/blog/graphing_complexity/36.png" width="600" height="600" /></center>
-<center><img src="/images/blog/graphing_complexity/37.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/36.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/37.png" width="600" height="300" /></center>
  
 ### 2. Breaking change – Pull out a new node from an existing node.
 
-<center><img src="/images/blog/graphing_complexity/38.png" width="600" height="600" /></center>
-<center><img src="/images/blog/graphing_complexity/39.png" width="600" height="600" /></center>
- <center><img src="/images/blog/graphing_complexity/40.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/38.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/39.png" width="400" height="400" /></center>
+ <center><img src="/images/blog/graphing_complexity/40.png" width="600" height="300" /></center>
 
 ### 3. Breaking change – Pull out a new node from a relationship.
  
-<center><img src="/images/blog/graphing_complexity/41.png" width="600" height="600" /></center>
-<center><img src="/images/blog/graphing_complexity/42.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/41.png" width="600" height="300" /></center>
+<center><img src="/images/blog/graphing_complexity/42.png" width="600" height="300" /></center>
 
 To summarize,
 
 ### Create nodes for things:
 
-<center><img src="/images/blog/graphing_complexity/43.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/43.png" width="600" height="300" /></center>
 
 ### Relationships for structure:
 
-<center><img src="/images/blog/graphing_complexity/44.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/44.png" width="600" height="300" /></center>
 
 ### Labels for grouping:
 Person
-<center><img src="/images/blog/graphing_complexity/44.png" width="600" height="600" /></center>
+<center><img src="/images/blog/graphing_complexity/44.png" width="600" height="300" /></center>
 Company
 
 Designing a Graph DB is more of an art than a science. A lot of the design decisions will be based on the specific business case, the type of data you have, how often the data might change, and the type of queries that will be run. My final advice is always to **test your assumptions about performance, space, and time complexity** to compare various design trade-offs fairly. **Flexibility, efficiency, and simplicity are the most essential qualities of an awesome Graph DB.**
