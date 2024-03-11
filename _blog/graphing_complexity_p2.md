@@ -112,10 +112,10 @@ To summarize,
 
 <div class="row">
   <div class="column">
-    <img src="/images/blog/graphing_complexity/45.png" width="600" height="300">
+    <img src="/images/blog/graphing_complexity/45.png" width="100" height="100">
   </div>
   <div class="column">
-    <img src="/images/blog/graphing_complexity/45.png" width="600" height="300">
+    <img src="/images/blog/graphing_complexity/46.png" width="100" height="100">
   </div>
 </div>
 
