@@ -9,6 +9,7 @@ permalink: /blog/2024-03-18
 <p style="text-align: right;"><i>Charlie Munger</i></p>
 
 <center><img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
+*Data from [OpenSanctions](https://www.opensanctions.org/).*
 
 In the first part we introduced the strengths of a Graph DB and the design decisions arounds nodes and relationships.
 
@@ -74,17 +75,26 @@ A good initial structure will avoid breaking changes in the future. Here are som
 ### 1. Non-breaking change – Adding new relationships.
 
 <center><img src="/images/blog/graphing_complexity/36.png" width="400" height="300" /></center>
+
+Into:
+
 <center><img src="/images/blog/graphing_complexity/37.png" width="600" height="300" /></center>
 
 ### 2. Breaking change – Pull out a new node from an existing node.
 
 <center><img src="/images/blog/graphing_complexity/38.png" width="400" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/39.png" width="300" height="300" /></center>
+
+Into:
+
 <center><img src="/images/blog/graphing_complexity/40.png" width="800" height="400" /></center>
 
 ### 3. Breaking change – Pull out a new node from a relationship.
 
 <center><img src="/images/blog/graphing_complexity/41.png" width="400" height="300" /></center>
+
+Into:
+
 <center><img src="/images/blog/graphing_complexity/42.png" width="800" height="400" /></center>
 
 To summarize,

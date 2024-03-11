@@ -9,6 +9,8 @@ permalink: /blog/2024-03-11
 <p style="text-align: right;"><i>Charlie Munger</i></p>
 
 <center><img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
+*Data from [OpenSanctions](https://www.opensanctions.org/).*
+
 
 A Graph  (Graph DB) uses **nodes and relationships to model information and their interrelations**. This is unlike a table, like in Excel, or a dictionary format, like a JSON. A Graph DB is an incredibly powerful tool to represent real-life data. Social relations, food webs, and the banking system are some of countless examples of how graphs and networks live all around us.
 
@@ -77,6 +79,9 @@ Below is an example of how we can split up a flight, which was initially a relat
 
 <center><img src="/images/blog/graphing_complexity/7.png" width="400" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/8.png" width="200" height="100" /></center>
+
+Into:
+
 <center><img src="/images/blog/graphing_complexity/9.png" width="800" height="800" /></center>
 <center><img src="/images/blog/graphing_complexity/10.png" width="200" height="200" /></center>
 
@@ -129,6 +134,9 @@ Relationships are defined with regard to node instances, not classes of nodes. T
 As before, avoid loading too many properties into a relationship; it's better to create multiple, more specific ones.
 
 <center><img src="/images/blog/graphing_complexity/17.png" width="600" height="300" /></center>
+
+Into:
+
 <center><img src="/images/blog/graphing_complexity/18.png" width="600" height="300" /></center>
 
 ## Relationships normalize data!
@@ -168,12 +176,18 @@ Usually, relationships should have few properties. If they don't, or you see tha
 
 <center><img src="/images/blog/graphing_complexity/26.png" width="300" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/27.png" width="300" height="300" /></center>
+
+Into:
+
 <center><img src="/images/blog/graphing_complexity/28.png" width="600" height="300" /></center>
 
 Here, a more complex reification:
 
 <center><img src="/images/blog/graphing_complexity/29.png" width="400" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/30.png" width="200" height="200" /></center>
+
+Into:
+
 <center><img src="/images/blog/graphing_complexity/31.png" width="800" height="400" /></center>
 
 In the second part we will have a look at labels, properties, constraints and indexes as well as how to make non-breaking changes to your Graph DB.
