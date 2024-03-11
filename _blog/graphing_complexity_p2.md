@@ -109,9 +109,14 @@ To summarize,
 
 ### Labels for grouping:
 
-<center><img src="/images/blog/graphing_complexity/45.png" width="600" height="300" /></center>
-   
-<center><img src="/images/blog/graphing_complexity/46.png" width="600" height="300" /></center>
+The *Person* label:
+
+<center><img src="/images/blog/graphing_complexity/45.png" width="200" height="200" /></center>
+
+and the *Company* label:
+
+<center><img src="/images/blog/graphing_complexity/46.png" width="200" height="200" /></center>
+
 
 Designing a Graph DB is more of an art than a science. A lot of the design decisions will be based on the specific business case, the type of data you have, how often the data might change, and the type of queries that will be run. My final advice is always to **test your assumptions about performance, space, and time complexity** to compare various design trade-offs fairly. **Flexibility, efficiency, and simplicity are the most essential qualities of an awesome Graph DB.**
 
