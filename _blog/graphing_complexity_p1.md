@@ -5,10 +5,9 @@ permalink: /blog/2024-03-11
 ---
 
 *"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
+*Charlie Munger*
 
-Charlie Munger
-
-A Graph Database uses **nodes and relationships to model information and their interrelations**. This is unlike a table, like in Excel, or a dictionary format, like a JSON. A Graph Database (Graph DB) is an incredibly powerful tool to represent real-life data. Social relations, food webs, and the banking system are some of countless examples of how graphs and networks live all around us.
+A Graph  (Graph DB) uses **nodes and relationships to model information and their interrelations**. This is unlike a table, like in Excel, or a dictionary format, like a JSON. A Graph DB is an incredibly powerful tool to represent real-life data. Social relations, food webs, and the banking system are some of countless examples of how graphs and networks live all around us.
 
 A Graph DB has many benefits. All SQL users will be happy to hear that no JOINs are needed across multiple tables. Every data user's worst nightmare is avoided in Graph DBs, which makes data retrieval much easier, smoother, and more performant. This **focus on data retrieval** is in contrast with the emphasis on data storage of common relational databases. The door then opens up for much more complex querying, uncovering hidden information, and non-obvious and indirect relationships.
 
@@ -21,29 +20,29 @@ First, Graph DBs usually use the **Resource Description Framework (RDF)**:
 Subject – Predicate -> Object
 pic 1
 
-The goal of a Graph Database is heavily dependent on the use case and business question at hand. If we can generalize, a Graph DB should enable us to:
+The goal of a Graph DB is heavily dependent on the use case and business question at hand. If we can generalize, a Graph DB should enable us to:
 
-#### 1. Organize data in an intuitive and logical structure.
+### 1. Organize data in an intuitive and logical structure.
 Intuitive and ease-of-use enables users and developers to spend as little time as possible on understanding the data model.
 
-#### 2. Flexibly scale and make changes to the data.
+### 2. Flexibly scale and make changes to the data.
 Business requirements, business questions, and data change all the time. Let's avoid creating a brand-new Graph DB every time that happens.
 
-#### 3. Query data efficiently.
+### 3. Query data efficiently.
 Now comes the concept of traversal. A **Graph Traversal** is the process of visiting nodes and relationships when looking for data. The smaller the traversal, the more efficient and fast a query will be. A Graph DB should aim to decrease the traversal size of queries by reducing the number of nodes and relations it will have to evaluate.
 
 Graph queries start at a well-defined starting point and then crawl out from there. The queries will only evaluate the parts of the Graph that are connected to the starting points. Ideally, queries are written to make the starting point as specific as possible. This is only possible if the Graph DB is designed in a way that allows queries to do that, thanks to the right combination of labels, nodes, relationships, and properties.
 
 Usually, traversing a graph by filtering for node labels and relationship types will be faster than evaluating the properties of nodes/relationships, as the starting point will be more limited, and labels/types are more easily evaluated, as we will see below.
 
-### Why should you keep on reading this?
+## Why should you keep on reading this?
 
 Correctly modeling a Graph DB from the start is incredibly important because it will **enable us to make non-breaking changes and extend the DB** in a seamless and backward-compatible fashion. We will look at the four building blocks of a Graph DB and what to take into consideration when making design decisions.
 
-## 1. Nodes
+# 1. Nodes
 Nodes represent **entities**, something that is tangible: a person, a company, a country, but also a gender, an address. They are complex value types and can contain properties, for example, the name of a company or a label, *Company*.
  
-### Separate a property into a separate node when:
+## Separate a property into a separate node when:
 
 - You need to look up other nodes that share the same property value so that you can filter by relation as opposed to property value.
 - You want to capture other metadata about that category, meaning it is no longer a category but a complex object with properties.
@@ -55,7 +54,7 @@ Here we can see how to separate a node property into a separate relationship.
 
 pic 5
  
-### Supernodes
+## Supernodes
 
 pic 6
  
@@ -73,7 +72,7 @@ pic 7-8-9-10
   
 Note that some supernodes might not always be that big of a problem if that node is not used in complex queries.
 
-## 2. Relationships
+# 2. Relationships
 Relationships enable **information to be transformed into knowledge**. How things are interrelated is the real power of a Graph DB. 
 
 pic 11-12
@@ -86,7 +85,7 @@ Relationships also have a direction, and nodes can point to themselves. However,
 
 pic 14-15-16
  
-### Relationships are verbs:
+## Relationships are verbs:
 
 - **HAS A**: this expresses a part/whole relationship, AKA "composition."
 
@@ -118,7 +117,7 @@ As before, avoid loading too many properties into a relationship; it's better to
   
 pic 17-18
 
-### Relationships normalize data!
+## Relationships normalize data!
 
 pic 19
  
@@ -138,7 +137,7 @@ pic 22
  
 *Dating a relationship* is powerful and enables you to update and add information while keeping a trace of past information. For example, adding multiple HAS_ADDRESS relations to a company and specifying the dates that this relationship is valid. We can then easily see the history of this company's address, including its current one.
 
-### Avoid modeling entities as relationships or relationship properties.
+## Avoid modeling entities as relationships or relationship properties.
 
 This makes it hard to associate more entities, hard to find relevant information and possibly duplicates data. A common tip is to see if an entity is "hidden" in the verb (action) of a relationship. Instead, **model actions in terms of products**, making it much easier to extend the model.
  
@@ -162,11 +161,10 @@ In the second part we will have a look at labels, properties, constraints and in
 
 This is Part 1 of a two-part series on modelling a Graph Database in Neo4j, here is [Part 2](https://thomas0299.github.io/blog/2024-03-18).
 
-### Sources:
--	https://www.arangodb.com/2020/07/do-graph-databases-scale-yes-no-lets-see/
--	https://www.durusau.net/localcopy/Graph-Modeling-Do.s-and-Don.ts.pdf
--	https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781849517164/4/ch04lvl1sec26/graph-modeling-best-practices-and-pitfalls
--	https://neo4j.com/developer/modeling-designs/#
--	https://skillsmatter.com/skillscasts/3458-neo4j-good-practices
--	https://neo4j.com/developer/modeling-designs/#complex-models
--	YUKKA Lab
+## Sources:
+-	[Do Graph Databases Scale? Yes? No? Let’s see!](https://www.arangodb.com/2020/07/do-graph-databases-scale-yes-no-lets-see)
+-	[Graph Modeling Do’s and Don’ts](https://www.durusau.net/localcopy/Graph-Modeling-Do.s-and-Don.ts.pdf)
+-	[Graph modeling – best practices and pitfalls](https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781849517164/4/ch04lvl1sec26/graph-modeling-best-practices-and-pitfalls)
+-	[Neo4j Modeling Designs](https://neo4j.com/developer/modeling-designs/#)
+-	[Neo4j Complex Data Structures](https://neo4j.com/developer/modeling-designs/#complex-models)
+-	[YUKKA Lab](https://www.yukkalab.com/)
