@@ -5,8 +5,11 @@ permalink: /blog/2024-03-11
 ---
 
 *"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
-*Charlie Munger*
+
+<p style="text-align: right;"><i>Charlie Munger</i></p>
+
 <center><img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
+
 A Graph  (Graph DB) uses **nodes and relationships to model information and their interrelations**. This is unlike a table, like in Excel, or a dictionary format, like a JSON. A Graph DB is an incredibly powerful tool to represent real-life data. Social relations, food webs, and the banking system are some of countless examples of how graphs and networks live all around us.
 
 A Graph DB has many benefits. All SQL users will be happy to hear that no JOINs are needed across multiple tables. Every data user's worst nightmare is avoided in Graph DBs, which makes data retrieval much easier, smoother, and more performant. This **focus on data retrieval** is in contrast with the emphasis on data storage of common relational databases. The door then opens up for much more complex querying, uncovering hidden information, and non-obvious and indirect relationships.
@@ -17,8 +20,10 @@ Here, we will discuss how to design a Graph DB hosted on Neo4j. However, most of
 
 First, Graph DBs usually use the **Resource Description Framework (RDF)**:
 
-### Subject – Predicate -> Object
+<p style="text-align: center;"><b>Subject – Predicate -> Object</b></p>
+
 <center><img src="/images/blog/graphing_complexity/1.png" width="400" height="300" /></center>
+
 The goal of a Graph DB is heavily dependent on the use case and business question at hand. If we can generalize, a Graph DB should enable us to:
 
 ### 1. Organize data in an intuitive and logical structure.
@@ -40,18 +45,26 @@ Correctly modeling a Graph DB from the start is incredibly important because it 
 
 # 1. Nodes
 Nodes represent **entities**, something that is tangible: a person, a company, a country, but also a gender, an address. They are complex value types and can contain properties, for example, the name of a company or a label, *Company*.
+
 <center><img src="/images/blog/graphing_complexity/2.png" width="100" height="100" /></center>
+
 ### Separate a property into a separate node when:
 
 - You need to look up other nodes that share the same property value so that you can filter by relation as opposed to property value.
 - You want to capture other metadata about that category, meaning it is no longer a category but a complex object with properties.
 - The cardinality of a categorical variable is very high, meaning there are many different categories.
+
 <center><img src="/images/blog/graphing_complexity/3.png" width="100" height="100" /></center>
 <center><img src="/images/blog/graphing_complexity/4.png" width="300" height="300" /></center>
+
 Here we can see how to separate a node property into a separate relationship.
+
 <center><img src="/images/blog/graphing_complexity/5.png" width="400" height="300" /></center>
+
 ## Supernodes
+
 <center><img src="/images/blog/graphing_complexity/6.png" width="600" height="300" /></center>
+
 **Supernodes** are nodes that are connected to a vast number of other nodes. For example, the *Male* node will be related to half of all *Person* nodes in a graph. This can hugely increase the traversal size, impacting query performance.
 
 Indeed, traversal speeds are typically constant with growing dataset sizes because everything is not connected to everything. This goes out of the window with supernodes. It puts the *"hair into the hairball"*. The unintended result is that more nodes and relations will be evaluated by a query, slowing down read operations.
@@ -61,22 +74,30 @@ Supernodes can come from the domain itself; we might just be dealing with a dens
 A solution to supernodes is to make relations and nodes more specific. For example, adding a direction to a relationship, or adding a label to the *Male* node, which conveys the sexual orientation of the person. We could have *Male:Heterosexual* and *Male:Homosexual* to split out the *Male* node into two.
 
 Below is an example of how we can split up a flight, which was initially a relationship into separate nodes. Here we avoid the JFK and BER *Airport* nodes to have an obscene amount of relations going out from them, one for every flight. Instead, we have one for every day.
+
 <center><img src="/images/blog/graphing_complexity/7.png" width="400" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/8.png" width="300" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/9.png" width="800" height="800" /></center>
 <center><img src="/images/blog/graphing_complexity/10.png" width="300" height="300" /></center>
+
 Note that some supernodes might not always be that big of a problem if that node is not used in complex queries.
 
 # 2. Relationships
-Relationships enable **information to be transformed into knowledge**. How things are interrelated is the real power of a Graph DB. 
+Relationships enable **information to be transformed into knowledge**. How things are interrelated is the real power of a Graph DB.
+
 <center><img src="/images/blog/graphing_complexity/11.jpg" width="600" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/12.png" width="400" height="300" /></center>
+
 Relationships have types and can contain properties, usually the quality or weight of a relationship, or other metadata linked to time and space.
+
 <center><img src="/images/blog/graphing_complexity/13.png" width="400" height="300" /></center>
+
 Relationships also have a direction, and nodes can point to themselves. However, no relationship can be "dangling": missing a start or end node. Finally, we don't need to use null values to represent the absence of a connection.
+
 <center><img src="/images/blog/graphing_complexity/14.png" width="400" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/15.png" width="400" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/16.png" width="800" height="300" /></center>
+
 ## Relationships are verbs:
 
 - **HAS A**: this expresses a part/whole relationship, AKA "composition."
@@ -106,37 +127,55 @@ Relationships also have a direction, and nodes can point to themselves. However,
 Relationships are defined with regard to node instances, not classes of nodes. Two different pairs of nodes can be connected by the same relationship, allowing for structural variation in the domain. In addition, pairs of nodes can have multiple, different relationships.
 
 As before, avoid loading too many properties into a relationship; it's better to create multiple, more specific ones.
+
 <center><img src="/images/blog/graphing_complexity/17.png" width="600" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/18.png" width="600" height="300" /></center>
+
 ## Relationships normalize data!
+
 <center><img src="/images/blog/graphing_complexity/19.png" width="800" height="800" /></center>
+
 *Adapted from Codd, E.F (1970). "A Relational Model of Data for Large Shared Data Banks". Communications of the ACM. Classics. 13 (6): 377–87.*
 
 **General relationships** are qualified by their property and not their name. This makes it easier to query across all sub-types, and we use the property to discover these sub-types.
+
 <center><img src="/images/blog/graphing_complexity/20.png" width="600" height="300" /></center>
+
 On the other hand, **specific relationships** are qualified by their name, which is more specific. It is then easier to query a specific sub-type but hard to discover all sub-types.
+
 <center><img src="/images/blog/graphing_complexity/21.png" width="600" height="300" /></center>
+
 Nothing stops you from creating a general and specific relationship to model information to get the best of both worlds. However, keep in mind it will require more work when updating and writing information to the database.
+
 <center><img src="/images/blog/graphing_complexity/22.png" width="600" height="300" /></center>
+
 *Dating a relationship* is powerful and enables you to update and add information while keeping a trace of past information. For example, adding multiple HAS_ADDRESS relations to a company and specifying the dates that this relationship is valid. We can then easily see the history of this company's address, including its current one.
 
 ### Avoid modeling entities as relationships or relationship properties.
 
 This makes it hard to associate more entities, hard to find relevant information and possibly duplicates data. A common tip is to see if an entity is "hidden" in the verb (action) of a relationship. Instead, **model actions in terms of products**, making it much easier to extend the model.
+
 <center><img src="/images/blog/graphing_complexity/23.png" width="600" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/24.png" width="300" height="300" /></center>
+
 Here the *Review* is “hidden” in the REVIEWED verb/relationship, we should separate it out as a node.
-<center><img src="/images/blog/graphing_complexity/25.png" width="800" height="400" /></center>
+
+<center><img src="/images/blog/graphing_complexity/25.png" width="800" height="600" /></center>
+
 Usually, relationships should have few properties. If they don't, or you see that you are filtering for the property of a relationship very often and during large traversals, you should consider reifying: factoring out a relationship into a node.
 
 **Reifying** takes something abstract and makes it concrete. Reifying a relationship means turning that relationship (which might be representing an object itself) into a node, all on its own.
-<center><img src="/images/blog/graphing_complexity/26.png" width="400" height="300" /></center>
+
+<center><img src="/images/blog/graphing_complexity/26.png" width="200" height="200" /></center>
 <center><img src="/images/blog/graphing_complexity/27.png" width="300" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/28.png" width="600" height="300" /></center>
+
 Here, a more complex reification:
+
 <center><img src="/images/blog/graphing_complexity/29.png" width="400" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/30.png" width="300" height="300" /></center>
 <center><img src="/images/blog/graphing_complexity/31.png" width="800" height="400" /></center>
+
 In the second part we will have a look at labels, properties, constraints and indexes as well as how to make non-breaking changes to your Graph DB.
 
 This is Part 1 of a two-part series on modelling a Graph Database in Neo4j, here is [Part 2](https://thomas0299.github.io/blog/2024-03-18).
