@@ -196,6 +196,10 @@ In the second part we will have a look at labels, properties, constraints and in
 
 This is Part 1 of a two-part series on modelling a Graph Database in Neo4j, here is [Part 2](https://thomas0299.github.io/blog/2024-03-18).
 
+
+If you are interested in learning more about Graph Databases and Knowledge Graphs don't hesitate to reach out on my [LinkedIn](https://www.linkedin.com/in/thomas-s-adler/) or through [YUKKA Lab](https://www.yukkalab.com/).
+
+
 ## Sources:
 -	[Do Graph Databases Scale? Yes? No? Let’s see!](https://www.arangodb.com/2020/07/do-graph-databases-scale-yes-no-lets-see)
 -	[Graph Modeling Do’s and Don’ts](https://www.durusau.net/localcopy/Graph-Modeling-Do.s-and-Don.ts.pdf)

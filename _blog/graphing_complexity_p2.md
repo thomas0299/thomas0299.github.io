@@ -120,6 +120,10 @@ and the *Company* label:
 
 Designing a Graph DB is more of an art than a science. A lot of the design decisions will be based on the specific business case, the type of data you have, how often the data might change, and the type of queries that will be run. My final advice is always to **test your assumptions about performance, space, and time complexity** to compare various design trade-offs fairly. **Flexibility, efficiency, and simplicity are the most essential qualities of an awesome Graph DB.**
 
+
+If you are interested in learning more about Graph Databases and Knowledge Graphs don't hesitate to reach out on my [LinkedIn](https://www.linkedin.com/in/thomas-s-adler/) or through [YUKKA Lab](https://www.yukkalab.com/).
+
+
 ## Sources:
 -	[Do Graph Databases Scale? Yes? No? Let’s see!](https://www.arangodb.com/2020/07/do-graph-databases-scale-yes-no-lets-see)
 -	[Graph Modeling Do’s and Don’ts](https://www.durusau.net/localcopy/Graph-Modeling-Do.s-and-Don.ts.pdf)
