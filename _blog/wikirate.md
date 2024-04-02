@@ -9,9 +9,9 @@ permalink: /blog/2024-03-06
 
 
 <br/><br/>
-<center><img src="/images/blog/wikirate/1.png" width="400" height="400" /></center>
+<center><img src="/images/blog/wikirate/1.png" width="800" height="400" /></center>
 <br/><br/>
-<center><img src="/images/blog/wikirate/1.png" width="400" height="400" /></center>
+<center><img src="/images/blog/wikirate/2.png" width="400" height="400" /></center>
 <br/><br/>
 <br/><br/>           
 <br/><br/>
