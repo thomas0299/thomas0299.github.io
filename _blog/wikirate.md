@@ -1,7 +1,7 @@
 ---
-title: 'Who wrote it first, or: why originality matters? 🗞️'
-date: 2023-06-21
-permalink: /blog/2023-06-21
+title: 'SDGs & Open Data at Wikirate’s Hack Day'
+date: 2024-03-06
+permalink: /blog/2024-03-06
 ---
 
 [Blog post](https://wikirate.medium.com/sdgs-open-data-at-wikirates-hack-day-711c58597006) written for the [Wikirate](https://wikirate.org) Hackathon, celebrating the **OpenDataDay** of March 6th 2023.
