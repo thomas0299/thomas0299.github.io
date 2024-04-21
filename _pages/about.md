@@ -12,11 +12,17 @@ redirect_from:
 *People think that mathematics is complicated. Mathematics is the simple bit, it’s the stuff we CAN understand. It’s cats that are complicated.*
 John Conway
 
-As a data scientist, economist, and programmer, the defining factor in my academic and professional career is the study of networks and complex systems. I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. Currently, I am developing a Knowledge Graph for state-of-the-art NLP models. Having spent time using and applying important network science algorithms and theories, I am now delving deeper into the core concepts that make network and graph theory so powerful. I want to research and advance the theoretical underpinnings and computational paradigms in network science. My research focuses on understanding human-made systems using concepts and tools from information science, computer science, and the natural sciences. Currently, my three research areas are:
+As a data scientist, economist, and programmer, the defining factor in my academic and professional career is the study of networks and complex systems.
 
-- applying brain intelligence concepts to socio-economic networks
-- combining network and cellular automatons in Agent-Based Models
-- the concept of diffusion in networks, with a particular interest in cultural evolution
+I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. Currently, I am developing a Knowledge Graph for state-of-the-art NLP models.
+
+I am now delving deeper into the theoretical underpinnings and computational paradigms that make network and graph theory so powerful. My research areas are:
+
+- understanding human-made, artificial systems using concepts and tools from information science, computer science, and the natural sciences
+- applying quantum algorithms on graph problems
+- developing socio-economic Agent-Based Models
+- exploring the concept of diffusion in networks, with a particular interest in cultural evolution
+
 
 <center><img src="/images/profile/speech.png" width="700" height="700" /></center>
 

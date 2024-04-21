@@ -4,9 +4,9 @@ date: 2024-03-18
 permalink: /blog/2024-03-18
 ---
 
-*"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
+*"The whole universe is based on the concept of graph theory where love is an edge, that is connecting two vertices or people either directly or indirectly."*
 
-<p style="text-align: right;"><i>Charlie Munger</i></p>
+<p style="text-align: right;"><i>Yatin Mehndiratta</i></p>
 
 <center><img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
 *Data from [OpenSanctions](https://www.opensanctions.org/).*
