@@ -5,7 +5,7 @@ excerpt: 'Wolfram Summer School Research Project'
 date: 2024-07-11
 ---
 
-<center><img src="/images/research_projects/recursive_abstract.png" width="600" height="600" /></center>
+<center><img src="/images/research_projects/recursive_graph.png" width="600" height="600" /></center>
 
 
 Nestedly recursive functions are functions that have to call themselves (recursion), multiple times (nesting). Complex patterns emerge from these seemingly simple but nested functional forms. This project first implements a stack-based recursive function from scratch to have more introspection into how the recursion works. Then, it explores the function space of various kind of shift operators. The call graphs of these relatively basic shifting operations exhibit interesting, complex and sometimes fractal patterns. We also explore simple arithmetic operations, although that function space is more limited. We find patterns that are tree and branch-like as well as flowers and even a type of marine coral.
