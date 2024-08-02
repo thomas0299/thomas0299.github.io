@@ -21,3 +21,5 @@ A special thanks to [Brad Klee](https://community.wolfram.com/web/bradklee) for 
 
 * [Code](https://github.com/thomas0299/nestedly_recursive_function)
 * [Poster](https://drive.google.com/file/d/14CkQKpmXjQK2fkoS7bQuaGkFgVG5pqVR/view?usp=sharing)
+
+<center><img src="/images/research_projects/wss_group.jpeg" width="800" height="800" /></center>
