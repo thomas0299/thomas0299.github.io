@@ -5,7 +5,7 @@ permalink: /blog/2022-01-08
 ---
 
 Entomophagy, or the practice of eating insects, has been hailed as the panacea of our food system, with its innumerable health and environmental benefits.
-<center><img src="/images/blog/entomophagy/termites.png" width="500" height="500" /></center>
+<center><img src="/images/blog/entomophagy/termites.png" width="400" height="400" /></center>
 
 
 <p style="text-align: center; font-size: 14px;"><i>Chimpanzees looking for termites</i></p>

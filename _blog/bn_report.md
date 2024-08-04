@@ -5,7 +5,7 @@ permalink: /blog/2022-08-18
 ---
 
 I built a model that will better predict which water points are at risk of breaking down, so the Ugandan government can better monitor, improve and repair crucial water points.
-<center><img src="/images/research_projects/bn.png" width="500" height="500" /></center>
+<center><img src="/images/research_projects/bn.png" width="400" height="400" /></center>
 
 
 **1. Why is access to water so important?**
