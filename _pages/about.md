@@ -32,11 +32,11 @@ I'm always looking to meet interesting people that share my passion for networks
 
 During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a Knowledge Graph, modelling the international business and economic ecosystem, for our NLP models. Our KG has been scaled to over 2.5m entities and over 7m relations. Our Knowledge Graph is used for Named-Entity Linking, Named-Entity Recognition and is enriched by a Relation Extraction model.
 
-<center><img src="/images/profile/hike2.jpeg" width="500" height="500" /></center>
+<center><img src="/images/profile/hike3.jpeg" width="500" height="500" /></center>
 
 I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my bachelor's thesis.
 
-<center><img src="/images/profile/insects.JPG" width="450" height="450" /></center>
+<center><img src="/images/profile/insects.JPG" width="400" height="400" /></center>
 
 I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Special Forces).
 
