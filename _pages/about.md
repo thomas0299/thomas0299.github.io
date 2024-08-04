@@ -36,11 +36,11 @@ During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.c
 
 I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my bachelor's thesis.
 
-<center><img src="/images/profile/insects.JPG" width="300" height="300" /></center>
+<center><img src="/images/profile/insects.JPG" width="450" height="450" /></center>
 
 I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Special Forces).
 
-<center><img src="/images/profile/armee.jpg" width="600" height="600" /></center>
+<center><img src="/images/profile/armee.jpg" width="700" height="700" /></center>
 
 Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
 
