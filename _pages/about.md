@@ -1,7 +1,3 @@
-<!-- Ideas for websites
-https://github.com/nathansam/nathansam.github.io
-https://academicpages.github.io/portfolio/
-https://alshedivat.github.io/al-folio/publications/-->
 --- 
 permalink: /
 title: "It’s cats that are complicated. 🐈"
@@ -54,3 +50,8 @@ Otherwise, you might find me at a crossfit box or weightlifting gym, learning ch
 - Personal email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
 - Professional email - [tad@yukkalab.com](mailto:tad@yukkalab.com)
 - Academic email - [thomas.adler.18@alumni.ucl.ac.uk](mailto:thomas.adler.18@alumni.ucl.ac.uk)
+
+<!-- Ideas for websites
+https://github.com/nathansam/nathansam.github.io
+https://academicpages.github.io/portfolio/
+https://alshedivat.github.io/al-folio/publications/ -->
