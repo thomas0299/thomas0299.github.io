@@ -1,4 +1,8 @@
----
+<!-- Ideas for websites
+https://github.com/nathansam/nathansam.github.io
+https://academicpages.github.io/portfolio/
+https://alshedivat.github.io/al-folio/publications/-->
+--- 
 permalink: /
 title: "It’s cats that are complicated. 🐈"
 excerpt: "About me"
