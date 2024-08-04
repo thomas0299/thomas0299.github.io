@@ -17,7 +17,7 @@ My most recent CV document is [here](https://drive.google.com/file/d/1SzIwiaHzqm
 
 Work experience
 ======
-* 2022-: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
+* 2022-24: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
 * 2021-22: Co-founder - [E-Rey](https://e-rey.bubbleapps.io/version-test/index_remake__)
 * 2022: Analyst - [UK Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office)
 * 2020-21 : Economist - [UK Department for Digital, Culture, Media and Sport (DCMS)](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport)
@@ -29,6 +29,7 @@ Work experience
 
 Education
 ======
+* 2024: Wolfram Summmer School - [WSS](https://education.wolfram.com/summer-school/)
 * 2022: Data Science Bootcamp - [Brainstation](https://brainstation.io/)
 * 2021: [Summer School in Economic Networks](https://www.maths.ox.ac.uk/events/summer-schools/economic-networks) - University of Oxford
 * 2018-22: BSc Economics - [University College London (UCL)](https://www.ucl.ac.uk/economics/)
@@ -41,7 +42,8 @@ Education
 
 Research
 ======
-* 2021: [ EPSW Finance Canada Project](http://www.fields.utoronto.ca/activities/20-21/systemic-EPSW) - Fields Institute, University of Toronto
+* 2024: Data Study Group Researcher[The Alan Turing Institute](https://www.turing.ac.uk/events/data-study-group-may-2024) - Brad Klee & Stephen Wolfram
+* 2021: [EPSW Finance Canada Project](http://www.fields.utoronto.ca/activities/20-21/systemic-EPSW) - Fields Institute, University of Toronto
 * 2020: Research Assistant - [Development Impact Evaluation Group, World Bank](https://www.worldbank.org/en/research/dime) - Daniel Rogger & Ravi Somani
 * 2020: Research Assistant - [Center for Microdata Methods and Practice](https://www.cemmap.ac.uk/about-us/) - Daniel Wilhelm
 
