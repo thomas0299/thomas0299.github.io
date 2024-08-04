@@ -32,7 +32,7 @@ I'm always looking to meet interesting people that share my passion for networks
 
 During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a Knowledge Graph, modelling the international business and economic ecosystem, for our NLP models. Our KG has been scaled to over 2.5m entities and over 7m relations. Our Knowledge Graph is used for Named-Entity Linking, Named-Entity Recognition and is enriched by a Relation Extraction model.
 
-<center><img src="/images/profile/hike.png" width="500" height="500" /></center>
+<center><img src="/images/profile/hike2.png" width="500" height="500" /></center>
 
 I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my bachelor's thesis.
 
