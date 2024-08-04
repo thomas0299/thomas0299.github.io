@@ -21,3 +21,5 @@ Used Explainable AI (XAI) to build trust between ship captains and the optimised
 A special thanks to [Theyr](https://www.theyr.com/) and the [The Alan Turing Institute](https://www.turing.ac.uk/).
 
 <center><img src="/images/research_projects/dsg_4.jpeg" width="600" height="600" /></center>
+
+<img src="/images/research_projects/dsg_logo.png" width="200" height="200" />
