@@ -5,7 +5,7 @@ permalink: /blog/2022-01-17
 ---
 
 If everyone had the diet of an American, we’d need 138% of the Earth’s land to feed everyone. We must change how our agricultural land is used.
-<center><img src="/images/blog/land_use/world.png" width="500" height="500" /></center>
+<center><img src="/images/blog/land_use/world.png" width="400" height="400" /></center>
 
 
 Edible insects require less space, can be stacked vertically and land does not need to be used to grow their feed. This can free up space for wild flora and fauna to repopulate our agricultural land.

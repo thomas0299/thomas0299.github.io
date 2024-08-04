@@ -4,11 +4,8 @@ date: 2024-03-11
 permalink: /blog/2024-03-11
 ---
 
-*"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph."*
-
-<p style="text-align: right;"><i>Charlie Munger</i></p>
-
-<center><img src="/images/blog/graphing_complexity/0.png" width="600" height="300" /></center>
+*"Mankind invented a system to cope with the fact that we are so intrinsically lousy at manipulating numbers. It's called the Graph." - Charlie Munger*
+<center><img src="/images/blog/graphing_complexity/0.png" width="400" height="400" /></center>
 *Data from [OpenSanctions](https://www.opensanctions.org/).*
 
 

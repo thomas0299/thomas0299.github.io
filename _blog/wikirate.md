@@ -8,6 +8,7 @@ permalink: /blog/2024-03-06
 <center><img src="/images/blog/wikirate/1.png" width="400" height="400" /></center>
 <br/><br/>
 <br/><br/>
+Our team focused on Gender Equality, as we were a few days ahead of International Women’s Day. The idea was to come up with a “Gender Equality” index. First, the team qualitatively assessed relevant metrics that could be included in the index. Then, participants checked the availability of data for a sufficient number of companies. Finally, the index was calculated through the Wikirate platform.
 <br/><br/>
 <center><img src="/images/blog/wikirate/2.png" width="800" height="400" /></center>
 <br/><br/>
