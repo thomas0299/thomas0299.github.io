@@ -5,7 +5,7 @@ excerpt: 'The Alan Turing Institute Data Study Group - Theyr Challenge'
 date: 2024-05-24
 ---
 
-<center><img src="/images/research_projects/dsg_1.jpeg" width="800" height="800" /></center>
+<center><img src="/images/research_projects/dsg_5.jpeg" width="800" height="800" /></center>
 
 
 Used Explainable AI (XAI) to build trust between ship captains and the optimised shipping routes that Theyr provides. Our team identified, through causal analysis, the key features that determine a shipping route and implemented a RAG-powered LLM chatbot for the captain

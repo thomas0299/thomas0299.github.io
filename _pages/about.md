@@ -24,7 +24,7 @@ I am now delving deeper into the theoretical underpinnings and computational par
 - exploring the concept of diffusion in networks, with a particular interest in cultural evolution
 
 
-<center><img src="/images/profile/speech.png" width="700" height="700" /></center>
+<center><img src="/images/research_projects/dsg_1.jpeg" width="800" height="800" /></center>
 
 I'm always looking to meet interesting people that share my passion for networks, complexity and computation. Don't hesitate to reach out!
 

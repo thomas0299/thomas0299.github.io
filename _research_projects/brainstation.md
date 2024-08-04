@@ -10,6 +10,8 @@ Water is one of human’s most basic needs.It helps us keep healthy, functioning
 
 This is an especially important problem in Uganda, where ¾ of the population do not have access to piped water and half of healthcare facilities do not have access to running water. This poverty and inequality also leads to political instability and violence, more than 31,000 people have been killed in conflicts in Uganda alone since 1997. I want to help solve the issue of water access. Uganda has many water points across the country, and they should be enough to service every single citizen. However, too many of them break down and are not repaired.
 
+<center><img src="/images/profile/speech.png" width="700" height="700" /></center>
+
 I want to build a model that will better predict which water points have, or are at risk, of breaking down, so the Ugandan government and local public institutions can better monitor, improve and repair crucial water points.
 
 
