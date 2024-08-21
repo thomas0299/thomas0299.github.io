@@ -30,4 +30,4 @@ Enjoy my speeches :)
 
 Below is when I finished my whole pathway, something I am incredibly proud of!
 
-<center><img src="/images/toastmaster/tm6a.jpg" width="400" height="400" /></center>
+<center><img src="/images/toastmaster/tm6a.jpg" width="600" height="600" /></center>
