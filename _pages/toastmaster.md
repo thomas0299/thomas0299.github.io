@@ -13,7 +13,7 @@ Public speaking scared me, a lot. I decided to change that in 2022, by joining T
 I can't recommend enough for people to give TM a try. Folks are welcoming, funny and driven. Special mention to [Center Berlin Toastmasters](https://centerberlin-toastmasters.de/), much love!
 
 
-<center><img src="/images/toastmaster/tm.png" width="400" height="400" /></center>
+<center><img src="/images/toastmaster/tm.png" width="500" height="500" /></center>
 
 # Engaging Humor Pathway
 As a member, you choose a pathway: Toastmaster's flagship education experience. You regularly deliver speeches at your local club to work on various communication skills. The goal is to complete all 'assignments' (~15) to complete a whole pathway. I chose the **Engaging Humor**:
