@@ -26,3 +26,6 @@ Enjoy my speeches :)
 {% for post in site.toastmaster reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+
+<center><img src="/images/toastmaster/6a.jpg" width="400" height="400" /></center>
