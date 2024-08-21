@@ -28,4 +28,6 @@ Enjoy my speeches :)
 {% endfor %}
 
 
-<center><img src="/images/toastmaster/6a.jpg" width="400" height="400" /></center>
+Below is when I finished my whole pathway, something I am incredibly proud of!
+
+<center><img src="/images/toastmaster/tm6a.jpg" width="400" height="400" /></center>
