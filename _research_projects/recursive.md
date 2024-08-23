@@ -14,7 +14,8 @@ Nestedly recursive functions are functions that have to call themselves (recursi
 
 <center><img src="/images/research_projects/recursive_pic.png" width="800" height="800" /></center>
 
-* [Presentation](https://drive.google.com/file/d/1IWT8Pia7QiifSho3kbGm909KOz5RRoX_/view?usp=sharing)
+* [Short Form Presentation](https://drive.google.com/file/d/1IWT8Pia7QiifSho3kbGm909KOz5RRoX_/view?usp=sharing)
+* [Long Form Presentation](https://www.youtube.com/live/FN68UYWMgio)
 * [Slides](https://drive.google.com/file/d/1gq07CD34wmos3wE_R7BeQJuXvwy1rVoD/view?usp=sharing)
 
 A special thanks to [Brad Klee](https://community.wolfram.com/web/bradklee) for his incredible mentorship and [Stephen Wolfram](https://www.stephenwolfram.com/) for enabling me to pursue this project.
