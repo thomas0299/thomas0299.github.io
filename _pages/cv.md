@@ -25,7 +25,7 @@ Work experience
 * 2019: IT Intern - [LGT Private Bank](https://www.lgt.com/global-en)
 
 
-<img src="/images/cv/th.png" width="200" height="200" />
+<img src="/images/cv/th1.png" width="200" height="200" />
 
 
 Education
