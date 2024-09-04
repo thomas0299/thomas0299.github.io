@@ -12,25 +12,18 @@ redirect_from:
 *People think that mathematics is complicated. Mathematics is the simple bit, it’s the stuff we CAN understand. It’s cats that are complicated.*
 John Conway
 
-As a data scientist, economist, and programmer, the defining factor in my academic and professional career is the study of networks and complex systems.
+As a network scientist, economist, and programmer, the defining factor in my academic and professional career is the study of complex systems.
 
-I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. Currently, I am developing a Knowledge Graph for state-of-the-art NLP models.
+I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. I also helped develop a Knowledge Graph for NLP models in a Berlin start-up.
 
-I am now delving deeper into the theoretical underpinnings and computational paradigms that make network and graph theory so powerful. My research areas are:
 
-- understanding human-made, artificial systems using concepts and tools from information science, computer science, and the natural sciences
-- applying quantum algorithms on graph problems
-- developing socio-economic Agent-Based Models
-- exploring the concept of diffusion in networks, with a particular interest in cultural evolution
+<center><img src="/images/research_projects/th1.jpeg" width="800" height="800" /></center>
 
+I am now delving deeper into the theoretical underpinnings and computational paradigms that make network and graph theory so powerful. I have started my PhD in Advanced Computing at Tsinghua University. I am under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence  (THIB). I will be working on novel network algorithms, analysing socio-economic networks and understand the complexity of the world around us through the power of computation.
 
 <center><img src="/images/research_projects/dsg_1.jpeg" width="800" height="800" /></center>
 
 I'm always looking to meet interesting people that share my passion for networks, complexity and computation. Don't hesitate to reach out!
-
-<center><img src="/images/profile/yukka_logo.png" width="500" height="500" /></center>
-
-During the day, I work as a Data Scientist at [YUKKA Lab](https://www.yukkalab.com/), developing a Knowledge Graph, modelling the international business and economic ecosystem, for our NLP models. Our KG has been scaled to over 2.5m entities and over 7m relations. Our Knowledge Graph is used for Named-Entity Linking, Named-Entity Recognition and is enriched by a Relation Extraction model.
 
 <center><img src="/images/profile/hike3.jpeg" width="500" height="500" /></center>
 
