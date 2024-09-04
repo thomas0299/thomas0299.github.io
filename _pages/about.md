@@ -21,10 +21,10 @@ I am now delving deeper into the theoretical underpinnings and computational par
 
 <center><img src="/images/profile/th_2.png" width="800" height="800" /></center>
 
-...
+..
 <center><img src="/images/research_projects/dsg_1.jpeg" width="700" height="700" /></center>
 
-....
+..
 <center><img src="/images/cv/wolfram_institute.png" width="400" height="400" /></center>
 
 

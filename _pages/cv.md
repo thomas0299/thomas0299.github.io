@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has more complete information and includes nice logos.
-My most recent CV document is [here](https://drive.google.com/file/d/1SzIwiaHzqmoqlHZMyxIHTaeONP4TuCqo/view?usp=drive_link) (updated October 2023).
+My most recent CV document is [here](https://drive.google.com/file/d/1FfcpAADrs_FYj3Onp1MGIDE2U5Oq2F9W/view?usp=sharing) (updated September 2024).
 
 
 <img src="/images/cv/yukkalab.png" width="150" height="150" />
