@@ -48,8 +48,7 @@ Otherwise, you might find me at a crossfit box or weightlifting gym, learning ch
 
 
 - Personal email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
-- Professional email - [tad@yukkalab.com](mailto:tad@yukkalab.com)
-- Academic email - [thomas.adler.18@alumni.ucl.ac.uk](mailto:thomas.adler.18@alumni.ucl.ac.uk)
+- Academic email - [ledm24@mails.tsinghua.edu.cn](mailto:ledm24@mails.tsinghua.edu.cn)
 
 <!-- Ideas for websites
 https://github.com/nathansam/nathansam.github.io

@@ -17,6 +17,7 @@ My most recent CV document is [here](https://drive.google.com/file/d/1SzIwiaHzqm
 
 Work experience
 ======
+* 2024-: PhD Student - [Center for Complex Network Intelligence](https://brain.tsinghua.edu.cn/en/Research1/Research_Centers/Complex_Network_Intelligence_Center.htm) - Carlo Cannistraci
 * 2022-24: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
 * 2021-22: Co-founder - [E-Rey](https://e-rey.bubbleapps.io/version-test/index_remake__)
 * 2022: Analyst - [UK Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office)
@@ -24,11 +25,12 @@ Work experience
 * 2019: IT Intern - [LGT Private Bank](https://www.lgt.com/global-en)
 
 
-<img src="/images/cv/ucl.png" width="200" height="200" />
+<img src="/images/cv/th.png" width="200" height="200" />
 
 
 Education
 ======
+* 2024-: PhD Advanced Computing - [Tsinghua University](https://www.tsinghua.edu.cn/en/)
 * 2024: Wolfram Summmer School - [WSS](https://education.wolfram.com/summer-school/)
 * 2022: Data Science Bootcamp - [Brainstation](https://brainstation.io/)
 * 2021: [Summer School in Economic Networks](https://www.maths.ox.ac.uk/events/summer-schools/economic-networks) - University of Oxford
@@ -37,11 +39,12 @@ Education
 * -2017: French Baccalaureat - [French School of Hong Kong](https://www.fis.edu.hk/?lang=fr)
 
 
-<img src="/images/cv/wb.png" width="200" height="200" />
+<img src="/images/cv/wolfram_institute.png" width="200" height="200" />
 
 
 Research
 ======
+* 2024-: Affiliate Researcher - [Wolfram Institute](https://wolframinstitute.org/)
 * 2024: Data Study Group Researcher - [The Alan Turing Institute](https://www.turing.ac.uk/events/data-study-group-may-2024) - Brad Klee & Stephen Wolfram
 * 2021: [EPSW Finance Canada Project](http://www.fields.utoronto.ca/activities/20-21/systemic-EPSW) - Fields Institute, University of Toronto
 * 2020: Research Assistant - [Development Impact Evaluation Group, World Bank](https://www.worldbank.org/en/research/dime) - Daniel Rogger & Ravi Somani

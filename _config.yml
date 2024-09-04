@@ -84,11 +84,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Thomas Adler 冬马"
+  name             : "Thomas Adler 乐冬马"
   avatar           : "/profile/white_pic.png"
-  bio              : "Economist transitioned to Data Science. Graph nerd. Network, computer and complexity science."
-  location         : "Berlin, Germany"
-  employer         : "YUKKA Lab"
+  bio              : "Network Science, Complexity, Computer Science, Economics, Data Science, "
+  location         : "Beijing, China"
+  employer         : "Center for Complex Network Intelligence - Tsinghua University"
   pubmed           :
   googlescholar    :
   email            : "thomas0299@gmail.com"
