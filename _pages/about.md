@@ -17,7 +17,7 @@ As a network scientist, economist, and programmer, the defining factor in my aca
 I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. I also helped develop a Knowledge Graph for NLP models at YUKKA Lab, a Berlin based start-up.
 
 
-<center><img src="/images/cv/th1.png" width="800" height="800" /></center>
+<center><img src="/images/profile/th_2.png" width="800" height="800" /></center>
 
 I am now delving deeper into the theoretical underpinnings and computational paradigms that make network and graph theory so powerful. I have started my PhD in Advanced Computing at Tsinghua University. I am under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence  (THIB). I will be working on novel network algorithms, analysing socio-economic networks and understand the complexity of the world around us through the power of computation.
 
