@@ -4,7 +4,7 @@ date: 2024-09-14
 permalink: /blog/2024-09-14
 ---
 
-<center><img src="/images/blog/recursive_blog/recursive_blog_p1.png" width="300" height="300" /></center>
+<center><img src="/images/blog/recursive_blog/recursive_blog_p1.png" width="350" height="350" /></center>
 
 How programming recursive functions shows us key distinctions between the Wolfram Language and Python
 
