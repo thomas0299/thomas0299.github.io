@@ -55,8 +55,7 @@ I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army S
 Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
 
 
-- Personal email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
-- Academic email - [ledm24@mails.tsinghua.edu.cn](mailto:ledm24@mails.tsinghua.edu.cn)
+- Email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
 
 <!-- Ideas for websites
 https://github.com/nathansam/nathansam.github.io
