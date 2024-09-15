@@ -16,7 +16,7 @@ As a network scientist, economist, and programmer, the defining factor in my aca
 
 I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. I also helped develop a Knowledge Graph for NLP models at YUKKA Lab, a Berlin based start-up.
 
-I am now delving deeper into the theoretical underpinnings and computational paradigms that make network and graph theory so powerful. I have started my PhD in Advanced Computing at Tsinghua University. I am under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence  (THIB). I will be working on novel network algorithms, analysing socio-economic networks and understanding the complexity of the world around us through the power of computation.
+I am now delving deeper into the theoretical underpinnings and computational paradigms that make network and graph theory so powerful. I have started my PhD in Advanced Computing at Tsinghua University. There, I am under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence  (THIB). My research will focus on novel network algorithms, analysing socio-economic networks and understanding the complexity of the world around us through the power of computation.
 
 
 <center><img src="/images/profile/th_2.png" width="800" height="800" /></center>
@@ -40,7 +40,7 @@ I'm always looking to meet interesting people that share my passion for networks
 <center><img src="/images/profile/insects.JPG" width="300" height="300" /></center>
 
 
-I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my bachelor's thesis.
+I also have a soft spot for edible insects and novel food trends. Started my own mealworm farm and wrote about it for my Bachelor thesis.
 
 
 <center><img src="/images/profile/armee.jpg" width="700" height="700" /></center>
@@ -52,7 +52,7 @@ I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army S
 <center><img src="/images/profile/CF.jpg" width="550" height="550" /></center>
 
 
-Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pin's.
+Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pins.
 
 
 - Email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
