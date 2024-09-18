@@ -58,7 +58,7 @@ You might find me at a crossfit box or weightlifting gym, learning chinese or co
 - Email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
 
 
-<center><img src="/images/profile/gratie2.JPG" width="300" height="300" /></center>
+<center><img src="/images/profile/gratie2.JPG" width="400" height="400" /></center>
 
 I always was some kind of a mathematical genius, even though it was not always fully recognised by all.
 
