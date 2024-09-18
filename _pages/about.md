@@ -52,10 +52,14 @@ I am also still serving in the Swiss Army, as Grenadier - Breacher (Swiss Army S
 <center><img src="/images/profile/CF.jpg" width="550" height="550" /></center>
 
 
-Otherwise, you might find me at a crossfit box or weightlifting gym, learning chinese or collecting pins.
+You might find me at a crossfit box or weightlifting gym, learning chinese or collecting pins.
 
 
 - Email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
+
+
+<center><img src="/images/profile/gratie.JPG" width="550" height="550" /></center>
+I always some kind of a mathematical genius, even though it was not always fully recognised by all.
 
 <!-- Ideas for websites
 https://github.com/nathansam/nathansam.github.io
