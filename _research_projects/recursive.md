@@ -12,6 +12,8 @@ Nestedly recursive functions are functions that have to call themselves (recursi
 
 * [Wolfram Community Post](https://community.wolfram.com/groups/-/m/t/3210833)
 
+* [Stephen Wolfram Blog](https://writings.stephenwolfram.com/2024/09/nestedly-recursive-functions/)
+
 <center><img src="/images/research_projects/recursive_pic.png" width="800" height="800" /></center>
 
 * [Short Form Presentation](https://drive.google.com/file/d/1IWT8Pia7QiifSho3kbGm909KOz5RRoX_/view?usp=sharing)
@@ -23,6 +25,7 @@ A special thanks to [Brad Klee](https://community.wolfram.com/web/bradklee) for 
 
 * [Code](https://github.com/thomas0299/nestedly_recursive_function)
 * [Poster](https://drive.google.com/file/d/14CkQKpmXjQK2fkoS7bQuaGkFgVG5pqVR/view?usp=sharing)
+* [A Bibliography of Nestedly Recursive Functions by Stehpen Wolfram](https://content.wolfram.com/sites/43/2024/09/NestedlyRecursiveFunctions-Bibliography-9-27.pdf)
 
 <center><img src="/images/research_projects/wss_group.jpeg" width="800" height="800" /></center>
 
