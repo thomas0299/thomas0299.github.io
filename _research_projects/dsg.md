@@ -10,7 +10,7 @@ date: 2024-05-24
 
 Used Explainable AI (XAI) to build trust between ship captains and the optimised shipping routes that Theyr provides. Our team identified, through causal analysis, the key features that determine a shipping route and implemented a RAG-powered LLM chatbot for the captain
 
-* [Report]()
+* [Report](https://www.turing.ac.uk/news/publications/data-study-group-final-report-theyr)
 
 <center><img src="/images/research_projects/dsg_2.jpeg" width="800" height="800" /></center>
 
