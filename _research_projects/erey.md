@@ -13,6 +13,6 @@ E-Rey wants to integrate sustainability education into the classroom. Funded by 
 
 * [Slide Deck](https://drive.google.com/file/d/1XPqtBb8vDCKkK7vAAs6imP0BLHhSk5ys/view?usp=sharing)
 
-* [Pitch](https://drive.google.com/file/d/1wKDz1-whLwY8sFd0UAg8wIug7x91t-Do/view?usp=sharing)
+* [Pitch](https://youtu.be/w_ayFJXDctI)
 
 <img src="/images/research_projects/sdw.png" width="120" height="120" />
