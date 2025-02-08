@@ -12,7 +12,7 @@ My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has more complete inf
 My most recent CV document is [here](https://drive.google.com/file/d/1FfcpAADrs_FYj3Onp1MGIDE2U5Oq2F9W/view?usp=sharing) (updated September 2024).
 
 
-<img src="/images/cv/yukkalab.png" width="150" height="150" />
+<img src="/images/cv/yukkalab2.png" width="150" height="150" />
 
 
 Work experience
