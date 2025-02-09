@@ -10,6 +10,12 @@ PhD Advanced Computing - Tsinghua University
 ======
 
 Year 1
+* Intermediate Chinese
+* Combinatorics and Algorithms Design
+* Big Data Intelligence
+* Machine Learning
+* Complex Systems and Network Science 
+
 * ...
 
 BSc Economics - University College London (UCL)
