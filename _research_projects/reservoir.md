@@ -25,4 +25,4 @@ Nicolo Micheletti, Diego Cerretti, Thomas Adler
 
 
 
-<center><img src="images/cv/th1.png" width="350" height="350" /></center>
+<center><img src="/images/cv/th1.png" width="350" height="350" /></center>
