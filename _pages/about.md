@@ -27,13 +27,13 @@ I am now delving deeper into the theoretical underpinnings and computational par
 
 I've played sports all my life: football, tennis, running. At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, and got my coaching (BWL Lv2) and refereeing licences.
 
-<center><img src="/images/profile/bucs2.jpg" width="500" height="500" /></center>
+<center><img src="/images/profile/bucs2.jpeg" width="500" height="500" /></center>
 
 I then turned to the dark side, and now intensely train Crossfit, a beautiful methodology that claims to be the ultimate test of fitness (I agree ;) ). 
 
 <center><img src="/images/profile/CF.jpg" width="550" height="550" /></center>
 ..
-<center><img src="/images/profile/cf_comp.jpg" width="500" height="500" /></center>
+<center><img src="/images/profile/cf_comp2.jpeg" width="500" height="500" /></center>
 ..
 
 <center><img src="/images/profile/armee.jpg" width="700" height="700" /></center>
