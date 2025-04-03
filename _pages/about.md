@@ -33,8 +33,6 @@ I then turned to the dark side, and now intensely train Crossfit, a beautiful me
 
 <center><img src="/images/profile/CF.jpg" width="550" height="550" /></center>
 ..
-<center><img src="/images/profile/cf_comp2.jpg" width="500" height="500" /></center>
-..
 
 <center><img src="/images/profile/armee.jpg" width="700" height="700" /></center>
 
