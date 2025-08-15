@@ -1,8 +1,8 @@
 ---
-title: "Reservoir Computing Survye 📰"
+title: "Reservoir Computing Survey 📰"
 permalink: /research_projects/bd-reservoir
 excerpt: 'Big Data Project'
-date: 2025-09-02
+date: 2024-12-01
 ---
 
 <center><img src="/images/research_projects/bd-reservoir_1.png" width="600" height="600" /></center>
