@@ -57,7 +57,7 @@ Research
 
 Volunteering
 ======
-* 2025-: Co-Founder and President of Education - [Swiss Students in China Assocation](https://www.linkedin.com/company/107990637)
+* 2025-: Co-Founder and President - [Swiss Students in China Assocation](https://www.linkedin.com/company/107990637)
 * 2022-24: Vice President of Education - [Center Berlin Toastmaster](https://centerberlin-toastmasters.de/)
 * 2020-22: President and Coach - [UCL Barbell Club](https://studentsunionucl.org/clubs-societies/barbell-club)
 * 2018-19: Higher Impact Cafe Project Lead - [Enactus UCL](https://enactus.org/)

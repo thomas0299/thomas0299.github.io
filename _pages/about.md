@@ -16,22 +16,24 @@ As a network scientist, economist, and programmer, the defining factor in my aca
 
 I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. I also helped develop a Knowledge Graph for NLP models at YUKKA Lab, a Berlin based start-up.
 
-I am now delving deeper into the theoretical underpinnings and computational paradigms that make network and graph theory so powerful. I have started my PhD in Advanced Computing at Tsinghua University. There, I am under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence  (THIB). My research will focus on novel network algorithms, analysing socio-economic networks and understanding the complexity of the world around us through the power of computation. I am also an Affiliate Researcher at the Wolfram Institute, where I write about Graphs, Ruliology and the Mathematica Language.
+I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI and reservoir computing.
 
 <center><img src="/images/profile/th_2.png" width="800" height="800" /></center>
 
 ..
 <center><img src="/images/research_projects/dsg_1.jpeg" width="900" height="900" /></center>
 
+In China, I co-founded the Swiss Students in China Association, connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries.
 
+<center><img src="/images/cv/ssca.png" width="900" height="900" /></center>
 
-I've played sports all my life: football, tennis, running. At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, and got my coaching (BWL Lv2) and refereeing licences.
+At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, got my coaching (BWL Lv2), and refereeing licences.
 
 <center><img src="/images/profile/bucs3.jpg" width="500" height="500" /></center>
 
 I then turned to the dark side, and now intensely train Crossfit, a beautiful methodology that claims to be the ultimate test of fitness (I agree ;) ). 
 
-<center><img src="/images/profile/CF.jpg" width="550" height="550" /></center>
+<center><img src="/images/profile/CF2.jpg" width="550" height="550" /></center>
 ..
 
 <center><img src="/images/profile/armee.jpg" width="700" height="700" /></center>
@@ -48,9 +50,9 @@ I'm always looking to meet interesting people that share my passion for networks
 
 - Email - [thomas0299@gmail.com](mailto:thomas0299@gmail.com)
 
-<center><img src="/images/profile/gratie2.JPG" width="400" height="400" /></center>
+<!-- <center><img src="/images/profile/gratie2.JPG" width="400" height="400" /></center>
 
-I always was some kind of a mathematical genius, even though it was not always fully recognised by all.
+I always was some kind of a mathematical genius, even though it was not always fully recognised by all. -->
 
 <!-- Ideas for websites
 https://github.com/nathansam/nathansam.github.io
