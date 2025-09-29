@@ -15,8 +15,11 @@ Year 1
 * Big Data Intelligence
 * Machine Learning
 * Complex Systems and Network Science 
-
-* ...
+* Advanced Network Management
+* Deep Learning
+* Natural Language Processing
+* Intercultural communication
+* How to report research results in English
 
 BSc Economics - University College London (UCL)
 ======
