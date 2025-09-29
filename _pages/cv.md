@@ -17,6 +17,7 @@ My most recent CV document is [here](https://drive.google.com/file/d/1FfcpAADrs_
 
 Work experience
 ======
+* 2025-: Teaching Assistant - [Tsinghua University](https://www.tsinghua.edu.cn/en/)
 * 2024-: PhD Student - [Center for Complex Network Intelligence](https://brain.tsinghua.edu.cn/en/Research1/Research_Centers/Complex_Network_Intelligence_Center.htm) - Carlo Cannistraci
 * 2022-24: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
 * 2021-22: Co-founder - [E-Rey](https://e-rey.bubbleapps.io/version-test/index_remake__)
@@ -51,12 +52,13 @@ Research
 * 2020: Research Assistant - [Center for Microdata Methods and Practice](https://www.cemmap.ac.uk/about-us/) - Daniel Wilhelm
 
 
-<img src="/images/cv/barbell.png" width="200" height="200" />
+<img src="/images/cv/ssca.png" width="200" height="200" />
 
 
 Volunteering
 ======
-* 2022-: Vice President of Education - [Center Berlin Toastmaster](https://centerberlin-toastmasters.de/)
+* 2025-: Co-Founder and President of Education - [Swiss Students in China Assocation](https://www.linkedin.com/company/107990637)
+* 2022-24: Vice President of Education - [Center Berlin Toastmaster](https://centerberlin-toastmasters.de/)
 * 2020-22: President and Coach - [UCL Barbell Club](https://studentsunionucl.org/clubs-societies/barbell-club)
 * 2018-19: Higher Impact Cafe Project Lead - [Enactus UCL](https://enactus.org/)
 * 2016: Conservation Volunteer - [Ocean Park HK](https://www.opcf.org.hk/en/)
@@ -74,6 +76,7 @@ Skills
 * R
 * STATA
 * Mathematica
+* MATLAB
 * NetLogo
 * Git
 * Java
