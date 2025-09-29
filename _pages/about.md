@@ -23,7 +23,7 @@ I am currently a PhD Candidate in Advanced Computing at Tsinghua University, und
 ..
 <center><img src="/images/research_projects/dsg_1.jpeg" width="900" height="900" /></center>
 
-In China, I co-founded the Swiss Students in China Association, connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries.
+In China, I co-founded the Swiss Students in China Association (SSCA), connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries.
 
 <center><img src="/images/cv/ssca.png" width="900" height="900" /></center>
 
