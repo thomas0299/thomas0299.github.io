@@ -16,7 +16,7 @@ As a network scientist, economist, and programmer, the defining factor in my aca
 
 I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. I also helped develop a Knowledge Graph for NLP models at YUKKA Lab, a Berlin based start-up.
 
-I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI and reservoir computing.
+I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI, and reservoir computing.
 
 <center><img src="/images/profile/th_2.png" width="800" height="800" /></center>
 
@@ -25,7 +25,7 @@ I am currently a PhD Candidate in Advanced Computing at Tsinghua University, und
 
 In China, I co-founded the Swiss Students in China Association (SSCA), connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries.
 
-<center><img src="/images/cv/ssca.png" width="900" height="900" /></center>
+<center><img src="/images/cv/ssca.png" width="300" height="300" /></center>
 
 At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, got my coaching (BWL Lv2), and refereeing licences.
 
@@ -33,7 +33,7 @@ At university I fell in love with Olympic Weightlifting. I became President of o
 
 I then turned to the dark side, and now intensely train Crossfit, a beautiful methodology that claims to be the ultimate test of fitness (I agree ;) ). 
 
-<center><img src="/images/profile/CF2.jpg" width="550" height="550" /></center>
+<center><img src="/images/profile/CF2.jpeg" width="550" height="550" /></center>
 ..
 
 <center><img src="/images/profile/armee.jpg" width="700" height="700" /></center>
