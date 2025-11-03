@@ -4,7 +4,7 @@ date: 2025-11-04
 permalink: /blog/2025-11-04
 ---
 
-<center><img src="/images/blog/ootl/ep2.png" width="350" height="350" /></center>
+<center><img src="/images/blog/ootl/ep2.jpg" width="350" height="350" /></center>
 
 I was invited by the Out of the Lab podcast, which tackles the tough questions in science and academia!
 
