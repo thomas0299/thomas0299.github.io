@@ -9,6 +9,10 @@ author_profile: true
 PhD Advanced Computing - Tsinghua University
 ======
 
+Year 2
+* Upper Intermediate Chinese
+* Distributed Database Systems
+
 Year 1
 * Intermediate Chinese
 * Combinatorics and Algorithms Design
