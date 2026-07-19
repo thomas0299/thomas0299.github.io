@@ -1,0 +1,1227 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Adler - Knowledge Network</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-dark: #000000;
+            --bg-darker: #000000;
+            --primary: #a78bfa;
+            --secondary: #818cf8;
+            --accent: #fbbf24;
+            --accent-pink: #f472b6;
+            --text: #e2e8f0;
+            --text-dim: #94a3b8;
+            --border: #1e293b;
+            --glow: rgba(167, 139, 250, 0.3);
+        }
+
+        body {
+            font-family: 'Crimson Text', 'Georgia', serif;
+            color: var(--text);
+            background: var(--bg-dark);
+            overflow: hidden;
+            line-height: 1.7;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Starfield Background */
+        .starfield {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 3s infinite;
+        }
+
+        .star.small {
+            width: 1px;
+            height: 1px;
+        }
+
+        .star.medium {
+            width: 2px;
+            height: 2px;
+            box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+        }
+
+        .star.large {
+            width: 3px;
+            height: 3px;
+            box-shadow: 0 0 6px rgba(167, 139, 250, 0.8);
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.2); }
+        }
+
+        /* Nebula effect */
+        .nebula {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 1;
+            animation: float-nebula 20s ease-in-out infinite;
+        }
+
+        .nebula.purple {
+            background: radial-gradient(circle, rgba(167, 139, 250, 0.4), transparent);
+            top: 10%;
+            left: 10%;
+        }
+
+        .nebula.blue {
+            background: radial-gradient(circle, rgba(129, 140, 248, 0.4), transparent);
+            bottom: 20%;
+            right: 15%;
+            animation-delay: -10s;
+        }
+
+        .nebula.gold {
+            background: radial-gradient(circle, rgba(251, 191, 36, 0.3), transparent);
+            top: 50%;
+            left: 50%;
+            animation-delay: -5s;
+        }
+
+        @keyframes float-nebula {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -20px) scale(1.1); }
+            66% { transform: translate(-20px, 30px) scale(0.9); }
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.5rem 5%;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: var(--primary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-family: 'Courier New', monospace;
+        }
+
+        .logo:hover {
+            color: var(--accent);
+            text-shadow: 0 0 20px var(--glow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dim);
+            font-weight: 400;
+            font-size: 0.95rem;
+            position: relative;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+        }
+
+        .nav-links a::before {
+            content: '◆';
+            position: absolute;
+            left: -15px;
+            opacity: 0;
+            transition: all 0.3s ease;
+            color: var(--accent);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+            text-shadow: 0 0 10px var(--glow);
+        }
+
+        .nav-links a:hover::before {
+            opacity: 1;
+            left: -20px;
+        }
+
+        /* Network Container */
+        .network-container {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background: var(--bg-dark);
+        }
+
+        #networkCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+
+        #networkCanvas:active {
+            cursor: grabbing;
+        }
+
+        /* Info Panel */
+        .info-panel {
+            position: fixed;
+            top: 120px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 10;
+            pointer-events: none;
+            max-width: 800px;
+            padding: 2rem;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        .info-panel.hidden {
+            opacity: 0;
+            transform: translateX(-50%) translateY(-20px);
+        }
+
+        .info-panel h1 {
+            font-size: 3.5rem;
+            font-weight: 400;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 30px var(--glow), 0 0 60px var(--glow);
+            letter-spacing: 3px;
+            animation: glow-pulse 3s ease-in-out infinite;
+            background: linear-gradient(45deg, var(--primary), var(--accent), var(--accent-pink), var(--primary));
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: glow-pulse 3s ease-in-out infinite, gradient-shift 8s ease infinite;
+        }
+
+        @keyframes glow-pulse {
+            0%, 100% { text-shadow: 0 0 30px var(--glow), 0 0 60px var(--glow); }
+            50% { text-shadow: 0 0 40px var(--glow), 0 0 80px var(--glow), 0 0 120px rgba(167, 139, 250, 0.2); }
+        }
+
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .info-panel p {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            margin-bottom: 1rem;
+            font-style: italic;
+            animation: fadeInUp 1s ease 0.5s both;
+        }
+
+        .info-panel .subtitle {
+            font-size: 0.9rem;
+            color: var(--accent);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            opacity: 0.8;
+            animation: fadeInUp 1s ease 0.3s both, shimmer 2s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Node Details Panel */
+        .node-details {
+            position: fixed;
+            right: -450px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 400px;
+            max-height: 80vh;
+            background: rgba(0, 0, 0, 0.95);
+            border: 1px solid var(--primary);
+            border-radius: 15px;
+            padding: 2rem;
+            z-index: 1001;
+            transition: right 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            overflow-y: auto;
+            backdrop-filter: blur(20px);
+            box-shadow: -10px 0 50px rgba(0, 0, 0, 0.5), 0 0 30px var(--glow), inset 0 0 30px rgba(167, 139, 250, 0.05);
+        }
+
+        .node-details.active {
+            right: 2rem;
+        }
+
+        .node-details h2 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.8rem;
+            animation: slideInRight 0.5s ease;
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .node-details .category {
+            color: var(--accent);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+        }
+
+        .node-details p {
+            color: var(--text-dim);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .node-details .meta {
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .node-details .connections {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .node-details .connections h3 {
+            color: var(--secondary);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .connection-list {
+            list-style: none;
+        }
+
+        .connection-list li {
+            padding: 0.5rem 0;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: 2px solid transparent;
+            padding-left: 1rem;
+        }
+
+        .connection-list li:hover {
+            color: var(--primary);
+            border-left-color: var(--primary);
+            padding-left: 1.5rem;
+        }
+
+        .close-details {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .close-details:hover {
+            color: var(--accent);
+            transform: rotate(90deg);
+        }
+
+        /* Legend */
+        .legend {
+            position: fixed;
+            bottom: 2rem;
+            left: 2rem;
+            background: rgba(10, 14, 39, 0.9);
+            border: 1px solid var(--primary);
+            border-radius: 10px;
+            padding: 1.5rem;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 20px rgba(167, 139, 250, 0.2);
+            animation: fadeInUp 1s ease 1s both;
+        }
+
+        .legend h3 {
+            color: var(--primary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 0.7rem;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px currentColor;
+        }
+
+        /* Control Panel */
+        .controls {
+            position: fixed;
+            top: 100px;
+            right: 2rem;
+            background: rgba(10, 14, 39, 0.9);
+            border: 1px solid var(--primary);
+            border-radius: 10px;
+            padding: 1rem;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 20px rgba(167, 139, 250, 0.2);
+            animation: fadeInUp 1s ease 1.2s both;
+        }
+
+        .control-btn {
+            display: block;
+            width: 50px;
+            height: 50px;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-dim);
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .control-btn:hover {
+            background: var(--primary);
+            color: var(--bg-dark);
+            border-color: var(--primary);
+            box-shadow: 0 0 20px var(--glow);
+            transform: scale(1.1);
+        }
+
+        .control-btn:active {
+            transform: scale(0.95);
+        }
+
+        .control-btn:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Instructions */
+        .instructions {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: rgba(10, 14, 39, 0.9);
+            border: 1px solid var(--accent);
+            border-radius: 10px;
+            padding: 1.5rem;
+            max-width: 300px;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 20px rgba(251, 191, 36, 0.2);
+            animation: fadeInUp 1s ease 2s both, pulse-border 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse-border {
+            0%, 100% { border-color: var(--accent); box-shadow: 0 0 20px rgba(251, 191, 36, 0.2); }
+            50% { border-color: var(--primary); box-shadow: 0 0 30px rgba(167, 139, 250, 0.4); }
+        }
+
+        .instructions h4 {
+            color: var(--accent);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+        }
+
+        .instructions p {
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+        }
+
+        .instructions kbd {
+            background: var(--bg-darker);
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            border: 1px solid var(--border);
+            color: var(--primary);
+            font-family: monospace;
+        }
+
+        /* Tooltip */
+        .node-tooltip {
+            position: fixed;
+            background: rgba(10, 14, 39, 0.98);
+            border: 1px solid var(--primary);
+            border-radius: 8px;
+            padding: 0.8rem 1.2rem;
+            pointer-events: none;
+            z-index: 10000;
+            opacity: 0;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5), 0 0 20px var(--glow);
+            transform: translateY(5px);
+        }
+
+        .node-tooltip.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .node-tooltip .title {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+            text-shadow: 0 0 10px var(--glow);
+        }
+
+        .node-tooltip .type {
+            color: var(--accent);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 968px) {
+            .info-panel h1 {
+                font-size: 2.5rem;
+            }
+
+            .node-details.active {
+                right: 1rem;
+                left: 1rem;
+                width: auto;
+            }
+
+            .legend,
+            .instructions {
+                display: none;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Starfield Background -->
+    <div class="starfield" id="starfield"></div>
+
+    <!-- Nebula Effects -->
+    <div class="nebula purple"></div>
+    <div class="nebula blue"></div>
+    <div class="nebula gold"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Thomas Adler</div>
+            <ul class="nav-links">
+                <li><a href="#network">Network</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Network Container -->
+    <div class="network-container" id="network">
+        <canvas id="networkCanvas"></canvas>
+        
+        <!-- Info Panel -->
+        <div class="info-panel" id="infoPanel">
+            <h1>Thomas Adler</h1>
+            <p class="subtitle">Knowledge Network</p>
+            <p>An interconnected web of research, projects, and ideas</p>
+        </div>
+    </div>
+
+    <!-- Tooltip -->
+    <div class="node-tooltip" id="tooltip">
+        <div class="title"></div>
+        <div class="type"></div>
+    </div>
+
+    <!-- Node Details Panel -->
+    <div class="node-details" id="nodeDetails">
+        <button class="close-details" id="closeDetails">✕</button>
+        <h2 id="nodeTitle">Node Title</h2>
+        <div class="category" id="nodeCategory">Category</div>
+        <p id="nodeDescription">Description goes here...</p>
+        <div class="meta" id="nodeMeta"></div>
+        <div class="connections">
+            <h3>Connected To</h3>
+            <ul class="connection-list" id="connectionList"></ul>
+        </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="legend">
+        <h3>Network Map</h3>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #a78bfa; color: #a78bfa;"></div>
+            <span>Research</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #818cf8; color: #818cf8;"></div>
+            <span>Projects</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #fbbf24; color: #fbbf24;"></div>
+            <span>Blog Posts</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #f472b6; color: #f472b6;"></div>
+            <span>About</span>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button class="control-btn" id="zoomIn" title="Zoom In">+</button>
+        <button class="control-btn" id="zoomOut" title="Zoom Out">−</button>
+        <button class="control-btn" id="resetView" title="Reset View">⟲</button>
+    </div>
+
+    <!-- Instructions -->
+    <div class="instructions">
+        <h4>Navigation</h4>
+        <p><kbd>Click</kbd> nodes to explore</p>
+        <p><kbd>Drag</kbd> to move around</p>
+        <p><kbd>Scroll</kbd> to zoom</p>
+        <p><kbd>Hover</kbd> for info</p>
+    </div>
+
+    <script>
+        // Network Data Structure
+        const networkData = {
+            nodes: [
+                // Center node
+                { id: 'me', label: 'Thomas Adler', type: 'about', x: 0, y: 0, size: 25, url: 'about.html' },
+                
+                // Research nodes
+                { id: 'abm', label: 'Agent-Based Modeling', type: 'research', description: 'Complex systems simulation', url: '_research_projects/abm.html' },
+                { id: 'ml-reservoir', label: 'ML Reservoir Computing', type: 'research', description: 'Machine learning research', url: '_research_projects/ml-reservoir.html' },
+                { id: 'insects', label: 'Insect Research', type: 'research', description: 'Entomology studies', url: '_research_projects/insects.html' },
+                { id: 'dcms', label: 'DCMS Data', type: 'research', description: 'Data science consulting', url: '_research_projects/dcms_data.html' },
+                { id: 'whaling', label: 'Whaling Data Analysis', type: 'research', description: 'Historical data analysis', url: '_research_projects/whaling.html' },
+                
+                // Project nodes
+                { id: 'brainstation', label: 'BrainStation', type: 'project', description: 'Data science education', url: '_research_projects/brainstation.html' },
+                { id: 'recursive', label: 'Recursive Analysis', type: 'project', description: 'Computational modeling', url: '_research_projects/recursive.html' },
+                { id: 'nlp', label: 'NLP Airplane', type: 'project', description: 'Natural language processing', url: '_research_projects/nlp_airplane.html' },
+                { id: 'world-bank', label: 'World Bank', type: 'project', description: 'Development data', url: '_research_projects/world_bank.html' },
+                
+                // Blog nodes
+                { id: 'blog-viz', label: 'Data Visualization', type: 'blog', description: 'Visual storytelling techniques', url: '_blog/visualisation.html' },
+                { id: 'blog-complexity', label: 'Graphing Complexity', type: 'blog', description: 'Network analysis', url: '_blog/graphing_complexity_p1.html' },
+                { id: 'blog-recursive', label: 'Recursive Blog', type: 'blog', description: 'Self-referential analysis', url: '_blog/recursive_blog_p1.html' },
+                { id: 'blog-whaling', label: 'Whaling History', type: 'blog', description: 'Historical analysis', url: '_blog/whaling.html' },
+                { id: 'blog-entomophagy', label: 'Entomophagy', type: 'blog', description: 'Insect consumption research', url: '_blog/entomophagy.html' },
+                
+                // About nodes
+                { id: 'cv', label: 'Curriculum Vitae', type: 'about', description: 'Professional experience', url: 'cv.html' },
+                { id: 'publications', label: 'Publications', type: 'about', description: 'Academic papers', url: 'publications.html' },
+            ],
+            edges: [
+                // Connections from center
+                { source: 'me', target: 'abm' },
+                { source: 'me', target: 'ml-reservoir' },
+                { source: 'me', target: 'insects' },
+                { source: 'me', target: 'cv' },
+                { source: 'me', target: 'publications' },
+                
+                // Research connections
+                { source: 'abm', target: 'dcms' },
+                { source: 'abm', target: 'recursive' },
+                { source: 'ml-reservoir', target: 'brainstation' },
+                { source: 'ml-reservoir', target: 'nlp' },
+                { source: 'insects', target: 'blog-entomophagy' },
+                { source: 'whaling', target: 'blog-whaling' },
+                
+                // Project connections
+                { source: 'recursive', target: 'blog-recursive' },
+                { source: 'brainstation', target: 'world-bank' },
+                { source: 'nlp', target: 'blog-viz' },
+                
+                // Blog connections
+                { source: 'blog-viz', target: 'blog-complexity' },
+                { source: 'blog-complexity', target: 'abm' },
+                { source: 'blog-recursive', target: 'recursive' },
+                
+                // Cross connections
+                { source: 'cv', target: 'publications' },
+                { source: 'dcms', target: 'world-bank' },
+                { source: 'whaling', target: 'dcms' },
+            ]
+        };
+
+        // Canvas setup
+        const canvas = document.getElementById('networkCanvas');
+        const ctx = canvas.getContext('2d');
+        const tooltip = document.getElementById('tooltip');
+        const infoPanel = document.getElementById('infoPanel');
+        
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        
+        // Camera controls
+        let camera = { x: 0, y: 0, zoom: 1 };
+        let isDragging = false;
+        let dragStart = { x: 0, y: 0 };
+        let hoveredNode = null;
+        let selectedNode = null;
+        
+        // Colors
+        const colors = {
+            research: '#a78bfa',
+            project: '#818cf8',
+            blog: '#fbbf24',
+            about: '#f472b6'
+        };
+
+        // Initialize node positions using force-directed layout
+        function initializePositions() {
+            const centerNode = networkData.nodes.find(n => n.id === 'me');
+            centerNode.x = 0;
+            centerNode.y = 0;
+            
+            const angleStep = (2 * Math.PI) / (networkData.nodes.length - 1);
+            let angle = 0;
+            const radius = 300;
+            
+            networkData.nodes.forEach((node, i) => {
+                if (node.id !== 'me') {
+                    const distance = radius + Math.random() * 100;
+                    node.x = Math.cos(angle) * distance;
+                    node.y = Math.sin(angle) * distance;
+                    angle += angleStep;
+                }
+                
+                node.vx = 0;
+                node.vy = 0;
+                node.size = node.size || (node.id === 'me' ? 25 : 15);
+            });
+        }
+
+        // Physics simulation
+        function updatePhysics() {
+            const repelForce = 3000;
+            const attractForce = 0.001;
+            const damping = 0.9;
+            
+            // Node repulsion
+            for (let i = 0; i < networkData.nodes.length; i++) {
+                for (let j = i + 1; j < networkData.nodes.length; j++) {
+                    const n1 = networkData.nodes[i];
+                    const n2 = networkData.nodes[j];
+                    const dx = n2.x - n1.x;
+                    const dy = n2.y - n1.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+                    
+                    const force = repelForce / (dist * dist);
+                    const fx = (dx / dist) * force;
+                    const fy = (dy / dist) * force;
+                    
+                    n1.vx -= fx;
+                    n1.vy -= fy;
+                    n2.vx += fx;
+                    n2.vy += fy;
+                }
+            }
+            
+            // Edge attraction
+            networkData.edges.forEach(edge => {
+                const source = networkData.nodes.find(n => n.id === edge.source);
+                const target = networkData.nodes.find(n => n.id === edge.target);
+                
+                const dx = target.x - source.x;
+                const dy = target.y - source.y;
+                const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+                
+                const force = dist * attractForce;
+                const fx = (dx / dist) * force;
+                const fy = (dy / dist) * force;
+                
+                source.vx += fx;
+                source.vy += fy;
+                target.vx -= fx;
+                target.vy -= fy;
+            });
+            
+            // Update positions
+            networkData.nodes.forEach(node => {
+                if (node.id !== 'me') {
+                    node.vx *= damping;
+                    node.vy *= damping;
+                    node.x += node.vx;
+                    node.y += node.vy;
+                }
+            });
+        }
+
+        // Drawing functions
+        function draw() {
+            ctx.fillStyle = '#000000';
+            ctx.fillRect(0, 0, width, height);
+            
+            ctx.save();
+            ctx.translate(width / 2 + camera.x, height / 2 + camera.y);
+            ctx.scale(camera.zoom, camera.zoom);
+            
+            // Draw edges with animated flowing effect
+            networkData.edges.forEach(edge => {
+                const source = networkData.nodes.find(n => n.id === edge.source);
+                const target = networkData.nodes.find(n => n.id === edge.target);
+                
+                const isConnectedToSelected = selectedNode && 
+                    (edge.source === selectedNode.id || edge.target === selectedNode.id);
+                const isConnectedToHovered = hoveredNode && 
+                    (edge.source === hoveredNode.id || edge.target === hoveredNode.id);
+                
+                if (isConnectedToSelected || isConnectedToHovered) {
+                    // Draw glowing animated line
+                    const gradient = ctx.createLinearGradient(source.x, source.y, target.x, target.y);
+                    gradient.addColorStop(0, colors[source.type]);
+                    gradient.addColorStop(0.5, colors[target.type]);
+                    gradient.addColorStop(1, colors[source.type]);
+                    ctx.strokeStyle = gradient;
+                    ctx.lineWidth = 3;
+                    ctx.shadowBlur = 20;
+                    ctx.shadowColor = colors[target.type];
+                } else {
+                    ctx.strokeStyle = 'rgba(167, 139, 250, 0.15)';
+                    ctx.lineWidth = 1.5;
+                    ctx.shadowBlur = 5;
+                    ctx.shadowColor = 'rgba(167, 139, 250, 0.3)';
+                }
+                
+                ctx.beginPath();
+                ctx.moveTo(source.x, source.y);
+                ctx.lineTo(target.x, target.y);
+                ctx.stroke();
+                
+                ctx.shadowBlur = 0;
+            });
+            
+            // Draw nodes with enhanced effects
+            networkData.nodes.forEach(node => {
+                const isHovered = node === hoveredNode;
+                const isSelected = node === selectedNode;
+                const isConnected = selectedNode && networkData.edges.some(e => 
+                    (e.source === selectedNode.id && e.target === node.id) ||
+                    (e.target === selectedNode.id && e.source === node.id)
+                );
+                
+                const scale = isHovered ? 1.3 : (isSelected ? 1.2 : (isConnected ? 1.1 : 1));
+                const nodeSize = node.size * scale;
+                const time = Date.now() * 0.001;
+                
+                // Animated outer glow rings
+                if (isHovered || isSelected) {
+                    for (let i = 4; i > 0; i--) {
+                        const pulseOffset = Math.sin(time * 2 + i) * 3;
+                        ctx.strokeStyle = colors[node.type];
+                        ctx.lineWidth = 2;
+                        ctx.globalAlpha = 0.15 / i;
+                        ctx.beginPath();
+                        ctx.arc(node.x, node.y, nodeSize + (i * 10) + pulseOffset, 0, Math.PI * 2);
+                        ctx.stroke();
+                    }
+                    ctx.globalAlpha = 1;
+                }
+                
+                // Rotating particle ring around node
+                if (isSelected) {
+                    const particleCount = 8;
+                    for (let i = 0; i < particleCount; i++) {
+                        const angle = (time + i / particleCount) * Math.PI * 2;
+                        const orbitRadius = nodeSize + 15;
+                        const px = node.x + Math.cos(angle) * orbitRadius;
+                        const py = node.y + Math.sin(angle) * orbitRadius;
+                        
+                        ctx.shadowBlur = 10;
+                        ctx.shadowColor = colors[node.type];
+                        ctx.fillStyle = colors[node.type];
+                        ctx.globalAlpha = 0.8;
+                        ctx.beginPath();
+                        ctx.arc(px, py, 2, 0, Math.PI * 2);
+                        ctx.fill();
+                        ctx.globalAlpha = 1;
+                    }
+                }
+                
+                // Main glow with pulse
+                const pulseFactor = 1 + Math.sin(time * 2) * 0.1;
+                ctx.shadowBlur = (isHovered || isSelected ? 40 : 20) * pulseFactor;
+                ctx.shadowColor = colors[node.type];
+                
+                // Outer circle with radial gradient
+                const outerGradient = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, nodeSize);
+                outerGradient.addColorStop(0, colors[node.type]);
+                outerGradient.addColorStop(0.7, colors[node.type]);
+                outerGradient.addColorStop(1, 'rgba(167, 139, 250, 0.5)');
+                ctx.fillStyle = outerGradient;
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, nodeSize, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Middle circle with darker gradient
+                const gradient = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, nodeSize * 0.7);
+                gradient.addColorStop(0, 'rgba(10, 14, 39, 0.95)');
+                gradient.addColorStop(1, 'rgba(10, 14, 39, 0.7)');
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, nodeSize * 0.7, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Animated inner glow with shimmer
+                const shimmer = 0.2 + Math.sin(time * 3 + node.x + node.y) * 0.1;
+                ctx.shadowBlur = 25;
+                ctx.fillStyle = colors[node.type];
+                ctx.globalAlpha = shimmer;
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, nodeSize * 0.4, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.globalAlpha = 1;
+                
+                // Sparkling center point
+                if (Math.random() > 0.9) {
+                    ctx.shadowBlur = 15;
+                    ctx.fillStyle = 'white';
+                    ctx.globalAlpha = 0.8;
+                    ctx.beginPath();
+                    ctx.arc(node.x, node.y, 2, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.globalAlpha = 1;
+                }
+                
+                ctx.shadowBlur = 0;
+                
+                // Label with better visibility
+                if (camera.zoom > 0.4 || isHovered || isSelected || isConnected) {
+                    const fontSize = Math.max(12, 14 / camera.zoom);
+                    ctx.font = `${fontSize}px 'Courier New', monospace`;
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    
+                    // Label background
+                    const textMetrics = ctx.measureText(node.label);
+                    const padding = 8;
+                    const labelY = node.y + nodeSize + 25;
+                    
+                    if (isHovered || isSelected) {
+                        ctx.fillStyle = 'rgba(10, 14, 39, 0.9)';
+                        ctx.fillRect(
+                            node.x - textMetrics.width/2 - padding,
+                            labelY - fontSize/2 - padding/2,
+                            textMetrics.width + padding * 2,
+                            fontSize + padding
+                        );
+                        
+                        ctx.strokeStyle = colors[node.type];
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(
+                            node.x - textMetrics.width/2 - padding,
+                            labelY - fontSize/2 - padding/2,
+                            textMetrics.width + padding * 2,
+                            fontSize + padding
+                        );
+                    }
+                    
+                    // Label text with glow
+                    ctx.shadowBlur = isHovered || isSelected ? 10 : 5;
+                    ctx.shadowColor = colors[node.type];
+                    ctx.fillStyle = isHovered || isSelected ? colors[node.type] : '#e2e8f0';
+                    ctx.fillText(node.label, node.x, labelY);
+                    ctx.shadowBlur = 0;
+                }
+            });
+            
+            ctx.restore();
+        }
+
+        // Convert screen coordinates to world coordinates
+        function screenToWorld(screenX, screenY) {
+            return {
+                x: (screenX - width / 2 - camera.x) / camera.zoom,
+                y: (screenY - height / 2 - camera.y) / camera.zoom
+            };
+        }
+
+        // Find node at position
+        function getNodeAtPosition(worldX, worldY) {
+            return networkData.nodes.find(node => {
+                const dx = node.x - worldX;
+                const dy = node.y - worldY;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                return dist < node.size;
+            });
+        }
+
+        // Show node details
+        function showNodeDetails(node) {
+            selectedNode = node;
+            const panel = document.getElementById('nodeDetails');
+            const title = document.getElementById('nodeTitle');
+            const category = document.getElementById('nodeCategory');
+            const description = document.getElementById('nodeDescription');
+            const meta = document.getElementById('nodeMeta');
+            const connectionList = document.getElementById('connectionList');
+            
+            title.textContent = node.label;
+            category.textContent = node.type;
+            description.textContent = node.description || 'Explore this area of work...';
+            meta.textContent = node.url ? `View: ${node.url}` : '';
+            
+            // Find connected nodes
+            const connections = [];
+            networkData.edges.forEach(edge => {
+                if (edge.source === node.id) {
+                    const target = networkData.nodes.find(n => n.id === edge.target);
+                    connections.push(target);
+                } else if (edge.target === node.id) {
+                    const source = networkData.nodes.find(n => n.id === edge.source);
+                    connections.push(source);
+                }
+            });
+            
+            connectionList.innerHTML = connections
+                .map(n => `<li data-node="${n.id}">${n.label}</li>`)
+                .join('');
+            
+            panel.classList.add('active');
+            infoPanel.classList.add('hidden');
+        }
+
+        // Event listeners
+        canvas.addEventListener('mousedown', (e) => {
+            const world = screenToWorld(e.clientX, e.clientY);
+            const node = getNodeAtPosition(world.x, world.y);
+            
+            if (node) {
+                showNodeDetails(node);
+            } else {
+                isDragging = true;
+                dragStart = { x: e.clientX - camera.x, y: e.clientY - camera.y };
+                canvas.style.cursor = 'grabbing';
+            }
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            const world = screenToWorld(e.clientX, e.clientY);
+            const node = getNodeAtPosition(world.x, world.y);
+            
+            if (node !== hoveredNode) {
+                hoveredNode = node;
+                
+                if (node) {
+                    tooltip.querySelector('.title').textContent = node.label;
+                    tooltip.querySelector('.type').textContent = node.type;
+                    tooltip.style.left = e.clientX + 15 + 'px';
+                    tooltip.style.top = e.clientY + 15 + 'px';
+                    tooltip.classList.add('visible');
+                    canvas.style.cursor = 'pointer';
+                } else {
+                    tooltip.classList.remove('visible');
+                    canvas.style.cursor = isDragging ? 'grabbing' : 'grab';
+                }
+            } else if (node) {
+                tooltip.style.left = e.clientX + 15 + 'px';
+                tooltip.style.top = e.clientY + 15 + 'px';
+            }
+            
+            if (isDragging) {
+                camera.x = e.clientX - dragStart.x;
+                camera.y = e.clientY - dragStart.y;
+            }
+        });
+
+        canvas.addEventListener('mouseup', () => {
+            isDragging = false;
+            canvas.style.cursor = hoveredNode ? 'pointer' : 'grab';
+        });
+
+        canvas.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
+            camera.zoom = Math.max(0.3, Math.min(3, camera.zoom * zoomFactor));
+        });
+
+        // Controls
+        document.getElementById('zoomIn').addEventListener('click', () => {
+            camera.zoom = Math.min(3, camera.zoom * 1.2);
+        });
+
+        document.getElementById('zoomOut').addEventListener('click', () => {
+            camera.zoom = Math.max(0.3, camera.zoom / 1.2);
+        });
+
+        document.getElementById('resetView').addEventListener('click', () => {
+            camera = { x: 0, y: 0, zoom: 1 };
+            selectedNode = null;
+            document.getElementById('nodeDetails').classList.remove('active');
+            infoPanel.classList.remove('hidden');
+        });
+
+        document.getElementById('closeDetails').addEventListener('click', () => {
+            selectedNode = null;
+            document.getElementById('nodeDetails').classList.remove('active');
+            infoPanel.classList.remove('hidden');
+        });
+
+        // Connection list clicks
+        document.getElementById('connectionList').addEventListener('click', (e) => {
+            if (e.target.tagName === 'LI') {
+                const nodeId = e.target.dataset.node;
+                const node = networkData.nodes.find(n => n.id === nodeId);
+                if (node) showNodeDetails(node);
+            }
+        });
+
+        // Create enhanced starfield
+        function createStarfield() {
+            const starfield = document.getElementById('starfield');
+            const sizes = ['small', 'medium', 'large'];
+            const weights = [70, 25, 5];
+            
+            for (let i = 0; i < 150; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                
+                const rand = Math.random() * 100;
+                let cumulativeWeight = 0;
+                let sizeClass = 'small';
+                
+                for (let j = 0; j < sizes.length; j++) {
+                    cumulativeWeight += weights[j];
+                    if (rand <= cumulativeWeight) {
+                        sizeClass = sizes[j];
+                        break;
+                    }
+                }
+                
+                star.classList.add(sizeClass);
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.animationDelay = Math.random() * 3 + 's';
+                star.style.animationDuration = (2 + Math.random() * 2) + 's';
+                starfield.appendChild(star);
+            }
+        }
+
+        // Resize handler
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        });
+
+        // Animation loop
+        let physicsIterations = 0;
+        function animate() {
+            if (physicsIterations < 300) {
+                updatePhysics();
+                physicsIterations++;
+            }
+            
+            draw();
+            requestAnimationFrame(animate);
+        }
+
+        // Initialize
+        createStarfield();
+        initializePositions();
+        animate();
+    </script>
+</body>
+</html> -->

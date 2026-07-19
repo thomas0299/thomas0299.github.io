@@ -17,7 +17,7 @@ My most recent CV document is [here](https://drive.google.com/file/d/1FfcpAADrs_
 
 Work experience
 ======
-* 2025-: Teaching Assistant - [Tsinghua University](https://www.tsinghua.edu.cn/en/)
+* 2025-: Teaching Assistant - [Tsinghua University](https://www.tsinghua.edu.cn/en/) - Outstanding TA Award (2025-26)
 * 2024-: PhD Student - [Center for Complex Network Intelligence](https://brain.tsinghua.edu.cn/en/Research1/Research_Centers/Complex_Network_Intelligence_Center.htm) - Carlo Cannistraci
 * 2022-24: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
 * 2021-22: Co-founder - [E-Rey](https://e-rey.bubbleapps.io/version-test/index_remake__)
@@ -40,12 +40,14 @@ Education
 * -2017: French Baccalaureat - [French School of Hong Kong](https://www.fis.edu.hk/?lang=fr)
 
 
-<img src="/images/cv/wolfram_institute.png" width="200" height="200" />
+<img src="/images/cv/logo_nsia.png" width="200" height="200" />
 
 
 Research
 ======
-* 2024-: Affiliate Researcher - [Wolfram Institute](https://wolframinstitute.org/)
+* 2026-: Network Science Informs AI (NSIA) NetSci Satellite Co-organizer - [NSIA](https://network-science-ai.github.io/)
+* 2026-: Reviewer: Applied Network Science, NeurIPS.
+* 2024-26: Affiliate Researcher - [Wolfram Institute](https://wolframinstitute.org/)
 * 2024: Data Study Group Researcher - [The Alan Turing Institute](https://www.turing.ac.uk/events/data-study-group-may-2024) - Brad Klee & Stephen Wolfram
 * 2021: [EPSW Finance Canada Project](http://www.fields.utoronto.ca/activities/20-21/systemic-EPSW) - Fields Institute, University of Toronto
 * 2020: Research Assistant - [Development Impact Evaluation Group, World Bank](https://www.worldbank.org/en/research/dime) - Daniel Rogger & Ravi Somani
@@ -57,7 +59,8 @@ Research
 
 Volunteering
 ======
-* 2025-: Co-Founder and President - [Swiss Students in China Assocation](https://www.linkedin.com/company/107990637)
+* 2026-: Board Member - [Youth Parliament of the Swiss Abroad (YPSA)](https://ypsa.ch/)
+* 2025-: Co-Founder and President - [Swiss Students in China Assocation (SSCA)](https://www.linkedin.com/company/107990637)
 * 2022-24: Vice President of Education - [Center Berlin Toastmaster](https://centerberlin-toastmasters.de/)
 * 2020-22: President and Coach - [UCL Barbell Club](https://studentsunionucl.org/clubs-societies/barbell-club)
 * 2018-19: Higher Impact Cafe Project Lead - [Enactus UCL](https://enactus.org/)

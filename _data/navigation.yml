@@ -2,6 +2,9 @@
 main:
   - title: "Research & Projects"
     url: /research_projects/
+
+  - title: "Publications"
+    url: /publications/
         
   - title: "Blog"
     url: /blog/
