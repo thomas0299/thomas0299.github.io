@@ -36,15 +36,15 @@ In China, I co-founded the Swiss Students in China Association (SSCA), connectin
 
 <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
   <img src="/images/cv/ssca.png" width="200" height="200" alt="SSCA logo" />
-  <img src="/images/ypsa_logo.png" width="200" height="200" alt="YPSA logo" />
+  <img src="/images/cv/ypsa_logo.png" width="200" height="200" alt="YPSA logo" />
 </div>
 
 At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, got my coaching (BWL Lv2), and refereeing licences.
 
 <center><img src="/images/profile/CF2.jpeg" width="500" height="500" /></center>
 <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-  <img src="/images/CF2.png" width="500" height="500" alt="CF" />
-  <img src="/images/bmu.png" width="200" height="500" alt="BMU" />
+  <img src="/images/profile/CF2.jpeg" width="500" height="500" alt="CF" />
+  <img src="/images/profile/bmu.JPG" width="200" height="500" alt="BMU" />
 </div>
 
 I then turned to the dark side, and now intensely train Crossfit, a beautiful methodology that claims to be the ultimate test of fitness (I agree ;) ). 
