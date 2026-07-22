@@ -36,7 +36,7 @@ In China, I co-founded the Swiss Students in China Association (SSCA), connectin
 
 <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
   <img src="/images/cv/ssca.png" width="200" height="200" alt="SSCA logo" />
-  <img src="/images/cv/ssca.png" width="200" height="200" alt="SSCA logo" />
+  <img src="/images/ypsa)logo.png" width="200" height="200" alt="YPSA logo" />
 </div>
 
 At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, got my coaching (BWL Lv2), and refereeing licences.
