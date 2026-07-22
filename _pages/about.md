@@ -3,11 +3,18 @@ permalink: /
 title: "It’s cats that are complicated. 🐈"
 excerpt: "About me"
 author_profile: true
+network_key: about
+network_title: Thomas Adler
+network_category: About
+network_summary: As a network scientist, economist, and programmer, the defining factor in my academic and professional career is the study of complex systems.
+network_highlights:
+  - I received my undergraduate degree in Economics from University College London and have worked for the UK government, the World Bank, and the Fields Institute in Toronto.
+  - I am currently a PhD Candidate in Advanced Computing at Tsinghua University, focusing on network dismantling, brain-inspired AI, and reservoir computing.
+  - I also co-founded the Swiss Students in China Association and I am always looking to meet interesting people who share my passion for networks, complexity, and computation.
 redirect_from: 
   - /about/
   - /about.html
 ---
-
 
 *People think that mathematics is complicated. Mathematics is the simple bit, it’s the stuff we CAN understand. It’s cats that are complicated.*
 John Conway
@@ -18,12 +25,14 @@ I received my undergraduate degree in Economics from University College London (
 
 I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI, and reservoir computing.
 
-<center><img src="/images/profile/th_2.png" width="800" height="800" /></center>
+<!-- <center><img src="/images/profile/ccni_logo.png" width="800" height="800" /></center> -->
 
-..
+I published my first first-author paper at ICLR 2026,. I have served as a reviewer for Applied Network Science and NeurIPS, organized the Network Science Informs (AI) satellite at NetSci 2026, and serve as a Teaching Assistant for French and English at Tsinghua.
+
 <center><img src="/images/research_projects/dsg_1.jpeg" width="900" height="900" /></center>
+..
 
-In China, I co-founded the Swiss Students in China Association (SSCA), connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries.
+In China, I co-founded the Swiss Students in China Association (SSCA), connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries. I was also elected tot he Youth Parliament for the Swiss Abroad (YPSA).
 
 <center><img src="/images/cv/ssca.png" width="250" height="250" /></center>
 

@@ -22,8 +22,8 @@ Year 1
 * Advanced Network Management
 * Deep Learning
 * Natural Language Processing
-* Intercultural communication
-* How to report research results in English
+<!-- * Intercultural communication -->
+<!-- * How to report research results in English -->
 
 BSc Economics - University College London (UCL)
 ======

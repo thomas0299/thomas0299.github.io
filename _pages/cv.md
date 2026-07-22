@@ -9,16 +9,15 @@ redirect_from:
 
 {% include base_path %}
 My [linkedin](https://www.linkedin.com/in/thomas-s-adler/) has more complete information and includes nice logos.
-My most recent CV document is [here](https://drive.google.com/file/d/1FfcpAADrs_FYj3Onp1MGIDE2U5Oq2F9W/view?usp=sharing) (updated September 2024).
+<!-- My most recent CV document is [here](https://drive.google.com/file/d/1FfcpAADrs_FYj3Onp1MGIDE2U5Oq2F9W/view?usp=sharing) (updated September 2024). -->
 
 
-<img src="/images/cv/yukkalab2.png" width="150" height="150" />
-
+<img src="/images/cv/ccni_logo.png" width="150" height="150" />
 
 Work experience
 ======
-* 2025-: Teaching Assistant - [Tsinghua University](https://www.tsinghua.edu.cn/en/) - Outstanding TA Award (2025-26)
-* 2024-: PhD Student - [Center for Complex Network Intelligence](https://brain.tsinghua.edu.cn/en/Research1/Research_Centers/Complex_Network_Intelligence_Center.htm) - Carlo Cannistraci
+* 2025-Present: Teaching Assistant - [Tsinghua University](https://www.tsinghua.edu.cn/en/) - Outstanding TA Award (2025-26)
+* 2024-Present: PhD Student - [Center for Complex Network Intelligence](https://brain.tsinghua.edu.cn/en/Research1/Research_Centers/Complex_Network_Intelligence_Center.htm) - Supervisor: Carlo V. Cannistraci
 * 2022-24: Data Scientist - [YUKKA Lab](https://www.yukkalab.com/)
 * 2021-22: Co-founder - [E-Rey](https://e-rey.bubbleapps.io/version-test/index_remake__)
 * 2022: Analyst - [UK Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office)
@@ -28,10 +27,9 @@ Work experience
 
 <img src="/images/cv/th1.png" width="350" height="350" />
 
-
 Education
 ======
-* 2024-: PhD Advanced Computing - [Tsinghua University](https://www.tsinghua.edu.cn/en/)
+* 2024-Present: PhD Advanced Computing - [Tsinghua University](https://www.tsinghua.edu.cn/en/)
 * 2024: Wolfram Summmer School - [WSS](https://education.wolfram.com/summer-school/)
 * 2022: Data Science Bootcamp - [Brainstation](https://brainstation.io/)
 * 2021: [Summer School in Economic Networks](https://www.maths.ox.ac.uk/events/summer-schools/economic-networks) - University of Oxford
@@ -40,59 +38,41 @@ Education
 * -2017: French Baccalaureat - [French School of Hong Kong](https://www.fis.edu.hk/?lang=fr)
 
 
-<img src="/images/cv/logo_nsia.png" width="200" height="200" />
-
+<img src="/images/cv/logo_nsia.png" width="150" height="150" />
 
 Research
 ======
-* 2026-: Network Science Informs AI (NSIA) NetSci Satellite Co-organizer - [NSIA](https://network-science-ai.github.io/)
-* 2026-: Reviewer: Applied Network Science, NeurIPS.
+* 2026-Present: Network Science Informs AI (NSIA) NetSci Satellite Co-organizer - [NSIA](https://network-science-ai.github.io/)
+* 2026-Present: Reviewer: Applied Network Science, NeurIPS.
 * 2024-26: Affiliate Researcher - [Wolfram Institute](https://wolframinstitute.org/)
 * 2024: Data Study Group Researcher - [The Alan Turing Institute](https://www.turing.ac.uk/events/data-study-group-may-2024) - Brad Klee & Stephen Wolfram
 * 2021: [EPSW Finance Canada Project](http://www.fields.utoronto.ca/activities/20-21/systemic-EPSW) - Fields Institute, University of Toronto
 * 2020: Research Assistant - [Development Impact Evaluation Group, World Bank](https://www.worldbank.org/en/research/dime) - Daniel Rogger & Ravi Somani
 * 2020: Research Assistant - [Center for Microdata Methods and Practice](https://www.cemmap.ac.uk/about-us/) - Daniel Wilhelm
 
-
-<img src="/images/cv/ssca.png" width="200" height="200" />
-
+<img src="/images/cv/ssca.png" width="150" height="150" />
 
 Volunteering
 ======
-* 2026-: Board Member - [Youth Parliament of the Swiss Abroad (YPSA)](https://ypsa.ch/)
-* 2025-: Co-Founder and President - [Swiss Students in China Assocation (SSCA)](https://www.linkedin.com/company/107990637)
+* 2026-Present: Board Member - [Youth Parliament of the Swiss Abroad (YPSA)](https://ypsa.ch/)
+* 2025-Present: Co-Founder and President - [Swiss Students in China Assocation (SSCA)](https://www.linkedin.com/company/107990637)
 * 2022-24: Vice President of Education - [Center Berlin Toastmaster](https://centerberlin-toastmasters.de/)
 * 2020-22: President and Coach - [UCL Barbell Club](https://studentsunionucl.org/clubs-societies/barbell-club)
 * 2018-19: Higher Impact Cafe Project Lead - [Enactus UCL](https://enactus.org/)
 * 2016: Conservation Volunteer - [Ocean Park HK](https://www.opcf.org.hk/en/)
-
 
 <img src="/images/cv/neo4j.png" width="200" height="200" />
 
 
 Skills
 ======
-* Neo4j
-* Python
-* Bash
-* SQL
-* R
-* STATA
-* Mathematica
-* MATLAB
-* NetLogo
-* Git
-* Java
-* Docker
-* Elasticsearch
-* Kubernetes
-* AWS
+Neo4j, Python, Bash, SQL, R, STATA, Mathematica, MATLAB, NetLogo, Git, Java, Docker, Elasticsearch, Kubernetes, AWS
 
 Languages
 ======
 * French - Native
 * English - Native
-* Mandarin Chinese - Intermediate (HSK 4)
+* Mandarin Chinese - Intermediate (HSK 5)
 
 
 <img src="/images/cv/ce.png" width="300" height="300" />

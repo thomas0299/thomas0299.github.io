@@ -3,6 +3,14 @@ layout: archive
 title: "Public Speaking at Toastmasters"
 permalink: /toastmaster/
 author_profile: true
+network_key: toastmaster
+network_title: Public Speaking at Toastmasters
+network_category: Toastmasters
+network_summary: Public speaking scared me, a lot. I decided to change that in 2022, by joining Toastmasters and keeping myself accountable through the Engaging Humor pathway.
+network_highlights:
+  - Toastmasters International is a nonprofit educational organization that teaches public speaking and leadership skills through a worldwide network of clubs.
+  - I chose the Engaging Humor pathway, which focuses on building humor, engagement, and impromptu speaking skills through a series of speeches.
+  - I cannot recommend enough that people give Toastmasters a try: the clubs are welcoming, funny, and driven.
 ---
 
 

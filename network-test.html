@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -115,7 +115,7 @@
             66% { transform: translate(-20px, 30px) scale(0.9); }
         }
 
-        /* Navigation */
+        /* navigation */
         nav {
             position: fixed;
             top: 0;
@@ -365,6 +365,33 @@
             letter-spacing: 1px;
         }
 
+        .detail-highlights {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .detail-highlights li {
+            color: var(--text);
+            margin-bottom: 0.75rem;
+            padding-left: 1rem;
+            border-left: 2px solid var(--primary);
+            line-height: 1.6;
+        }
+
+        .page-link {
+            display: inline-flex;
+            margin-top: 1rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .page-link:hover {
+            color: var(--primary);
+        }
+
         .connection-list {
             list-style: none;
         }
@@ -443,51 +470,6 @@
             height: 12px;
             border-radius: 50%;
             box-shadow: 0 0 10px currentColor;
-        }
-
-        /* Control Panel */
-        .controls {
-            position: fixed;
-            top: 100px;
-            right: 2rem;
-            background: rgba(10, 14, 39, 0.9);
-            border: 1px solid var(--primary);
-            border-radius: 10px;
-            padding: 1rem;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 0 20px rgba(167, 139, 250, 0.2);
-            animation: fadeInUp 1s ease 1.2s both;
-        }
-
-        .control-btn {
-            display: block;
-            width: 50px;
-            height: 50px;
-            background: transparent;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            color: var(--text-dim);
-            margin-bottom: 0.5rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 1.2rem;
-        }
-
-        .control-btn:hover {
-            background: var(--primary);
-            color: var(--bg-dark);
-            border-color: var(--primary);
-            box-shadow: 0 0 20px var(--glow);
-            transform: scale(1.1);
-        }
-
-        .control-btn:active {
-            transform: scale(0.95);
-        }
-
-        .control-btn:last-child {
-            margin-bottom: 0;
         }
 
         /* Instructions */
@@ -607,9 +589,9 @@
         <div class="nav-container">
             <div class="logo">Thomas Adler</div>
             <ul class="nav-links">
-                <li><a href="#network">Network</a></li>
+                <!-- <li><a href="#network">Network</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="cv.html">CV</a></li>
+                <li><a href="cv.html">CV</a></li> -->
             </ul>
         </div>
     </nav>
@@ -621,8 +603,7 @@
         <!-- Info Panel -->
         <div class="info-panel" id="infoPanel">
             <h1>Thomas Adler</h1>
-            <p class="subtitle">Knowledge Network</p>
-            <p>An interconnected web of research, projects, and ideas</p>
+            <!-- <p>An interconnected web of research, projects, and ideas</p> -->
         </div>
     </div>
 
@@ -638,6 +619,7 @@
         <h2 id="nodeTitle">Node Title</h2>
         <div class="category" id="nodeCategory">Category</div>
         <p id="nodeDescription">Description goes here...</p>
+        <ul class="detail-highlights" id="nodeHighlights"></ul>
         <div class="meta" id="nodeMeta"></div>
         <div class="connections">
             <h3>Connected To</h3>
@@ -649,102 +631,69 @@
     <div class="legend">
         <h3>Network Map</h3>
         <div class="legend-item">
-            <div class="legend-dot" style="background: #a78bfa; color: #a78bfa;"></div>
-            <span>Research</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-dot" style="background: #818cf8; color: #818cf8;"></div>
-            <span>Projects</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-dot" style="background: #fbbf24; color: #fbbf24;"></div>
-            <span>Blog Posts</span>
-        </div>
-        <div class="legend-item">
             <div class="legend-dot" style="background: #f472b6; color: #f472b6;"></div>
             <span>About</span>
         </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #fbbf24; color: #fbbf24;"></div>
+            <span>Toastmasters</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #818cf8; color: #818cf8;"></div>
+            <span>Speeches</span>
+        </div>
     </div>
 
-    <!-- Controls -->
-    <div class="controls">
-        <button class="control-btn" id="zoomIn" title="Zoom In">+</button>
-        <button class="control-btn" id="zoomOut" title="Zoom Out">−</button>
-        <button class="control-btn" id="resetView" title="Reset View">⟲</button>
-    </div>
-
-    <!-- Instructions -->
-    <div class="instructions">
+        <!-- Instructions -->
+        <!-- <div class="instructions">
         <h4>Navigation</h4>
         <p><kbd>Click</kbd> nodes to explore</p>
         <p><kbd>Drag</kbd> to move around</p>
         <p><kbd>Scroll</kbd> to zoom</p>
         <p><kbd>Hover</kbd> for info</p>
-    </div>
+    </div> -->
 
     <script>
-        // Network Data Structure
-        const networkData = {
-            nodes: [
-                // Center node
-                { id: 'me', label: 'Thomas Adler', type: 'about', x: 0, y: 0, size: 25, url: 'about.html' },
-                
-                // Research nodes
-                { id: 'abm', label: 'Agent-Based Modeling', type: 'research', description: 'Complex systems simulation', url: '_research_projects/abm.html' },
-                { id: 'ml-reservoir', label: 'ML Reservoir Computing', type: 'research', description: 'Machine learning research', url: '_research_projects/ml-reservoir.html' },
-                { id: 'insects', label: 'Insect Research', type: 'research', description: 'Entomology studies', url: '_research_projects/insects.html' },
-                { id: 'dcms', label: 'DCMS Data', type: 'research', description: 'Data science consulting', url: '_research_projects/dcms_data.html' },
-                { id: 'whaling', label: 'Whaling Data Analysis', type: 'research', description: 'Historical data analysis', url: '_research_projects/whaling.html' },
-                
-                // Project nodes
-                { id: 'brainstation', label: 'BrainStation', type: 'project', description: 'Data science education', url: '_research_projects/brainstation.html' },
-                { id: 'recursive', label: 'Recursive Analysis', type: 'project', description: 'Computational modeling', url: '_research_projects/recursive.html' },
-                { id: 'nlp', label: 'NLP Airplane', type: 'project', description: 'Natural language processing', url: '_research_projects/nlp_airplane.html' },
-                { id: 'world-bank', label: 'World Bank', type: 'project', description: 'Development data', url: '_research_projects/world_bank.html' },
-                
-                // Blog nodes
-                { id: 'blog-viz', label: 'Data Visualization', type: 'blog', description: 'Visual storytelling techniques', url: '_blog/visualisation.html' },
-                { id: 'blog-complexity', label: 'Graphing Complexity', type: 'blog', description: 'Network analysis', url: '_blog/graphing_complexity_p1.html' },
-                { id: 'blog-recursive', label: 'Recursive Blog', type: 'blog', description: 'Self-referential analysis', url: '_blog/recursive_blog_p1.html' },
-                { id: 'blog-whaling', label: 'Whaling History', type: 'blog', description: 'Historical analysis', url: '_blog/whaling.html' },
-                { id: 'blog-entomophagy', label: 'Entomophagy', type: 'blog', description: 'Insect consumption research', url: '_blog/entomophagy.html' },
-                
-                // About nodes
-                { id: 'cv', label: 'Curriculum Vitae', type: 'about', description: 'Professional experience', url: 'cv.html' },
-                { id: 'publications', label: 'Publications', type: 'about', description: 'Academic papers', url: 'publications.html' },
-            ],
-            edges: [
-                // Connections from center
-                { source: 'me', target: 'abm' },
-                { source: 'me', target: 'ml-reservoir' },
-                { source: 'me', target: 'insects' },
-                { source: 'me', target: 'cv' },
-                { source: 'me', target: 'publications' },
-                
-                // Research connections
-                { source: 'abm', target: 'dcms' },
-                { source: 'abm', target: 'recursive' },
-                { source: 'ml-reservoir', target: 'brainstation' },
-                { source: 'ml-reservoir', target: 'nlp' },
-                { source: 'insects', target: 'blog-entomophagy' },
-                { source: 'whaling', target: 'blog-whaling' },
-                
-                // Project connections
-                { source: 'recursive', target: 'blog-recursive' },
-                { source: 'brainstation', target: 'world-bank' },
-                { source: 'nlp', target: 'blog-viz' },
-                
-                // Blog connections
-                { source: 'blog-viz', target: 'blog-complexity' },
-                { source: 'blog-complexity', target: 'abm' },
-                { source: 'blog-recursive', target: 'recursive' },
-                
-                // Cross connections
-                { source: 'cv', target: 'publications' },
-                { source: 'dcms', target: 'world-bank' },
-                { source: 'whaling', target: 'dcms' },
-            ]
-        };
+            const pageData = {};
+
+            const sourceDefinitions = [
+                { id: 'me', label: 'Thomas Adler', type: 'about', pageUrl: '/', sourcePath: './_pages/about.md', fixed: true, x: 0, y: 0, size: 28 },
+                { id: 'toastmaster', label: 'Toastmasters', type: 'toastmaster', pageUrl: '/toastmaster/', sourcePath: './_pages/toastmaster.md', fixed: true, x: 320, y: 0, size: 22 },
+                { id: '1-1', label: 'Grandma 👵', type: 'speech', pageUrl: '/toastmaster/1-1', sourcePath: './_toastmaster/1-1.md', parent: 'toastmaster', size: 16 },
+                { id: '1-2', label: 'The Fog of Ancient History 🛕', type: 'speech', pageUrl: '/toastmaster/1-2', sourcePath: './_toastmaster/1-2.md', parent: 'toastmaster', size: 16 },
+                { id: '1-3', label: 'The Trolley Problem', type: 'speech', pageUrl: '/toastmaster/1-3', sourcePath: './_toastmaster/1-3.md', parent: 'toastmaster', size: 16 },
+                { id: '1-4', label: 'Dancing with a Mother-in-law', type: 'speech', pageUrl: '/toastmaster/1-4', sourcePath: './_toastmaster/1-4.md', parent: 'toastmaster', size: 16 },
+                { id: '1-5', label: 'Mother in law...', type: 'speech', pageUrl: '/toastmaster/1-5', sourcePath: './_toastmaster/1-5.md', parent: 'toastmaster', size: 16 },
+                { id: '2-1', label: 'Speech 2-1', type: 'speech', pageUrl: '/toastmaster/2-1', sourcePath: './_toastmaster/2-1.md', parent: 'toastmaster', size: 16 },
+                { id: '2-2', label: 'The Twin I Could Not Beat', type: 'speech', pageUrl: '/toastmaster/2-2', sourcePath: './_toastmaster/2-2.md', parent: 'toastmaster', size: 16 },
+                { id: '2-3', label: 'Introduction to Toastmasters Mentoring', type: 'speech', pageUrl: '/toastmaster/2-3', sourcePath: './_toastmaster/2-3.md', parent: 'toastmaster', size: 16 },
+                { id: '3-1', label: 'A Moral Dilemma', type: 'speech', pageUrl: '/toastmaster/3-1', sourcePath: './_toastmaster/3-1.md', parent: 'toastmaster', size: 16 },
+                { id: '3-2', label: 'Networking', type: 'speech', pageUrl: '/toastmaster/3-2', sourcePath: './_toastmaster/3-2.md', parent: 'toastmaster', size: 16 },
+                { id: '3-3_6', label: 'Speech 3-3/6', type: 'speech', pageUrl: '/toastmaster/3-3_6', sourcePath: './_toastmaster/3-3_6.md', parent: 'toastmaster', size: 16 },
+                { id: '3-4', label: 'Memetics', type: 'speech', pageUrl: '/toastmaster/3-4', sourcePath: './_toastmaster/3-4.md', parent: 'toastmaster', size: 16 },
+                { id: '3-5', label: 'The Mother-in-Law Plan', type: 'speech', pageUrl: '/toastmaster/3-5', sourcePath: './_toastmaster/3-5.md', parent: 'toastmaster', size: 16 },
+                { id: '4-1', label: 'Speech 4-1', type: 'speech', pageUrl: '/toastmaster/4-1', sourcePath: './_toastmaster/4-1.md', parent: 'toastmaster', size: 16 },
+                { id: '5-1', label: 'Graphing Complexity', type: 'speech', pageUrl: '/toastmaster/5-1', sourcePath: './_toastmaster/5-1.md', parent: 'toastmaster', size: 16 },
+                { id: '5-2', label: 'Volunteering and Why', type: 'speech', pageUrl: '/toastmaster/5-2', sourcePath: './_toastmaster/5-2.md', parent: 'toastmaster', size: 16 },
+                { id: '6', label: 'Pathway Reflection', type: 'speech', pageUrl: '/toastmaster/6', sourcePath: './_toastmaster/6.md', parent: 'toastmaster', size: 16 }
+            ];
+
+            const networkData = {
+                nodes: sourceDefinitions.map((definition) => ({
+                    id: definition.id,
+                    label: definition.label,
+                    type: definition.type,
+                    pageKey: definition.pageUrl,
+                    x: definition.x || 0,
+                    y: definition.y || 0,
+                    size: definition.size || 16,
+                    fixed: Boolean(definition.fixed),
+                    parent: definition.parent || null
+                })),
+                edges: sourceDefinitions
+                    .filter((definition) => definition.parent)
+                    .map((definition) => ({ source: definition.parent, target: definition.id }))
+            };
 
         // Canvas setup
         const canvas = document.getElementById('networkCanvas');
@@ -767,30 +716,151 @@
             research: '#a78bfa',
             project: '#818cf8',
             blog: '#fbbf24',
-            about: '#f472b6'
+            about: '#f472b6',
+            toastmaster: '#fbbf24',
+            speech: '#818cf8'
         };
+
+        function stripMarkdown(text) {
+            return text
+                .replace(/<[^>]+>/g, ' ')
+                .replace(/\[(.*?)\]\((.*?)\)/g, '$1')
+                .replace(/[#*_`]/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        function parseFrontMatter(sourceText) {
+            const match = sourceText.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/);
+            if (!match) {
+                return { frontMatter: {}, body: sourceText };
+            }
+
+            const frontMatter = {};
+            let currentListKey = null;
+            const lines = match[1].split('\n');
+
+            for (const line of lines) {
+                const keyValue = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+                if (keyValue) {
+                    const key = keyValue[1];
+                    const value = keyValue[2].trim();
+                    if (value) {
+                        frontMatter[key] = value.replace(/^"|"$/g, '');
+                        currentListKey = null;
+                    } else {
+                        frontMatter[key] = [];
+                        currentListKey = key;
+                    }
+                    continue;
+                }
+
+                const listItem = line.match(/^\s*-\s*(.*)$/);
+                if (currentListKey && listItem) {
+                    frontMatter[currentListKey].push(listItem[1].trim());
+                } else {
+                    currentListKey = null;
+                }
+            }
+
+            return { frontMatter, body: match[2] };
+        }
+
+        function extractFirstLink(text) {
+            const linkMatch = text.match(/\[([^\]]+)\]\(([^)]+)\)/);
+            return linkMatch ? { label: linkMatch[1], url: linkMatch[2] } : null;
+        }
+
+        function buildFallbackPageData(definition, content) {
+            if (definition.id === 'me' || definition.id === 'toastmaster') {
+                const { frontMatter } = parseFrontMatter(content);
+                return {
+                    title: frontMatter.network_title || frontMatter.title || definition.label,
+                    category: frontMatter.network_category || (definition.id === 'me' ? 'About' : 'Toastmasters'),
+                    url: definition.pageUrl,
+                    summary: stripMarkdown(frontMatter.network_summary || frontMatter.excerpt || content.split('\n\n')[0] || ''),
+                    highlights: frontMatter.network_highlights || [],
+                    links: [{ label: 'Open page', url: definition.pageUrl }],
+                    location: '',
+                    date: ''
+                };
+            }
+
+            const { frontMatter, body } = parseFrontMatter(content);
+            const firstLink = extractFirstLink(body);
+            return {
+                title: frontMatter.title || definition.label,
+                category: 'Speech',
+                url: definition.pageUrl,
+                summary: stripMarkdown(frontMatter.excerpt || body.split('\n\n')[0] || ''),
+                highlights: [],
+                links: [
+                    { label: 'Script', url: definition.pageUrl },
+                    firstLink || { label: 'Media', url: definition.pageUrl }
+                ],
+                location: frontMatter.location || '',
+                date: frontMatter.date || ''
+            };
+        }
+
+        async function loadPageData() {
+            const loaded = await Promise.all(sourceDefinitions.map(async (definition) => {
+                try {
+                    const response = await fetch(definition.sourcePath);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                    const content = await response.text();
+                    return [definition.pageUrl, buildFallbackPageData(definition, content)];
+                } catch (error) {
+                    return [definition.pageUrl, {
+                        title: definition.label,
+                        category: definition.type === 'speech' ? 'Speech' : definition.label,
+                        url: definition.pageUrl,
+                        summary: definition.type === 'speech' ? 'Open this speech page for the script and media links.' : 'Open this page for more information.',
+                        highlights: [],
+                        links: [{ label: 'Open page', url: definition.pageUrl }],
+                        location: '',
+                        date: ''
+                    }];
+                }
+            }));
+
+            loaded.forEach(([key, value]) => {
+                pageData[key] = value;
+            });
+        }
 
         // Initialize node positions using force-directed layout
         function initializePositions() {
-            const centerNode = networkData.nodes.find(n => n.id === 'me');
-            centerNode.x = 0;
-            centerNode.y = 0;
-            
-            const angleStep = (2 * Math.PI) / (networkData.nodes.length - 1);
-            let angle = 0;
-            const radius = 300;
-            
-            networkData.nodes.forEach((node, i) => {
-                if (node.id !== 'me') {
-                    const distance = radius + Math.random() * 100;
-                    node.x = Math.cos(angle) * distance;
-                    node.y = Math.sin(angle) * distance;
-                    angle += angleStep;
-                }
-                
+            const speechNodes = networkData.nodes.filter(node => node.type === 'speech');
+            const radius = 230;
+
+            networkData.nodes.forEach(node => {
                 node.vx = 0;
                 node.vy = 0;
-                node.size = node.size || (node.id === 'me' ? 25 : 15);
+
+                if (node.id === 'me') {
+                    node.x = 0;
+                    node.y = 0;
+                    node.size = 28;
+                    return;
+                }
+
+                if (node.id === 'toastmaster') {
+                    node.x = 320;
+                    node.y = 0;
+                    node.size = 22;
+                    return;
+                }
+            });
+
+            speechNodes.forEach((node, index) => {
+                const angle = (index / speechNodes.length) * Math.PI * 2;
+                const distance = radius + (index % 3) * 24;
+                node.x = 320 + Math.cos(angle) * distance;
+                node.y = Math.sin(angle) * distance;
+                node.size = 16;
             });
         }
 
@@ -841,11 +911,14 @@
             
             // Update positions
             networkData.nodes.forEach(node => {
-                if (node.id !== 'me') {
+                if (!node.fixed) {
                     node.vx *= damping;
                     node.vy *= damping;
                     node.x += node.vx;
                     node.y += node.vy;
+                } else {
+                    node.vx = 0;
+                    node.vy = 0;
                 }
             });
         }
@@ -1056,13 +1129,21 @@
             const title = document.getElementById('nodeTitle');
             const category = document.getElementById('nodeCategory');
             const description = document.getElementById('nodeDescription');
+            const highlights = document.getElementById('nodeHighlights');
             const meta = document.getElementById('nodeMeta');
             const connectionList = document.getElementById('connectionList');
+
+            const page = pageData[node.pageKey];
             
-            title.textContent = node.label;
-            category.textContent = node.type;
-            description.textContent = node.description || 'Explore this area of work...';
-            meta.textContent = node.url ? `View: ${node.url}` : '';
+            title.textContent = page ? page.title : node.label;
+            category.textContent = page ? page.category : node.type;
+            description.textContent = page ? page.summary : 'Explore this area of work...';
+            highlights.innerHTML = page && page.links
+                ? page.links.map(link => `<li><a class="page-link" href="${link.url}">${link.label}</a></li>`).join('')
+                : '';
+            meta.textContent = page && page.location
+                ? `${page.location}${page.date ? ' · ' + page.date : ''}`
+                : '';
             
             // Find connected nodes
             const connections = [];
@@ -1138,22 +1219,6 @@
             camera.zoom = Math.max(0.3, Math.min(3, camera.zoom * zoomFactor));
         });
 
-        // Controls
-        document.getElementById('zoomIn').addEventListener('click', () => {
-            camera.zoom = Math.min(3, camera.zoom * 1.2);
-        });
-
-        document.getElementById('zoomOut').addEventListener('click', () => {
-            camera.zoom = Math.max(0.3, camera.zoom / 1.2);
-        });
-
-        document.getElementById('resetView').addEventListener('click', () => {
-            camera = { x: 0, y: 0, zoom: 1 };
-            selectedNode = null;
-            document.getElementById('nodeDetails').classList.remove('active');
-            infoPanel.classList.remove('hidden');
-        });
-
         document.getElementById('closeDetails').addEventListener('click', () => {
             selectedNode = null;
             document.getElementById('nodeDetails').classList.remove('active');
@@ -1218,10 +1283,14 @@
             requestAnimationFrame(animate);
         }
 
-        // Initialize
-        createStarfield();
-        initializePositions();
-        animate();
+        async function bootstrap() {
+            createStarfield();
+            await loadPageData();
+            initializePositions();
+            animate();
+        }
+
+        bootstrap();
     </script>
 </body>
-</html> -->
+</html>
