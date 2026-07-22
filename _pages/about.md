@@ -23,7 +23,7 @@ As a network scientist, economist, and programmer, the defining factor in my aca
 
 I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. I also helped develop a Knowledge Graph for NLP models at YUKKA Lab, a Berlin based start-up.
 
-I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI, and reservoir computing.
+I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI, and reservoir computing. I am working on the next-generation of AI that driven by network science, exploiting topology, sparsity, dynamics, and local learning rules.
 
 <!-- <center><img src="/images/profile/ccni_logo.png" width="800" height="800" /></center> -->
 
@@ -32,20 +32,21 @@ I published my first first-author paper at ICLR 2026,. I have served as a review
 <center><img src="/images/research_projects/dsg_1.jpeg" width="900" height="900" /></center>
 ..
 
-In China, I co-founded the Swiss Students in China Association (SSCA), connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries. I was also elected tot he Youth Parliament for the Swiss Abroad (YPSA).
+In China, I co-founded the Swiss Students in China Association (SSCA), connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries. I was also elected to the Youth Parliament for the Swiss Abroad (YPSA).
 
-<center><img src="/images/cv/ssca.png" width="250" height="250" /></center>
+<center><img src="/images/cv/ssca.png" width="200" height="200" /></center>
+<center><img src="/images/cv/ssca.png" width="200" height="200" /></center>
 
 At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, got my coaching (BWL Lv2), and refereeing licences.
 
-<center><img src="/images/profile/bucs3.jpg" width="500" height="500" /></center>
+<center><img src="/images/profile/bucs3.jpg" width="300" height="300" /></center>
 
 I then turned to the dark side, and now intensely train Crossfit, a beautiful methodology that claims to be the ultimate test of fitness (I agree ;) ). 
 
-<center><img src="/images/profile/CF2.jpeg" width="700" height="700" /></center>
+<center><img src="/images/profile/CF2.jpeg" width="300" height="300" /></center>
 ..
 
-<center><img src="/images/profile/armee.jpg" width="700" height="700" /></center>
+<center><img src="/images/profile/armee.jpg" width="300" height="300" /></center>
 
 I was also serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Special Forces).
 
@@ -53,7 +54,7 @@ I was also serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Specia
 
 Finally, I have a soft spot for edible insects and novel food trends. I believe they are one of the solutions to solve some of our environmental challenges. Started my own mealworm farm and wrote about it for my Bachelor thesis.
 
-<center><img src="/images/profile/hike3.jpeg" width="500" height="500" /></center>
+<center><img src="/images/profile/hike3.jpeg" width="300" height="300" /></center>
 
 I'm always looking to meet interesting people that share my passion for networks, complexity and computation. But also weightlifting, crossfit, learning chinese, and collecting pins. Don't hesitate to reach out!
 

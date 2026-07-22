@@ -44,7 +44,7 @@ Research
 ======
 * 2026-Present: Network Science Informs AI (NSIA) NetSci Satellite Co-organizer - [NSIA](https://network-science-ai.github.io/)
 * 2026-Present: Reviewer: Applied Network Science, NeurIPS.
-* 2024-26: Affiliate Researcher - [Wolfram Institute](https://wolframinstitute.org/)
+* 2024-25: Affiliate Researcher - [Wolfram Institute](https://wolframinstitute.org/)
 * 2024: Data Study Group Researcher - [The Alan Turing Institute](https://www.turing.ac.uk/events/data-study-group-may-2024) - Brad Klee & Stephen Wolfram
 * 2021: [EPSW Finance Canada Project](http://www.fields.utoronto.ca/activities/20-21/systemic-EPSW) - Fields Institute, University of Toronto
 * 2020: Research Assistant - [Development Impact Evaluation Group, World Bank](https://www.worldbank.org/en/research/dime) - Daniel Rogger & Ravi Somani
