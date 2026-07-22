@@ -34,19 +34,18 @@ I published my first first-author paper at ICLR 2026,. I have served as a review
 
 In China, I co-founded the Swiss Students in China Association (SSCA), connecting Swiss students in the middle kingdom, and promoting partnerships between our two countries. I was also elected to the Youth Parliament for the Swiss Abroad (YPSA).
 
-<center><img src="/images/cv/ssca.png" width="200" height="200" /></center>
-<center><img src="/images/cv/ssca.png" width="200" height="200" /></center>
+<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+  <img src="/images/cv/ssca.png" width="200" height="200" alt="SSCA logo" />
+  <img src="/images/cv/ssca.png" width="200" height="200" alt="SSCA logo" />
+</div>
 
 At university I fell in love with Olympic Weightlifting. I became President of our Barbell club, medalled at the National University championships, got my coaching (BWL Lv2), and refereeing licences.
 
-<center><img src="/images/profile/bucs3.jpg" width="300" height="300" /></center>
+<center><img src="/images/profile/CF2.jpeg" width="500" height="500" /></center>
 
 I then turned to the dark side, and now intensely train Crossfit, a beautiful methodology that claims to be the ultimate test of fitness (I agree ;) ). 
 
-<center><img src="/images/profile/CF2.jpeg" width="300" height="300" /></center>
-..
-
-<center><img src="/images/profile/armee.jpg" width="300" height="300" /></center>
+<center><img src="/images/profile/armee.jpg" width="400" height="400" /></center>
 
 I was also serving in the Swiss Army, as Grenadier - Breacher (Swiss Army Special Forces).
 
