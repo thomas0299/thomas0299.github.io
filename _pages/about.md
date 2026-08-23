@@ -23,7 +23,7 @@ As a network scientist, economist, and programmer, the defining factor in my aca
 
 I received my undergraduate degree in Economics from University College London (UCL); I worked for the UK government and have research experience at the World Bank and the Fields Institute in Toronto. I also helped develop a Knowledge Graph for NLP models at YUKKA Lab, a Berlin based start-up.
 
-I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI, and reservoir computing. I am working on the next-generation of AI that driven by network science, exploiting topology, sparsity, dynamics, and local learning rules.
+I am currently a PhD Candidate in Advanced Computing at Tsinghua University, under the supervision of Prof. Carlo V. Cannistraci at the Center for Complex Network Intelligence Center (CCNI) at the Tsinghua Laboratory of Brain and Intelligence (THIB). My research focuses on network dismantling, brain-inspired AI, and reservoir computing. I am working on the next-generation of AI that is driven by network science: exploiting topology, sparsity, dynamics, and local learning rules.
 
 <!-- <center><img src="/images/profile/ccni_logo.png" width="800" height="800" /></center> -->
 
